@@ -1,0 +1,1230 @@
+2016-10-07 10:43:38 [192.168.33.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(283): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetBundle.php(123): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#10 /home/vagrant/jd/views/layouts/main.php(12): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(325): require('/home/vagrant/j...')
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/vagrant/j...', Array)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/vagrant/j...', Array, Object(app\controllers\SiteController))
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#15 /home/vagrant/jd/controllers/SiteController.php(52): yii\base\Controller->render('index')
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /home/vagrant/jd/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 /home/vagrant/jd/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#20 /home/vagrant/jd/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#21 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /home/vagrant/jd/web/index.php(12): yii\base\Application->run()
+#23 {main}
+2016-10-07 10:43:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-10-07 10:43:38 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '4602'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475837018.454
+    'REQUEST_TIME' => 1475837018
+]
+2016-10-07 10:43:38 [192.168.33.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' 
+
+in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#16 {main}
+2016-10-07 10:43:38 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '4602'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475837018.454
+    'REQUEST_TIME' => 1475837018
+]
+2016-10-07 10:44:30 [192.168.33.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(283): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetBundle.php(123): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#10 /home/vagrant/jd/views/layouts/main.php(12): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(325): require('/home/vagrant/j...')
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/vagrant/j...', Array)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/vagrant/j...', Array, Object(app\controllers\SiteController))
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#15 /home/vagrant/jd/controllers/SiteController.php(52): yii\base\Controller->render('index')
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /home/vagrant/jd/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 /home/vagrant/jd/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#20 /home/vagrant/jd/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#21 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /home/vagrant/jd/web/index.php(12): yii\base\Application->run()
+#23 {main}
+2016-10-07 10:44:30 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-10-07 10:44:30 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '4705'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475837070.191
+    'REQUEST_TIME' => 1475837070
+]
+2016-10-07 10:44:30 [192.168.33.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' 
+
+in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#16 {main}
+2016-10-07 10:44:30 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '4705'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475837070.191
+    'REQUEST_TIME' => 1475837070
+]
+2016-10-07 10:44:33 [192.168.33.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(283): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetBundle.php(123): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#10 /home/vagrant/jd/views/layouts/main.php(12): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(325): require('/home/vagrant/j...')
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/vagrant/j...', Array)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/vagrant/j...', Array, Object(app\controllers\SiteController))
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#15 /home/vagrant/jd/controllers/SiteController.php(52): yii\base\Controller->render('index')
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /home/vagrant/jd/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 /home/vagrant/jd/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#20 /home/vagrant/jd/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#21 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /home/vagrant/jd/web/index.php(12): yii\base\Application->run()
+#23 {main}
+2016-10-07 10:44:33 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-10-07 10:44:33 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '4712'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475837073.719
+    'REQUEST_TIME' => 1475837073
+]
+2016-10-07 10:44:33 [192.168.33.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' 
+
+in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#16 {main}
+2016-10-07 10:44:33 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '4712'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475837073.719
+    'REQUEST_TIME' => 1475837073
+]
+2016-10-07 10:44:52 [192.168.33.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(283): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetBundle.php(123): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#10 /home/vagrant/jd/views/layouts/main.php(12): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(325): require('/home/vagrant/j...')
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/vagrant/j...', Array)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/vagrant/j...', Array, Object(app\controllers\SiteController))
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#15 /home/vagrant/jd/controllers/SiteController.php(52): yii\base\Controller->render('index')
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /home/vagrant/jd/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 /home/vagrant/jd/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#20 /home/vagrant/jd/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#21 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /home/vagrant/jd/web/index.php(12): yii\base\Application->run()
+#23 {main}
+2016-10-07 10:44:52 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-10-07 10:44:51 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '4752'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475837091.975
+    'REQUEST_TIME' => 1475837091
+]
+2016-10-07 10:44:52 [192.168.33.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' 
+
+in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#16 {main}
+2016-10-07 10:44:51 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '4752'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475837091.975
+    'REQUEST_TIME' => 1475837091
+]
+2016-10-07 10:55:46 [192.168.33.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(283): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetBundle.php(123): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#10 /home/vagrant/jd/views/layouts/main.php(12): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(325): require('/home/vagrant/j...')
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/vagrant/j...', Array)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/vagrant/j...', Array, Object(app\controllers\SiteController))
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#15 /home/vagrant/jd/controllers/SiteController.php(52): yii\base\Controller->render('index')
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /home/vagrant/jd/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 /home/vagrant/jd/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#20 /home/vagrant/jd/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#21 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /home/vagrant/jd/web/index.php(12): yii\base\Application->run()
+#23 {main}
+2016-10-07 10:55:46 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-10-07 10:55:46 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '6164'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475837746.852
+    'REQUEST_TIME' => 1475837746
+]
+2016-10-07 10:55:46 [192.168.33.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' 
+
+in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#16 {main}
+2016-10-07 10:55:46 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '6164'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475837746.852
+    'REQUEST_TIME' => 1475837746
+]
+2016-10-07 11:02:31 [192.168.33.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(283): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetBundle.php(123): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#10 /home/vagrant/jd/views/layouts/main.php(12): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(325): require('/home/vagrant/j...')
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/vagrant/j...', Array)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/vagrant/j...', Array, Object(app\controllers\SiteController))
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#15 /home/vagrant/jd/controllers/SiteController.php(52): yii\base\Controller->render('index')
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /home/vagrant/jd/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 /home/vagrant/jd/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#20 /home/vagrant/jd/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#21 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /home/vagrant/jd/web/index.php(12): yii\base\Application->run()
+#23 {main}
+2016-10-07 11:02:31 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-10-07 11:02:31 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '7197'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475838151.014
+    'REQUEST_TIME' => 1475838151
+]
+2016-10-07 11:02:31 [192.168.33.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' 
+
+in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#16 {main}
+2016-10-07 11:02:31 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '7197'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475838151.014
+    'REQUEST_TIME' => 1475838151
+]
+2016-10-07 11:02:39 [192.168.33.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(283): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetBundle.php(123): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#10 /home/vagrant/jd/views/layouts/main.php(12): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(325): require('/home/vagrant/j...')
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/vagrant/j...', Array)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/vagrant/j...', Array, Object(app\controllers\SiteController))
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#15 /home/vagrant/jd/controllers/SiteController.php(52): yii\base\Controller->render('index')
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /home/vagrant/jd/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /home/vagrant/jd/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 /home/vagrant/jd/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#20 /home/vagrant/jd/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#21 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /home/vagrant/jd/web/index.php(12): yii\base\Application->run()
+#23 {main}
+2016-10-07 11:02:39 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-10-07 11:02:39 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '7214'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475838159.451
+    'REQUEST_TIME' => 1475838159
+]
+2016-10-07 11:02:39 [192.168.33.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' 
+
+in /home/vagrant/jd/vendor/yiisoft/yii2/web/AssetManager.php:211
+
+Stack trace:
+#0 /home/vagrant/jd/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/vagrant/jd/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/vagrant/jd/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /home/vagrant/jd/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 /home/vagrant/jd/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#16 {main}
+2016-10-07 11:02:39 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '7214'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475838159.451
+    'REQUEST_TIME' => 1475838159
+]
+2016-10-07 11:09:37 [192.168.33.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' in /home/vagrant/jd/framework/vendor/yiisoft/yii2/web/AssetManager.php:211
+Stack trace:
+#0 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/framework/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/framework/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/framework/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/framework/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/framework/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/framework/vendor/yiisoft/yii2/web/View.php(283): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/framework/vendor/yiisoft/yii2/web/AssetBundle.php(123): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#10 /home/vagrant/jd/framework/views/layouts/main.php(12): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/View.php(325): require('/home/vagrant/j...')
+#12 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/vagrant/j...', Array)
+#13 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/vagrant/j...', Array, Object(app\controllers\SiteController))
+#14 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#15 /home/vagrant/jd/framework/controllers/SiteController.php(52): yii\base\Controller->render('index')
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#20 /home/vagrant/jd/framework/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#21 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /home/vagrant/jd/framework/web/index.php(12): yii\base\Application->run()
+#23 {main}
+2016-10-07 11:09:37 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-10-07 11:09:37 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '8149'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475838577.887
+    'REQUEST_TIME' => 1475838577
+]
+2016-10-07 11:09:37 [192.168.33.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: /home/vagrant/jd/web/assets' 
+
+in /home/vagrant/jd/framework/vendor/yiisoft/yii2/web/AssetManager.php:211
+
+Stack trace:
+#0 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/vagrant/jd/framework/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/vagrant/jd/framework/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/vagrant/jd/framework/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/vagrant/jd/framework/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/vagrant/jd/framework/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/vagrant/jd/framework/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/vagrant/jd/framework/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/vagrant/jd/framework/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/vagrant/jd/framework/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /home/vagrant/jd/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 /home/vagrant/jd/framework/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#16 {main}
+2016-10-07 11:09:37 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '__jda' => '122270672.406054912.1464011203.1475257330.1475289741.23'
+    '__jdu' => '406054912'
+    'TrackID' => '1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0'
+    'pinId' => 'buBjb3QSoKmAzVzRGlzQ1g'
+    '__jdv' => '122270672|baidu|-|organic|not set|1475253098209'
+    'pin' => 'liuxiaoyue1203'
+    'unick' => 'liuxiaoyue1203'
+    'thor' => 'D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C'
+    '_tp' => 'aRQRvWnc/vb9TexTBSBPtQ=='
+    '_pst' => 'liuxiaoyue1203'
+    'user-key' => '8c6ae9ab-12d0-423d-ae46-14638033f3a7'
+    'cn' => '2'
+    'ipLocation' => '%u5E7F%u4E1C'
+    'areaId' => '19'
+    'ipLoc-djd' => '19-1607-4773-0.138316706'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'jd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '__jda=122270672.406054912.1464011203.1475257330.1475289741.23; __jdu=406054912; TrackID=1zkVUrD06GEpq3fwU6D_RRwjUSlnhuzd0ARM0Dah6FyE9GAebH_HErjgQ6xC9Bu9y3RTtSuV-JfUERFlxndCTWuiVKbq654EbLkXVD2v0th0; pinId=buBjb3QSoKmAzVzRGlzQ1g; __jdv=122270672|baidu|-|organic|not set|1475253098209; pin=liuxiaoyue1203; unick=liuxiaoyue1203; thor=D01E4A38F933618720DF99799129517C2F2C694ACF72B21CFFDF062A0B273004001884B4CF81365860C764F41ED444DE8E205BA249DF4D3D499C6D0CD6B762B8E722C6FDB72F756BC4D169FC45A832BF22F40E636ACB836669F8376640160CCA1914119BE46E4D1D3B1E6BE4E64E9C107B0B7E747FF8634CAEBA7907C4C361FD31A3E0A0687DD53AFED6636BF87A9D1C; _tp=aRQRvWnc%2Fvb9TexTBSBPtQ%3D%3D; _pst=liuxiaoyue1203; user-key=8c6ae9ab-12d0-423d-ae46-14638033f3a7; cn=2; ipLocation=%u5E7F%u4E1C; areaId=19; ipLoc-djd=19-1607-4773-0.138316706'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at jd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'jd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/jd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/jd/web/index.php'
+    'REMOTE_PORT' => '8149'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1475838577.887
+    'REQUEST_TIME' => 1475838577
+]
