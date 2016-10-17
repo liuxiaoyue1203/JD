@@ -72,6 +72,7 @@ if (YII_ENV_DEV) {
         'class' => 'yii\gii\Module',
         'allowedIPs' => [$_SERVER['REMOTE_ADDR']],
     ];
+    //开启后台模块
     $config['modules']['admin'] = [
         'class' => 'app\modules\admin',
     ];
