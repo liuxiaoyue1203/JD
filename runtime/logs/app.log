@@ -2224,3 +2224,1863 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1476721277.58
     'REQUEST_TIME' => 1476721277
 ]
+2016-11-14 14:33:11 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:33:10 [192.168.33.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5237'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479133990.914
+    'REQUEST_TIME' => 1479133990
+]
+2016-11-14 14:40:40 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:40:40 [192.168.33.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_X_LANTERN_AUTH_TOKEN' => '5NPR2KbFLrw8JpPGCnvKghSy6p5V1vcsk7oLl7uWwDDhnHmSCS1TkzvKiQWOsJKG'
+    'HTTP_X_LANTERN_DEVICE_ID' => '8HYcPwJS'
+    'HTTP_X_LANTERN_PRO_TOKEN' => 'JpFzo7L0MEnRHUst-gP4yr99YqaLK8mOamJIHXsirefmNKAUeVz-vg'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5426'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134440.401
+    'REQUEST_TIME' => 1479134440
+]
+2016-11-14 14:41:07 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:41:07 [192.168.33.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'singcms.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_X_LANTERN_AUTH_TOKEN' => '5NPR2KbFLrw8JpPGCnvKghSy6p5V1vcsk7oLl7uWwDDhnHmSCS1TkzvKiQWOsJKG'
+    'HTTP_X_LANTERN_DEVICE_ID' => '8HYcPwJS'
+    'HTTP_X_LANTERN_PRO_TOKEN' => 'JpFzo7L0MEnRHUst-gP4yr99YqaLK8mOamJIHXsirefmNKAUeVz-vg'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at singcms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'singcms.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5505'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134467.014
+    'REQUEST_TIME' => 1479134467
+]
+2016-11-14 14:42:25 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:42:25 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5533'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134545.811
+    'REQUEST_TIME' => 1479134545
+]
+2016-11-14 14:42:34 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:42:34 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5564'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134554.051
+    'REQUEST_TIME' => 1479134554
+]
+2016-11-14 14:43:06 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:92
+2016-11-14 14:43:06 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tmp.com/'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134586.617
+    'REQUEST_TIME' => 1479134586
+]
+2016-11-14 14:43:08 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:87
+2016-11-14 14:43:07 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tmp.com/index.php?r=site%2Fabout'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134587.943
+    'REQUEST_TIME' => 1479134587
+]
+2016-11-14 14:43:09 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:92
+2016-11-14 14:43:09 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tmp.com/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134589.271
+    'REQUEST_TIME' => 1479134589
+]
+2016-11-14 14:43:13 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:87
+2016-11-14 14:43:13 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tmp.com/index.php?r=site%2Fabout'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134593.347
+    'REQUEST_TIME' => 1479134593
+]
+2016-11-14 14:43:14 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:67
+2016-11-14 14:43:14 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tmp.com/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134594.354
+    'REQUEST_TIME' => 1479134594
+]
+2016-11-14 14:44:04 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:44:04 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gVPN4BufvbakcHyR-WT5nFwYT28XBhcn\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'singcms.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gVPN4BufvbakcHyR-WT5nFwYT28XBhcn%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at singcms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'singcms.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5635'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134644.802
+    'REQUEST_TIME' => 1479134644
+]
+2016-11-14 14:44:07 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:87
+2016-11-14 14:44:07 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gVPN4BufvbakcHyR-WT5nFwYT28XBhcn\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rgxuuoh'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'singcms.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://singcms.com/'
+    'HTTP_COOKIE' => '_csrf=d47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gVPN4BufvbakcHyR-WT5nFwYT28XBhcn%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at singcms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'singcms.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5636'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134647.853
+    'REQUEST_TIME' => 1479134647
+]
+2016-11-14 14:44:09 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:67
+2016-11-14 14:44:08 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gVPN4BufvbakcHyR-WT5nFwYT28XBhcn\";}'
+    'PHPSESSID' => 'ncmuc3gaidr96a3rl7si7gmj83'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rgxuuoh'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'singcms.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://singcms.com/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_csrf=d47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gVPN4BufvbakcHyR-WT5nFwYT28XBhcn%22%3B%7D; PHPSESSID=ncmuc3gaidr96a3rl7si7gmj83'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at singcms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'singcms.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5636'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134648.959
+    'REQUEST_TIME' => 1479134648
+]
+2016-11-14 14:44:11 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:44:11 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gVPN4BufvbakcHyR-WT5nFwYT28XBhcn\";}'
+    'PHPSESSID' => 'ncmuc3gaidr96a3rl7si7gmj83'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rgxuuoh'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'singcms.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://singcms.com/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => '_csrf=d47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gVPN4BufvbakcHyR-WT5nFwYT28XBhcn%22%3B%7D; PHPSESSID=ncmuc3gaidr96a3rl7si7gmj83'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at singcms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'singcms.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5636'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134651.127
+    'REQUEST_TIME' => 1479134651
+]
+2016-11-14 14:44:12 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:92
+2016-11-14 14:44:12 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gVPN4BufvbakcHyR-WT5nFwYT28XBhcn\";}'
+    'PHPSESSID' => 'ncmuc3gaidr96a3rl7si7gmj83'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rgxuuoh'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'singcms.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://singcms.com/index.php?r=site%2Findex'
+    'HTTP_COOKIE' => '_csrf=d47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gVPN4BufvbakcHyR-WT5nFwYT28XBhcn%22%3B%7D; PHPSESSID=ncmuc3gaidr96a3rl7si7gmj83'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at singcms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'singcms.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5636'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134652.408
+    'REQUEST_TIME' => 1479134652
+]
+2016-11-14 14:45:34 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:45:34 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '99f7eb88d6c165bcc3474a343bc88c2dde882cd5be02a188eb472224dfc2e187a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2vkS7Mi_xbk7OtdTqrJoilhltCmNXjEP\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=99f7eb88d6c165bcc3474a343bc88c2dde882cd5be02a188eb472224dfc2e187a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222vkS7Mi_xbk7OtdTqrJoilhltCmNXjEP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5673'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134734.663
+    'REQUEST_TIME' => 1479134734
+]
+2016-11-14 14:46:28 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:46:28 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5702'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134788.701
+    'REQUEST_TIME' => 1479134788
+]
+2016-11-14 14:46:36 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:46:36 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5704'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134796.258
+    'REQUEST_TIME' => 1479134796
+]
+2016-11-14 14:47:32 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:47:32 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5729'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134852.699
+    'REQUEST_TIME' => 1479134852
+]
+2016-11-14 14:47:41 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:47:41 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5730'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134861.911
+    'REQUEST_TIME' => 1479134861
+]
+2016-11-14 14:49:41 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 14:49:40 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5821'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479134980.975
+    'REQUEST_TIME' => 1479134980
+]
+2016-11-14 15:09:59 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 15:09:59 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '99f7eb88d6c165bcc3474a343bc88c2dde882cd5be02a188eb472224dfc2e187a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2vkS7Mi_xbk7OtdTqrJoilhltCmNXjEP\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=99f7eb88d6c165bcc3474a343bc88c2dde882cd5be02a188eb472224dfc2e187a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222vkS7Mi_xbk7OtdTqrJoilhltCmNXjEP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6401'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479136199.232
+    'REQUEST_TIME' => 1479136199
+]
+2016-11-14 15:10:34 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 15:10:34 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '99f7eb88d6c165bcc3474a343bc88c2dde882cd5be02a188eb472224dfc2e187a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2vkS7Mi_xbk7OtdTqrJoilhltCmNXjEP\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=99f7eb88d6c165bcc3474a343bc88c2dde882cd5be02a188eb472224dfc2e187a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222vkS7Mi_xbk7OtdTqrJoilhltCmNXjEP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6428'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479136234.087
+    'REQUEST_TIME' => 1479136234
+]
+2016-11-14 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 15:10:38 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6435'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479136238.431
+    'REQUEST_TIME' => 1479136238
+]
+2016-11-14 15:11:00 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 15:11:00 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6446'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479136260.64
+    'REQUEST_TIME' => 1479136260
+]
+2016-11-14 15:17:15 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 15:17:15 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '99f7eb88d6c165bcc3474a343bc88c2dde882cd5be02a188eb472224dfc2e187a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2vkS7Mi_xbk7OtdTqrJoilhltCmNXjEP\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=99f7eb88d6c165bcc3474a343bc88c2dde882cd5be02a188eb472224dfc2e187a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222vkS7Mi_xbk7OtdTqrJoilhltCmNXjEP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6761'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479136635.69
+    'REQUEST_TIME' => 1479136635
+]
+2016-11-14 15:17:21 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 15:17:21 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6801'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479136641.781
+    'REQUEST_TIME' => 1479136641
+]
+2016-11-14 15:17:35 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 15:17:35 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gVPN4BufvbakcHyR-WT5nFwYT28XBhcn\";}'
+    'PHPSESSID' => 'ncmuc3gaidr96a3rl7si7gmj83'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'singcms.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d47ddc49318530bd8d5a142c12c9ce4f7b26113c428611abb9951956c2f3812da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gVPN4BufvbakcHyR-WT5nFwYT28XBhcn%22%3B%7D; PHPSESSID=ncmuc3gaidr96a3rl7si7gmj83'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at singcms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'singcms.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6833'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479136655.457
+    'REQUEST_TIME' => 1479136655
+]
+2016-11-14 15:17:53 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 15:17:53 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ho_99A0GJsEco0n_WDEv8XfnVcb7mc71\";}'
+    'PHPSESSID' => 'a0a4gukf763i7k4h3c7flc86j0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gedyyst'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'tmp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=d26b16f9ac5844a8f43cabd4f0e83fbabe083862e234726d5fad704e27c77f41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ho_99A0GJsEco0n_WDEv8XfnVcb7mc71%22%3B%7D; PHPSESSID=a0a4gukf763i7k4h3c7flc86j0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at tmp.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'tmp.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6841'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479136673.261
+    'REQUEST_TIME' => 1479136673
+]
+2016-11-14 15:25:08 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-14 15:25:08 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '99f7eb88d6c165bcc3474a343bc88c2dde882cd5be02a188eb472224dfc2e187a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2vkS7Mi_xbk7OtdTqrJoilhltCmNXjEP\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=99f7eb88d6c165bcc3474a343bc88c2dde882cd5be02a188eb472224dfc2e187a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222vkS7Mi_xbk7OtdTqrJoilhltCmNXjEP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '7329'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479137108.244
+    'REQUEST_TIME' => 1479137108
+]
+2016-11-15 14:47:00 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /home/vagrant/web/myjd/JD/views/layouts/main.php:75
+    in /home/vagrant/web/myjd/JD/controllers/SiteController.php:52
+2016-11-15 14:47:00 [192.168.33.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_X_LANTERN_AUTH_TOKEN' => '5NPR2KbFLrw8JpPGCnvKghSy6p5V1vcsk7oLl7uWwDDhnHmSCS1TkzvKiQWOsJKG'
+    'HTTP_X_LANTERN_DEVICE_ID' => '8HYcPwJS'
+    'HTTP_X_LANTERN_PRO_TOKEN' => 'JpFzo7L0MEnRHUst-gP4yr99YqaLK8mOamJIHXsirefmNKAUeVz-vg'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '2326'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479221220.374
+    'REQUEST_TIME' => 1479221220
+]
+2016-11-21 14:10:48 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/public/JD/views/layouts/main.php:75
+    in /var/www/public/JD/controllers/SiteController.php:52
+2016-11-21 14:10:47 [192.168.33.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '14484'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479737447.547
+    'REQUEST_TIME' => 1479737447
+]
+2016-11-21 14:16:21 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-11-21 14:16:20 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => '02557c0341c2d70a10abecf81af85b4001389569a5fcc9290d51518b5fbb4f1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uH52rb5xZn0rsB10VPfiKrnPw5SNNXni\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_COOKIE' => '_csrf=02557c0341c2d70a10abecf81af85b4001389569a5fcc9290d51518b5fbb4f1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uH52rb5xZn0rsB10VPfiKrnPw5SNNXni%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '14942'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479737780.601
+    'REQUEST_TIME' => 1479737780
+]
+2016-11-21 14:41:35 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/public/JD/views/layouts/main.php:75
+    in /var/www/public/JD/controllers/SiteController.php:52
+2016-11-21 14:41:34 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '49b4fdc1b0751d2ad23e7142fa6786a8c5cc320efa01da2bdee95a571a215a5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pEYQdgl-8O0U2VDWa0lXWwCObPYSF4GA\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=49b4fdc1b0751d2ad23e7142fa6786a8c5cc320efa01da2bdee95a571a215a5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pEYQdgl-8O0U2VDWa0lXWwCObPYSF4GA%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '3428'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479739294.894
+    'REQUEST_TIME' => 1479739294
+]
+2016-11-21 14:53:05 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/public/JD/views/layouts/main.php:75
+    in /var/www/public/JD/controllers/SiteController.php:52
+2016-11-21 14:53:05 [192.168.33.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '4405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479739985.476
+    'REQUEST_TIME' => 1479739985
+]
+2016-11-21 14:53:12 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/public/JD/views/layouts/main.php:75
+    in /var/www/public/JD/controllers/SiteController.php:52
+2016-11-21 14:53:11 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd9e9d3d6c9fe2dd808a7eec662f7cb5a2842ed28db7a94cd9dfb27d34819a7a6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kqvgk877yG_3uCba2dLaOlIgDnYYf9Rw\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d9e9d3d6c9fe2dd808a7eec662f7cb5a2842ed28db7a94cd9dfb27d34819a7a6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kqvgk877yG_3uCba2dLaOlIgDnYYf9Rw%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '4413'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479739991.839
+    'REQUEST_TIME' => 1479739991
+]
+2016-11-21 15:04:55 [192.168.33.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/default/login' in /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#1 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/default/l...', Array)
+#2 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-21 15:04:55 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/public/JD/views/layouts/main.php:75
+2016-11-21 15:04:55 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd9e9d3d6c9fe2dd808a7eec662f7cb5a2842ed28db7a94cd9dfb27d34819a7a6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kqvgk877yG_3uCba2dLaOlIgDnYYf9Rw\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d9e9d3d6c9fe2dd808a7eec662f7cb5a2842ed28db7a94cd9dfb27d34819a7a6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kqvgk877yG_3uCba2dLaOlIgDnYYf9Rw%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5289'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/default/login'
+    'REQUEST_URI' => '/index.php?r=admin/default/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479740695.307
+    'REQUEST_TIME' => 1479740695
+]
+2016-11-21 15:05:09 [192.168.33.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/public/login' in /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#1 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#2 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-21 15:05:09 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/public/JD/views/layouts/main.php:75
+2016-11-21 15:05:09 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd9e9d3d6c9fe2dd808a7eec662f7cb5a2842ed28db7a94cd9dfb27d34819a7a6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kqvgk877yG_3uCba2dLaOlIgDnYYf9Rw\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d9e9d3d6c9fe2dd808a7eec662f7cb5a2842ed28db7a94cd9dfb27d34819a7a6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kqvgk877yG_3uCba2dLaOlIgDnYYf9Rw%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5300'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479740709.475
+    'REQUEST_TIME' => 1479740709
+]
+2016-11-21 15:10:36 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/public/JD/views/layouts/main.php:75
+    in /var/www/public/JD/controllers/SiteController.php:52
+2016-11-21 15:10:35 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd9e9d3d6c9fe2dd808a7eec662f7cb5a2842ed28db7a94cd9dfb27d34819a7a6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kqvgk877yG_3uCba2dLaOlIgDnYYf9Rw\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d9e9d3d6c9fe2dd808a7eec662f7cb5a2842ed28db7a94cd9dfb27d34819a7a6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kqvgk877yG_3uCba2dLaOlIgDnYYf9Rw%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5787'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479741035.911
+    'REQUEST_TIME' => 1479741035
+]
+2016-11-21 15:13:12 [192.168.33.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'imooc_shop'' in /var/www/public/JD/vendor/yiisoft/yii2/db/Connection.php:600
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/db/Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', '123456', NULL)
+#1 /var/www/public/JD/vendor/yiisoft/yii2/db/Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 /var/www/public/JD/vendor/yiisoft/yii2/db/Connection.php(861): yii\db\Connection->open()
+#3 /var/www/public/JD/vendor/yiisoft/yii2/db/Connection.php(848): yii\db\Connection->getMasterPdo()
+#4 /var/www/public/JD/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#5 /var/www/public/JD/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#6 /var/www/public/JD/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 /var/www/public/JD/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#8 /var/www/public/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#9 /var/www/public/JD/controllers/IndexController.php(12): yii\db\ActiveQuery->one()
+#10 [internal function]: app\controllers\IndexController->actionIndex()
+#11 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#12 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#13 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#14 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#15 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'imooc_shop'' in /var/www/public/JD/vendor/yiisoft/yii2/db/Connection.php:547
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/db/Connection.php(861): yii\db\Connection->open()
+#1 /var/www/public/JD/vendor/yiisoft/yii2/db/Connection.php(848): yii\db\Connection->getMasterPdo()
+#2 /var/www/public/JD/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#3 /var/www/public/JD/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#4 /var/www/public/JD/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 /var/www/public/JD/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#6 /var/www/public/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#7 /var/www/public/JD/controllers/IndexController.php(12): yii\db\ActiveQuery->one()
+#8 [internal function]: app\controllers\IndexController->actionIndex()
+#9 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#11 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#13 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+
+2016-11-21 15:13:12 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-11-21 15:13:12 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd9e9d3d6c9fe2dd808a7eec662f7cb5a2842ed28db7a94cd9dfb27d34819a7a6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kqvgk877yG_3uCba2dLaOlIgDnYYf9Rw\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d9e9d3d6c9fe2dd808a7eec662f7cb5a2842ed28db7a94cd9dfb27d34819a7a6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kqvgk877yG_3uCba2dLaOlIgDnYYf9Rw%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5965'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479741191.974
+    'REQUEST_TIME' => 1479741191
+]

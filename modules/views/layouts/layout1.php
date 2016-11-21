@@ -1,553 +1,360 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-	<head>
-		<!-- Meta -->
-		<meta charset="utf-8">
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
-	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
-	    <meta name="robots" content="all">
+<html>
+<head>
+    <title>慕课商城 - 后台管理</title>
 
-	    <title>慕课商城</title>
-	    <!-- Bootstrap Core CSS -->
-	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	    
-	    <!-- Customizable CSS -->
-	    <link rel="stylesheet" href="assets/css/main.css">
-	    <link rel="stylesheet" href="assets/css/red.css">
-	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-		<link rel="stylesheet" href="assets/css/owl.transitions.css">
-		<link rel="stylesheet" href="assets/css/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        
-        <!-- Icons/Glyphs -->
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-		
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- bootstrap -->
+    <link href="assets/admin/css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="assets/admin/css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="assets/admin/css/bootstrap/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
 
-		<!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
-		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
+    <!-- libraries -->
+    <link href="assets/admin/css/lib/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" />
+    <link href="assets/admin/css/lib/font-awesome.css" type="text/css" rel="stylesheet" />
 
- 
-	</head>
+    <!-- global styles -->
+    <link rel="stylesheet" type="text/css" href="assets/admin/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="assets/admin/css/elements.css" />
+    <link rel="stylesheet" type="text/css" href="assets/admin/css/icons.css" />
+
+    <!-- this page specific styles -->
+    <link rel="stylesheet" href="assets/admin/css/compiled/index.css" type="text/css" media="screen" />
+
+    <!-- open sans font -->
+    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' />
+
+    <!-- lato font -->
+    <link href='http://fonts.useso.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 <body>
-	
-	<div class="wrapper">
-		<!-- ============================================================= TOP NAVIGATION ============================================================= -->
-<nav class="top-bar animate-dropdown">
-    <div class="container">
-        <div class="col-xs-12 col-sm-6 no-margin">
-            <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="category-grid.html">所有分类</a></li>
-                <li><a href="cart.html">我的购物车</a></li>
-                <li><a href="orders.html">我的订单</a></li>
-            </ul>
-        </div><!-- /.col -->
 
-        <div class="col-xs-12 col-sm-6 no-margin">
-            <ul class="right">
-                <li><a href="authentication.html">注册</a></li>
-                <li><a href="authentication.html">登录</a></li>
-            </ul>
-        </div><!-- /.col -->
-    </div><!-- /.container -->
-</nav><!-- /.top-bar -->
-<!-- ============================================================= TOP NAVIGATION : END ============================================================= -->		<!-- ============================================================= HEADER ============================================================= -->
-<header>
-	<div class="container no-padding">
-		
-		<div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
-			<!-- ============================================================= LOGO ============================================================= -->
-<div class="logo">
-	<a href="index.html">
-		<img alt="logo" src="assets/images/logo.PNG" width="233" height="54"/>
-	</a>
-</div><!-- /.logo -->
-<!-- ============================================================= LOGO : END ============================================================= -->		</div><!-- /.logo-holder -->
+<!-- navbar -->
+<div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+        <button type="button" class="btn btn-navbar visible-phone" id="menu-toggler">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
 
-		<div class="col-xs-12 col-sm-12 col-md-6 top-search-holder no-margin">
-			<div class="contact-row">
-    <div class="phone inline">
-        <i class="fa fa-phone"></i> (+086) 123 456 7890
-    </div>
-    <div class="contact inline">
-        <i class="fa fa-envelope"></i> contact@<span class="le-color">jason.com</span>
-    </div>
-</div><!-- /.contact-row -->
-<!-- ============================================================= SEARCH AREA ============================================================= -->
-<div class="search-area">
-    <form>
-        <div class="control-group">
-            <input class="search-field" placeholder="搜索商品" />
+        <a class="brand" href="index.html" style="font-weight:700;font-family:Microsoft Yahei">慕课商城 - 后台管理</a>
 
-            <ul class="categories-filter animate-dropdown">
-                <li class="dropdown">
-
-                    <a class="dropdown-toggle"  data-toggle="dropdown" href="category-grid.html">所有分类</a>
-
-                    <ul class="dropdown-menu" role="menu" >
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">电子产品</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">电子产品</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">电子产品</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">电子产品</a></li>
-
-                    </ul>
-                </li>
-            </ul>
-
-            <a style="padding:15px 15px 13px 12px" class="search-button" href="#" ></a>    
-
-        </div>
-    </form>
-</div><!-- /.search-area -->
-<!-- ============================================================= SEARCH AREA : END ============================================================= -->		</div><!-- /.top-search-holder -->
-
-		<div class="col-xs-12 col-sm-12 col-md-3 top-cart-row no-margin">
-			<div class="top-cart-row-container">
-
-    <!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
-    <div class="top-cart-holder dropdown animate-dropdown">
-        
-        <div class="basket">
-            
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                <div class="basket-item-count">
-                    <span class="count">3</span>
-                    <img src="assets/images/icon-cart.png" alt="" />
+        <ul class="nav pull-right">
+            <li class="hidden-phone">
+                <input class="search" type="text" />
+            </li>
+            <li class="notification-dropdown hidden-phone">
+                <a href="#" class="trigger">
+                    <i class="icon-warning-sign"></i>
+                    <span class="count">6</span>
+                </a>
+                <div class="pop-dialog">
+                    <div class="pointer right">
+                        <div class="arrow"></div>
+                        <div class="arrow_border"></div>
+                    </div>
+                    <div class="body">
+                        <a href="#" class="close-icon"><i class="icon-remove-sign"></i></a>
+                        <div class="notifications">
+                            <h3>你有 6 个新通知</h3>
+                            <a href="#" class="item">
+                                <i class="icon-signin"></i> 新用户注册
+                                <span class="time"><i class="icon-time"></i> 13 分钟前.</span>
+                            </a>
+                            <a href="#" class="item">
+                                <i class="icon-signin"></i> 新用户注册
+                                <span class="time"><i class="icon-time"></i> 18 分钟前.</span>
+                            </a>
+                            <a href="#" class="item">
+                                <i class="icon-signin"></i> 新用户注册
+                                <span class="time"><i class="icon-time"></i> 49 分钟前.</span>
+                            </a>
+                            <a href="#" class="item">
+                                <i class="icon-download-alt"></i> 新订单
+                                <span class="time"><i class="icon-time"></i> 1 天前.</span>
+                            </a>
+                            <div class="footer">
+                                <a href="#" class="logout">查看所有通知</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </li>
 
-                <div class="total-price-basket"> 
-                    <span class="lbl">您的购物车:</span>
-                    <span class="total-price">
-                        <span class="sign">￥</span><span class="value">3219</span>
-                    </span>
+            <li class="notification-dropdown hidden-phone">
+                <a href="#" class="trigger">
+                    <i class="icon-envelope-alt"></i>
+                </a>
+                <div class="pop-dialog">
+                    <div class="pointer right">
+                        <div class="arrow"></div>
+                        <div class="arrow_border"></div>
+                    </div>
+                    <div class="body">
+                        <a href="#" class="close-icon"><i class="icon-remove-sign"></i></a>
+                        <div class="messages">
+                            <a href="#" class="item">
+                                <img src="assets/admin/img/contact-img.png" class="display" />
+                                <div class="name">Alejandra Galván</div>
+                                <div class="msg">
+                                    There are many variations of available, but the majority have suffered alterations.
+                                </div>
+                                <span class="time"><i class="icon-time"></i> 13 min.</span>
+                            </a>
+                            <a href="#" class="item">
+                                <img src="assets/admin/img/contact-img2.png" class="display" />
+                                <div class="name">Alejandra Galván</div>
+                                <div class="msg">
+                                    There are many variations of available, have suffered alterations.
+                                </div>
+                                <span class="time"><i class="icon-time"></i> 26 min.</span>
+                            </a>
+                            <a href="#" class="item last">
+                                <img src="assets/admin/img/contact-img.png" class="display" />
+                                <div class="name">Alejandra Galván</div>
+                                <div class="msg">
+                                    There are many variations of available, but the majority have suffered alterations.
+                                </div>
+                                <span class="time"><i class="icon-time"></i> 48 min.</span>
+                            </a>
+                            <div class="footer">
+                                <a href="#" class="logout">View all messages</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle hidden-phone" data-toggle="dropdown">
+                    账户管理
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="personal-info.html">个人信息管理</a></li>
+                    <li><a href="#">修改密码</a></li>
+                    <li><a href="#">订单管理</a></li>
+                </ul>
+            </li>
+            <li class="settings hidden-phone">
+                <a href="personal-info.html" role="button">
+                    <i class="icon-cog"></i>
+                </a>
+            </li>
+            <li class="settings hidden-phone">
+                <a href="signin.html" role="button">
+                    <i class="icon-share-alt"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end navbar -->
+
+<!-- sidebar -->
+<div id="sidebar-nav">
+    <ul id="dashboard-menu">
+        <li class="active">
+            <div class="pointer">
+                <div class="arrow"></div>
+                <div class="arrow_border"></div>
+            </div>
+            <a href="index.html">
+                <i class="icon-home"></i>
+                <span>后台首页</span>
             </a>
-
-            <ul class="dropdown-menu">
-                <li>
-                    <div class="basket-item">
-                        <div class="row">
-                            <div class="col-xs-4 col-sm-4 no-margin text-center">
-                                <div class="thumb">
-                                    <img alt="" src="assets/images/products/product-small-01.jpg" />
-                                </div>
-                            </div>
-                            <div class="col-xs-8 col-sm-8 no-margin">
-                                <div class="title">前端课程</div>
-                                <div class="price">￥270.00</div>
-                            </div>
-                        </div>
-                        <a class="close-btn" href="#"></a>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="basket-item">
-                        <div class="row">
-                            <div class="col-xs-4 col-sm-4 no-margin text-center">
-                                <div class="thumb">
-                                    <img alt="" src="assets/images/products/product-small-01.jpg" />
-                                </div>
-                            </div>
-                            <div class="col-xs-8 col-sm-8 no-margin">
-                                <div class="title">Java课程</div>
-                                <div class="price">￥270.00</div>
-                            </div>
-                        </div>
-                        <a class="close-btn" href="#"></a>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="basket-item">
-                        <div class="row">
-                            <div class="col-xs-4 col-sm-4 no-margin text-center">
-                                <div class="thumb">
-                                    <img alt="" src="assets/images/products/product-small-01.jpg" />
-                                </div>
-                            </div>
-                            <div class="col-xs-8 col-sm-8 no-margin">
-                                <div class="title">PHP课程</div>
-                                <div class="price">￥270.00</div>
-                            </div>
-                        </div>
-                        <a class="close-btn" href="#"></a>
-                    </div>
-                </li>
-
-
-                <li class="checkout">
-                    <div class="basket-item">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6">
-                                <a href="cart.html" class="le-button inverse">查看购物车</a>
-                            </div>
-                            <div class="col-xs-12 col-sm-6">
-                                <a href="checkout.html" class="le-button">去往收银台</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
+        </li>
+        <li>
+            <a href="chart-showcase.html">
+                <i class="icon-signal"></i>
+                <span>统计</span>
+            </a>
+        </li>
+        <li>
+            <a class="dropdown-toggle" href="#">
+                <i class="icon-group"></i>
+                <span>用户管理</span>
+                <i class="icon-chevron-down"></i>
+            </a>
+            <ul class="submenu">
+                <li><a href="user-list.html">用户列表</a></li>
+                <li><a href="new-user.html">加入新用户</a></li>
+                <li><a href="user-profile.html">用户信息</a></li>
             </ul>
-        </div><!-- /.basket -->
-    </div><!-- /.top-cart-holder -->
-</div><!-- /.top-cart-row-container -->
-<!-- ============================================================= SHOPPING CART DROPDOWN : END ============================================================= -->		</div><!-- /.top-cart-row -->
+        </li>
+        <li>
+            <a class="dropdown-toggle" href="#">
+                <i class="icon-edit"></i>
+                <span>表单</span>
+                <i class="icon-chevron-down"></i>
+            </a>
+            <ul class="submenu">
+                <li><a href="form-showcase.html">基本表单</a></li>
+                <li><a href="form-wizard.html">步骤表单</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="gallery.html">
+                <i class="icon-picture"></i>
+                <span>相册管理</span>
+            </a>
+        </li>
+        <li>
+            <a href="calendar.html">
+                <i class="icon-calendar-empty"></i>
+                <span>日历事件管理</span>
+            </a>
+        </li>
+        <li>
+            <a href="tables.html">
+                <i class="icon-th-large"></i>
+                <span>表格</span>
+            </a>
+        </li>
 
-	</div><!-- /.container -->
-</header>
+        <li>
+            <a href="personal-info.html">
+                <i class="icon-cog"></i>
+                <span>我的信息</span>
+            </a>
+        </li>
+
+    </ul>
+</div>
+<!-- end sidebar -->
 
 <?php echo $content;?>
-<footer id="footer" class="color-bg">
-    
-    <div class="container">
-        <div class="row no-margin widgets-row">
-            <div class="col-xs-12  col-sm-4 no-margin-left">
-                <!-- ============================================================= FEATURED PRODUCTS ============================================================= -->
-<div class="widget">
-    <h2>推荐商品</h2>
-    <div class="body">
-        <ul>
-            <li>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-9 no-margin">
-                        <a href="single-product.html">Netbook Acer Travel B113-E-10072</a>
-                        <div class="price">
-                            <div class="price-prev">￥2000</div>
-                            <div class="price-current">￥1873</div>
-                        </div>
-                    </div>  
 
-                    <div class="col-xs-12 col-sm-3 no-margin">
-                        <a href="#" class="thumb-holder">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-01.jpg" />
-                        </a>
-                    </div>
-                </div>
-            </li>
+<!-- scripts -->
+<script src="assets/admin/js/jquery-latest.js"></script>
+<script src="assets/admin/js/bootstrap.min.js"></script>
+<script src="assets/admin/js/jquery-ui-1.10.2.custom.min.js"></script>
+<!-- knob -->
+<script src="assets/admin/js/jquery.knob.js"></script>
+<!-- flot charts -->
+<script src="assets/admin/js/jquery.flot.js"></script>
+<script src="assets/admin/js/jquery.flot.stack.js"></script>
+<script src="assets/admin/js/jquery.flot.resize.js"></script>
+<script src="assets/admin/js/theme.js"></script>
 
-            <li>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-9 no-margin">
-                        <a href="single-product.html">PowerShot Elph 115 16MP Digital Camera</a>
-                        <div class="price">
-                            <div class="price-prev">￥2000</div>
-                            <div class="price-current">￥1873</div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-3 no-margin">
-                        <a href="#" class="thumb-holder">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-02.jpg" />
-                        </a>
-                    </div>
-                </div>
-            </li>
-            
-            <li>
-                <div class="row">                        
-                    <div class="col-xs-12 col-sm-9 no-margin">
-                        <a href="single-product.html">PowerShot Elph 115 16MP Digital Camera</a>
-                        <div class="price">
-                            <div class="price-prev">￥2000</div>
-                            <div class="price-current">￥1873</div>
-                        </div>
-                    </div>  
+<script type="text/javascript">
+    $(function () {
 
-                    <div class="col-xs-12 col-sm-3 no-margin">
-                        <a href="#" class="thumb-holder">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-03.jpg" />
-                        </a>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div><!-- /.body -->
-</div> <!-- /.widget -->
-<!-- ============================================================= FEATURED PRODUCTS : END ============================================================= -->            </div><!-- /.col -->
+        // jQuery Knobs
+        $(".knob").knob();
 
-            <div class="col-xs-12 col-sm-4 ">
-                <!-- ============================================================= ON SALE PRODUCTS ============================================================= -->
-<div class="widget">
-    <h2>促销商品</h2>
-    <div class="body">
-        <ul>
-            <li>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-9 no-margin">
-                        <a href="single-product.html">HP Scanner 2910P</a>
-                        <div class="price">
-                            <div class="price-prev">￥2000</div>
-                            <div class="price-current">￥1873</div>
-                        </div>
-                    </div>  
 
-                    <div class="col-xs-12 col-sm-3 no-margin">
-                        <a href="#" class="thumb-holder">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-04.jpg" />
-                        </a>
-                    </div>
-                </div>
 
-            </li>
-            <li>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-9 no-margin">
-                        <a href="single-product.html">Galaxy Tab 3 GT-P5210 16GB, Wi-Fi, 10.1in - White</a>
-                        <div class="price">
-                            <div class="price-prev">￥2000</div>
-                            <div class="price-current">￥1873</div>
-                        </div>
-                    </div>  
-
-                    <div class="col-xs-12 col-sm-3 no-margin">
-                        <a href="#" class="thumb-holder">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-05.jpg" />
-                        </a>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-9 no-margin">
-                        <a href="single-product.html">PowerShot Elph 115 16MP Digital Camera</a>
-                        <div class="price">
-                            <div class="price-prev">￥2000</div>
-                            <div class="price-current">￥1873</div>
-                        </div>
-                    </div>  
-
-                    <div class="col-xs-12 col-sm-3 no-margin">
-                        <a href="#" class="thumb-holder">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-06.jpg" />
-                        </a>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div><!-- /.body -->
-</div> <!-- /.widget -->
-<!-- ============================================================= ON SALE PRODUCTS : END ============================================================= -->            </div><!-- /.col -->
-
-            <div class="col-xs-12 col-sm-4 ">
-                <!-- ============================================================= TOP RATED PRODUCTS ============================================================= -->
-<div class="widget">
-    <h2>最热商品</h2>
-    <div class="body">
-        <ul>
-            <li>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-9 no-margin">
-                        <a href="single-product.html">Galaxy Tab GT-P5210, 10" 16GB Wi-Fi</a>
-                        <div class="price">
-                            <div class="price-prev">￥2000</div>
-                            <div class="price-current">￥1873</div>
-                        </div>
-                    </div>  
-
-                    <div class="col-xs-12 col-sm-3 no-margin">
-                        <a href="#" class="thumb-holder">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-07.jpg" />
-                        </a>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-9 no-margin">
-                        <a href="single-product.html">PowerShot Elph 115 16MP Digital Camera</a>
-                        <div class="price">
-                            <div class="price-prev">￥2000</div>
-                            <div class="price-current">￥1873</div>
-                        </div>
-                    </div>  
-
-                    <div class="col-xs-12 col-sm-3 no-margin">
-                        <a href="#" class="thumb-holder">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-08.jpg" />
-                        </a>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-9 no-margin">
-                        <a href="single-product.html">Surface RT 64GB, Wi-Fi, 10.6in - Dark Titanium</a>
-                        <div class="price">
-                            <div class="price-prev">￥2000</div>
-                            <div class="price-current">￥1873</div>
-                        </div>
-                    </div>  
-
-                    <div class="col-xs-12 col-sm-3 no-margin">
-                        <a href="#" class="thumb-holder">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-09.jpg" />
-                        </a>
-                    </div>
-
-                </div>
-            </li>
-        </ul>
-    </div><!-- /.body -->
-</div><!-- /.widget -->
-<!-- ============================================================= TOP RATED PRODUCTS : END ============================================================= -->            </div><!-- /.col -->
-
-        </div><!-- /.widgets-row-->
-    </div><!-- /.container -->
-
-    <div class="sub-form-row">
-        <!--<div class="container">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding">
-                <form role="form">
-                    <input placeholder="Subscribe to our newsletter">
-                    <button class="le-button">Subscribe</button>
-                </form>
-            </div>
-        </div>--><!-- /.container -->
-    </div><!-- /.sub-form-row -->
-
-    <div class="link-list-row">
-        <div class="container no-padding">
-            <div class="col-xs-12 col-md-4 ">
-                <!-- ============================================================= CONTACT INFO ============================================================= -->
-<div class="contact-info">
-    <div class="footer-logo">
-		<img alt="logo" src="assets/images/logo.PNG" width="233" height="54"/>
-    </div><!-- /.footer-logo -->
-    
-    <p class="regular-bold"> 请通过电话，电子邮件随时联系我们</p>
-    
-    <p>
-        西城区二环到三环德胜门外大街10号TCL大厦3层(马甸桥南), 北京市西城区, 中国
-        <br>慕课网 (QQ群:416465236)
-    </p>
-    
-    <!--<div class="social-icons">
-        <h3>Get in touch</h3>
-        <ul>
-            <li><a href="http://facebook.com/transvelo" class="fa fa-facebook"></a></li>
-            <li><a href="#" class="fa fa-twitter"></a></li>
-            <li><a href="#" class="fa fa-pinterest"></a></li>
-            <li><a href="#" class="fa fa-linkedin"></a></li>
-            <li><a href="#" class="fa fa-stumbleupon"></a></li>
-            <li><a href="#" class="fa fa-dribbble"></a></li>
-            <li><a href="#" class="fa fa-vk"></a></li>
-        </ul>
-    </div>--><!-- /.social-icons -->
-
-</div>
-<!-- ============================================================= CONTACT INFO : END ============================================================= -->            </div>
-
-            <div class="col-xs-12 col-md-8 no-margin">
-                <!-- ============================================================= LINKS FOOTER ============================================================= -->
-<div class="link-widget">
-    <div class="widget">
-        <h3>快速检索</h3>
-        <ul>
-            <li><a href="category-grid.html">laptops &amp; computers</a></li>
-            <li><a href="category-grid.html">Cameras &amp; Photography</a></li>
-            <li><a href="category-grid.html">Smart Phones &amp; Tablets</a></li>
-            <li><a href="category-grid.html">Video Games &amp; Consoles</a></li>
-            <li><a href="category-grid.html">TV &amp; Audio</a></li>
-            <li><a href="category-grid.html">Gadgets</a></li>
-            <li><a href="category-grid.html">Car Electronic &amp; GPS</a></li>
-            <li><a href="category-grid.html">Accesories</a></li>
-        </ul>
-    </div><!-- /.widget -->
-</div><!-- /.link-widget -->
-
-<div class="link-widget">
-    <div class="widget">
-        <h3>热门商品</h3>
-        <ul>
-            <li><a href="category-grid.html">Find a Store</a></li>
-            <li><a href="category-grid.html">About Us</a></li>
-            <li><a href="category-grid.html">Contact Us</a></li>
-            <li><a href="category-grid.html">Weekly Deals</a></li>
-            <li><a href="category-grid.html">Gift Cards</a></li>
-            <li><a href="category-grid.html">Recycling Program</a></li>
-            <li><a href="category-grid.html">Community</a></li>
-            <li><a href="category-grid.html">Careers</a></li>
-
-        </ul>
-    </div><!-- /.widget -->
-</div><!-- /.link-widget -->
-
-<div class="link-widget">
-    <div class="widget">
-        <h3>最近浏览</h3>
-        <ul>
-            <li><a href="category-grid.html">My Account</a></li>
-            <li><a href="category-grid.html">Order Tracking</a></li>
-            <li><a href="category-grid.html">Wish List</a></li>
-            <li><a href="category-grid.html">Customer Service</a></li>
-            <li><a href="category-grid.html">Returns / Exchange</a></li>
-            <li><a href="category-grid.html">FAQs</a></li>
-            <li><a href="category-grid.html">Product Support</a></li>
-            <li><a href="category-grid.html">Extended Service Plans</a></li>
-        </ul>
-    </div><!-- /.widget -->
-</div><!-- /.link-widget -->
-<!-- ============================================================= LINKS FOOTER : END ============================================================= -->            </div>
-        </div><!-- /.container -->
-    </div><!-- /.link-list-row -->
-
-    <div class="copyright-bar">
-        <div class="container">
-            <div class="col-xs-12 col-sm-6 no-margin">
-                <div class="copyright">
-                    &copy; <a href="index.html">Imooc.com</a> - all rights reserved
-                </div><!-- /.copyright -->
-            </div>
-            <div class="col-xs-12 col-sm-6 no-margin">
-                <div class="payment-methods ">
-                    <ul>
-                        <li><img alt="" src="assets/images/payments/payment-visa.png"></li>
-                        <li><img alt="" src="assets/images/payments/payment-master.png"></li>
-                        <li><img alt="" src="assets/images/payments/payment-paypal.png"></li>
-                        <li><img alt="" src="assets/images/payments/payment-skrill.png"></li>
-                    </ul>
-                </div><!-- /.payment-methods -->
-            </div>
-        </div><!-- /.container -->
-    </div><!-- /.copyright-bar -->
-
-</footer><!-- /#footer -->
-<!-- ============================================================= FOOTER : END ============================================================= -->	</div><!-- /.wrapper -->
-
-	<!-- JavaScripts placed at the end of the document so the pages load faster -->
-	<script src="assets/js/jquery-1.10.2.min.js"></script>
-	<script src="assets/js/jquery-migrate-1.2.1.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/gmap3.min.js"></script>
-	<script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/css_browser_selector.min.js"></script>
-	<script src="assets/js/echo.min.js"></script>
-	<script src="assets/js/jquery.easing-1.3.min.js"></script>
-	<script src="assets/js/bootstrap-slider.min.js"></script>
-    <script src="assets/js/jquery.raty.min.js"></script>
-    <script src="assets/js/jquery.prettyPhoto.min.js"></script>
-    <script src="assets/js/jquery.customSelect.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-	<script src="assets/js/scripts.js"></script>
-    <script>
-        $("#createlink").click(function(){
-            $(".billing-address").slideDown();
+        // jQuery UI Sliders
+        $(".slider-sample1").slider({
+            value: 100,
+            min: 1,
+            max: 500
         });
-        
-    </script>
+        $(".slider-sample2").slider({
+            range: "min",
+            value: 130,
+            min: 1,
+            max: 500
+        });
+        $(".slider-sample3").slider({
+            range: true,
+            min: 0,
+            max: 500,
+            values: [ 40, 170 ],
+        });
+
+
+
+        // jQuery Flot Chart
+        var visits = [[1, 50], [2, 40], [3, 45], [4, 23],[5, 55],[6, 65],[7, 61],[8, 70],[9, 65],[10, 75],[11, 57],[12, 59]];
+        var visitors = [[1, 25], [2, 50], [3, 23], [4, 48],[5, 38],[6, 40],[7, 47],[8, 55],[9, 43],[10,50],[11,47],[12, 39]];
+
+        var plot = $.plot($("#statsChart"),
+            [ { data: visits, label: "注册量"},
+                { data: visitors, label: "访客量" }], {
+                series: {
+                    lines: { show: true,
+                        lineWidth: 1,
+                        fill: true,
+                        fillColor: { colors: [ { opacity: 0.1 }, { opacity: 0.13 } ] }
+                    },
+                    points: { show: true,
+                        lineWidth: 2,
+                        radius: 3
+                    },
+                    shadowSize: 0,
+                    stack: true
+                },
+                grid: { hoverable: true,
+                    clickable: true,
+                    tickColor: "#f9f9f9",
+                    borderWidth: 0
+                },
+                legend: {
+                    // show: false
+                    labelBoxBorderColor: "#fff"
+                },
+                colors: ["#a7b5c5", "#30a0eb"],
+                xaxis: {
+                    ticks: [[1, "一月"], [2, "二月"], [3, "三月"], [4,"四月"], [5,"五月"], [6,"六月"],
+                        [7,"七月"], [8,"八月"], [9,"九月"], [10,"十月"], [11,"十一月"], [12,"十二月"]],
+                    font: {
+                        size: 12,
+                        family: "Open Sans, Arial",
+                        variant: "small-caps",
+                        color: "#697695"
+                    }
+                },
+                yaxis: {
+                    ticks:3,
+                    tickDecimals: 0,
+                    font: {size:12, color: "#9da3a9"}
+                }
+            });
+
+        function showTooltip(x, y, contents) {
+            $('<div id="tooltip">' + contents + '</div>').css( {
+                position: 'absolute',
+                display: 'none',
+                top: y - 30,
+                left: x - 50,
+                color: "#fff",
+                padding: '2px 5px',
+                'border-radius': '6px',
+                'background-color': '#000',
+                opacity: 0.80
+            }).appendTo("body").fadeIn(200);
+        }
+
+        var previousPoint = null;
+        $("#statsChart").bind("plothover", function (event, pos, item) {
+            if (item) {
+                if (previousPoint != item.dataIndex) {
+                    previousPoint = item.dataIndex;
+
+                    $("#tooltip").remove();
+                    var x = item.datapoint[0].toFixed(0),
+                        y = item.datapoint[1].toFixed(0);
+
+                    var month = item.series.xaxis.ticks[item.dataIndex].label;
+
+                    showTooltip(item.pageX, item.pageY,
+                        item.series.label + " of " + month + ": " + y);
+                }
+            }
+            else {
+                $("#tooltip").remove();
+                previousPoint = null;
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
