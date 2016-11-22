@@ -4084,3 +4084,984 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1479741191.974
     'REQUEST_TIME' => 1479741191
 ]
+2016-11-22 14:28:48 [192.168.33.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modues\models\Admin' not found' in /var/www/public/JD/modules/controllers/PublicController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-22 14:28:48 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6539'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479824928.686
+    'REQUEST_TIME' => 1479824928
+]
+2016-11-22 14:29:15 [192.168.33.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveRecord' not found' in /var/www/public/JD/modules/views/public/login.php:40
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-22 14:29:15 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6572'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479824955.64
+    'REQUEST_TIME' => 1479824955
+]
+2016-11-22 14:31:12 [192.168.33.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\helper\Html' not found' in /var/www/public/JD/modules/views/public/login.php:61
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-22 14:31:11 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6627'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479825071.713
+    'REQUEST_TIME' => 1479825071
+]
+2016-11-22 14:34:04 [192.168.33.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\helper\Html' not found' in /var/www/public/JD/modules/views/public/login.php:61
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-22 14:34:04 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CDAeMp0WG93SjxDP4ZacReJiem35sbfQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CDAeMp0WG93SjxDP4ZacReJiem35sbfQ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6717'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479825244.231
+    'REQUEST_TIME' => 1479825244
+]
+2016-11-22 15:25:16 [192.168.33.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '；' (T_STRING)' in /var/www/public/JD/modules/models/Admin.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-22 15:25:15 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CDAeMp0WG93SjxDP4ZacReJiem35sbfQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CDAeMp0WG93SjxDP4ZacReJiem35sbfQ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '9500'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479828315.807
+    'REQUEST_TIME' => 1479828315
+]
+2016-11-22 15:26:57 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception 'ReflectionException' with message 'Class booblean does not exist' 
+
+in /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php:417
+
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(417): ReflectionClass->__construct('booblean')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(360): yii\di\Container->getDependencies('booblean')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('booblean', Array, Array)
+#3 /var/www/public/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('booblean', Array, Array)
+#4 /var/www/public/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('booblean', Object(app\modules\models\Admin), Array, Array)
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#8 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#9 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#11 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#12 /var/www/public/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#13 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#14 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#15 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#16 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/public...', Array)
+#17 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/public...', Array, Object(app\modules\controllers\PublicController))
+#18 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#19 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#20 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#21 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#22 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#23 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#24 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#25 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#27 {main}' in /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(ReflectionException))
+#3 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/public/JD/modules/views/public/login.php:48
+    in /var/www/public/JD/modules/controllers/PublicController.php:22
+2016-11-22 15:26:57 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CDAeMp0WG93SjxDP4ZacReJiem35sbfQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CDAeMp0WG93SjxDP4ZacReJiem35sbfQ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '9547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479828417.459
+    'REQUEST_TIME' => 1479828417
+]
+2016-11-22 15:28:04 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception 'ReflectionException' with message 'Class booblean does not exist' 
+
+in /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php:417
+
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(417): ReflectionClass->__construct('booblean')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(360): yii\di\Container->getDependencies('booblean')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('booblean', Array, Array)
+#3 /var/www/public/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('booblean', Array, Array)
+#4 /var/www/public/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('booblean', Object(app\modules\models\Admin), Array, Array)
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#8 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#9 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#11 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#12 /var/www/public/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#13 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#14 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#15 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#16 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/public...', Array)
+#17 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/public...', Array, Object(app\modules\controllers\PublicController))
+#18 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#19 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#20 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#21 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#22 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#23 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#24 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#25 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#27 {main}' in /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(ReflectionException))
+#3 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/public/JD/modules/views/public/login.php:48
+    in /var/www/public/JD/modules/controllers/PublicController.php:22
+2016-11-22 15:28:04 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CDAeMp0WG93SjxDP4ZacReJiem35sbfQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CDAeMp0WG93SjxDP4ZacReJiem35sbfQ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '9570'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479828484.403
+    'REQUEST_TIME' => 1479828484
+]
+2016-11-22 15:31:09 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception 'ReflectionException' with message 'Class booblean does not exist' 
+
+in /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php:417
+
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(417): ReflectionClass->__construct('booblean')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(360): yii\di\Container->getDependencies('booblean')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('booblean', Array, Array)
+#3 /var/www/public/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('booblean', Array, Array)
+#4 /var/www/public/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('booblean', Object(app\modules\models\Admin), Array, Array)
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#8 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#9 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#11 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#12 /var/www/public/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#13 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#14 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#15 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#16 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/public...', Array)
+#17 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/public...', Array, Object(app\modules\controllers\PublicController))
+#18 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#19 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#20 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#21 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#22 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#23 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#24 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#25 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#27 {main}' in /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(ReflectionException))
+#3 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/public/JD/modules/views/public/login.php:48
+    in /var/www/public/JD/modules/controllers/PublicController.php:22
+2016-11-22 15:31:08 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CDAeMp0WG93SjxDP4ZacReJiem35sbfQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CDAeMp0WG93SjxDP4ZacReJiem35sbfQ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '9730'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479828668.816
+    'REQUEST_TIME' => 1479828668
+]
+2016-11-22 15:32:54 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception 'ReflectionException' with message 'Class booblean does not exist' 
+
+in /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php:417
+
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(417): ReflectionClass->__construct('booblean')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(360): yii\di\Container->getDependencies('booblean')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('booblean', Array, Array)
+#3 /var/www/public/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('booblean', Array, Array)
+#4 /var/www/public/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('booblean', Object(app\modules\models\Admin), Array, Array)
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#8 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#9 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#11 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#12 /var/www/public/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#13 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#14 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#15 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#16 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/public...', Array)
+#17 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/public...', Array, Object(app\modules\controllers\PublicController))
+#18 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#19 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#20 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#21 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#22 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#23 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#24 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#25 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#27 {main}' in /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(ReflectionException))
+#3 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/public/JD/modules/views/public/login.php:48
+    in /var/www/public/JD/modules/controllers/PublicController.php:22
+2016-11-22 15:32:54 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CDAeMp0WG93SjxDP4ZacReJiem35sbfQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CDAeMp0WG93SjxDP4ZacReJiem35sbfQ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '9797'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479828774.616
+    'REQUEST_TIME' => 1479828774
+]
+2016-11-22 15:32:58 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception 'ReflectionException' with message 'Class booblean does not exist' 
+
+in /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php:417
+
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(417): ReflectionClass->__construct('booblean')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(360): yii\di\Container->getDependencies('booblean')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('booblean', Array, Array)
+#3 /var/www/public/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('booblean', Array, Array)
+#4 /var/www/public/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('booblean', Object(app\modules\models\Admin), Array, Array)
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#8 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#9 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#11 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#12 /var/www/public/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#13 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#14 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#15 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#16 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/public...', Array)
+#17 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/public...', Array, Object(app\modules\controllers\PublicController))
+#18 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#19 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#20 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#21 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#22 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#23 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#24 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#25 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#27 {main}' in /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(ReflectionException))
+#3 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/public/JD/modules/views/public/login.php:48
+    in /var/www/public/JD/modules/controllers/PublicController.php:22
+2016-11-22 15:32:58 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CDAeMp0WG93SjxDP4ZacReJiem35sbfQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CDAeMp0WG93SjxDP4ZacReJiem35sbfQ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '9798'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479828778.073
+    'REQUEST_TIME' => 1479828778
+]
+2016-11-22 15:33:13 [192.168.33.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in /var/www/public/JD/modules/views/public/login.php:48
+Stack trace:
+#0 /var/www/public/JD/modules/views/public/login.php(48): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/public...', 48, Array)
+#1 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/public...', Array)
+#3 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/public...', Array, Object(app\modules\controllers\PublicController))
+#4 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#5 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login')
+#6 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#10 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#11 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2016-11-22 15:33:13 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CDAeMp0WG93SjxDP4ZacReJiem35sbfQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CDAeMp0WG93SjxDP4ZacReJiem35sbfQ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '9806'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479828793.011
+    'REQUEST_TIME' => 1479828793
+]
+2016-11-22 15:33:38 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception 'ReflectionException' with message 'Class booblean does not exist' 
+
+in /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php:417
+
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(417): ReflectionClass->__construct('booblean')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(360): yii\di\Container->getDependencies('booblean')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('booblean', Array, Array)
+#3 /var/www/public/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('booblean', Array, Array)
+#4 /var/www/public/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('booblean', Object(app\modules\models\Admin), Array, Array)
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#8 /var/www/public/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#9 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#11 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#12 /var/www/public/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#13 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#14 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#15 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#16 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/public...', Array)
+#17 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/public...', Array, Object(app\modules\controllers\PublicController))
+#18 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#19 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#20 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#21 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#22 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#23 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#24 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#25 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#27 {main}' in /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/public/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/public/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(ReflectionException))
+#3 /var/www/public/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/public...')
+#5 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/public/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/public/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/public/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/public/JD/modules/views/public/login.php:48
+    in /var/www/public/JD/modules/controllers/PublicController.php:22
+2016-11-22 15:33:38 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CDAeMp0WG93SjxDP4ZacReJiem35sbfQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CDAeMp0WG93SjxDP4ZacReJiem35sbfQ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '9819'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479828818.284
+    'REQUEST_TIME' => 1479828818
+]
+2016-11-22 15:43:56 [192.168.33.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\models\Yii' not found' in /var/www/public/JD/modules/models/Admin.php:43
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-22 15:43:56 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_POST = [
+    '_csrf' => 'dDZRSDA5TGg3chAtfUl8PzMPYhtaQQg4QGwwK2JcBgERW2J9Q1sqOQ=='
+    'Admin' => [
+        'adminuser' => 'admin'
+        'adminpass' => '123'
+        'rememberMe' => '1'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CDAeMp0WG93SjxDP4ZacReJiem35sbfQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '166'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin/public/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=1ce392f17e48b5085f31ebde277e7e4689090dcca7715d0cc6e40b813ca55370a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CDAeMp0WG93SjxDP4ZacReJiem35sbfQ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '10473'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479829436.266
+    'REQUEST_TIME' => 1479829436
+]
+2016-11-22 15:53:09 [192.168.33.1][-][el2nq3s6eov1bil73l3pkugoj5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/public/logout' in /var/www/public/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('logout', Array)
+#1 /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#2 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/public/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/public/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/public/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-22 15:53:09 [192.168.33.1][-][el2nq3s6eov1bil73l3pkugoj5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/public/JD/views/layouts/main.php:75
+2016-11-22 15:53:09 [192.168.33.1][-][el2nq3s6eov1bil73l3pkugoj5][info][application] $_GET = [
+    'r' => 'admin/public/logout'
+]
+
+$_COOKIE = [
+    '_csrf' => 'bb226ce430231bc57d06e1826de913d56fdbc4d1a49784a7f45ee14a18599efda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fISBhiNZPgaVpWKNLqKUe3BAByot0Up8\";}'
+    'PHPSESSID' => 'el2nq3s6eov1bil73l3pkugoj5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=bb226ce430231bc57d06e1826de913d56fdbc4d1a49784a7f45ee14a18599efda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fISBhiNZPgaVpWKNLqKUe3BAByot0Up8%22%3B%7D; PHPSESSID=el2nq3s6eov1bil73l3pkugoj5'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11329'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Flogout'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Flogout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479829988.992
+    'REQUEST_TIME' => 1479829988
+]

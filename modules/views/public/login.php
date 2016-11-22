@@ -1,6 +1,6 @@
 <?php
     use yii\bootstrap\ActiveForm;
-    use yii\helper\Html;
+    use yii\helpers\Html;
 ?>
 <!DOCTYPE html>
 <html class="login-bg">
@@ -37,9 +37,9 @@
 
     <div class="row-fluid login-wrapper">
         <a class="brand" href="index.html"></a>
-        <?php $form=ActiveRecord::begin([
+        <?php $form=ActiveForm::begin([
             'fieldConfig'=>[
-                'template'=>'{input}',
+                'template'=>'{error}{input}',
             ]
         ]); ?>
         <div class="span4 box">
@@ -52,7 +52,7 @@
                 <a href="#" class="forgot">忘记密码?</a>
                 <?php echo $form->field($model,'rememberMe')->checkbox([
                     'id'=>'remember-me',
-                    'template'=>'<div class ="remember">{input}<label for="remember-me">记住我</label></div>>'
+                    'template'=>'<div class ="remember">{input}<label for="remember-me">记住我</label></div>'
                 ]);?>
                 <!--div class="remember">
                     <input id="remember-me" type="checkbox" />
@@ -62,7 +62,7 @@
                 <!--a class="btn-glow primary login" href="index.html">登录</a-->
             </div>
         </div>
-        <?php ActiveRecord::end(); ?>
+        <?php ActiveForm::end(); ?>
         <!--div class="span4 no-account">
             <p>没有账户?</p>
             <a href="signup.html">注册</a>
