@@ -1,3 +1,7 @@
+<?php
+    use yii\bootstrap\ActiveForm;
+    use yii\helper\Html;
+?>
 <!DOCTYPE html>
 <html class="login-bg">
 <head>
@@ -21,8 +25,8 @@
     <!-- this page specific styles -->
     <link rel="stylesheet" href="assets/admin/css/compiled/signin.css" type="text/css" media="screen" />
 
-    <!-- open sans font -->
-    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' />
+    <!-- open sans font 字体导致加载慢-->
+    <!--link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' /-->
 
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,25 +37,36 @@
 
     <div class="row-fluid login-wrapper">
         <a class="brand" href="index.html"></a>
-
+        <?php $form=ActiveRecord::begin([
+            'fieldConfig'=>[
+                'template'=>'{input}',
+            ]
+        ]); ?>
         <div class="span4 box">
             <div class="content-wrap">
                 <h6>慕课商城 - 后台管理</h6>
-                <input class="span12" type="text" placeholder="管理员账号" />
-                <input class="span12" type="password" placeholder="管理员密码" />
+                <?php echo $form->field($model,'adminuser')->textInput(["class"=>"span12","placeholder"=>"管理员账号"]);?>
+                <?php echo $form->field($model,'adminpass')->passwordInput(["class"=>"span12","placeholder"=>"管理员密码"]);?>
+                <!--input class="span12" type="text" placeholder="管理员账号" />
+                <input class="span12" type="password" placeholder="管理员密码" /-->
                 <a href="#" class="forgot">忘记密码?</a>
-                <div class="remember">
+                <?php echo $form->field($model,'rememberMe')->checkbox([
+                    'id'=>'remember-me',
+                    'template'=>'<div class ="remember">{input}<label for="remember-me">记住我</label></div>>'
+                ]);?>
+                <!--div class="remember">
                     <input id="remember-me" type="checkbox" />
                     <label for="remember-me">记住我</label>
-                </div>
-                <a class="btn-glow primary login" href="index.html">登录</a>
+                </div-->
+                <?php echo Html::submitButton('登录',['class'=>'btn-glow primary login']);?>
+                <!--a class="btn-glow primary login" href="index.html">登录</a-->
             </div>
         </div>
-
-        <div class="span4 no-account">
+        <?php ActiveRecord::end(); ?>
+        <!--div class="span4 no-account">
             <p>没有账户?</p>
             <a href="signup.html">注册</a>
-        </div>
+        </div-->
     </div>
 
 	<!-- scripts -->
