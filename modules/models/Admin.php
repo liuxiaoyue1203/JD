@@ -28,7 +28,7 @@ class Admin extends ActiveRecord
             ['adminemail','email','message'=>'电子邮箱格式不正确','on'=>'seekpass'],
             ['adminemail','validateEmail','on'=>'seekpass'],
             ['repass','required','message'=>'确认密码不能为空','on'=>'changepass'],
-            ['repass','compare','compareAttribute'=>'adminpass','massage'=>'两次密码输入不一致','on'=>'changepass'],
+            ['repass','compare','compareAttribute'=>'adminpass','message'=>'两次密码输入不一致','on'=>'changepass'],
         ];
     }
 
