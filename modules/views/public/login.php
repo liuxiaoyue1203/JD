@@ -49,7 +49,7 @@
                 <?php echo $form->field($model,'adminpass')->passwordInput(["class"=>"span12","placeholder"=>"管理员密码"]);?>
                 <!--input class="span12" type="text" placeholder="管理员账号" />
                 <input class="span12" type="password" placeholder="管理员密码" /-->
-                <a href="#" class="forgot">忘记密码?</a>
+                <a href="<?php echo yii\helpers\Url::to(['public/seekpassword']); ?>" class="forgot">忘记密码?</a>
                 <?php echo $form->field($model,'rememberMe')->checkbox([
                     'id'=>'remember-me',
                     'template'=>'<div class ="remember">{input}<label for="remember-me">记住我</label></div>'
