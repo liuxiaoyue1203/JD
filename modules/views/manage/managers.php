@@ -50,7 +50,7 @@
                             </div>
                         </div>
 
-                        <a href="new-user.html" class="btn-flat success pull-right">
+                        <a href="<?php echo yii\helpers\Url::to(['manage/reg']);?>" class="btn-flat success pull-right">
                             <span>&#43;</span>
                             添加管理员
                         </a>

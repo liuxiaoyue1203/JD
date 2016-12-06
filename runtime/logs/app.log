@@ -5115,3 +5115,1775 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1481034796.823
     'REQUEST_TIME' => 1481034796
 ]
+2016-12-06 15:35:30 [192.168.33.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: adminpass' in /var/www/JD/modules/models/Admin.php:118
+Stack trace:
+#0 /var/www/JD/modules/models/Admin.php(118): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/JD/mod...', 118, Array)
+#1 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 15:35:29 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'YUQxTlgwanNWMHgvG0YDAS0NBCU9ZyAnUw9TCStaXB0nPnQpbmcbQw=='
+    'Admin' => [
+        'adminuser' => ''
+        'adminemail' => ''
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '152'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5211'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481038529.717
+    'REQUEST_TIME' => 1481038529
+]
+2016-12-06 15:37:52 [192.168.33.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: adminpass' in /var/www/JD/modules/models/Admin.php:118
+Stack trace:
+#0 /var/www/JD/modules/models/Admin.php(118): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/JD/mod...', 118, Array)
+#1 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 15:37:52 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'NGxLYTYyRWgDGAIAdUQsGnglfgpTZQ88BicpJkVYcwZyFg4GAGU0WA=='
+    'Admin' => [
+        'adminuser' => ''
+        'adminemail' => ''
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '152'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5292'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481038672.012
+    'REQUEST_TIME' => 1481038672
+]
+2016-12-06 15:38:27 [192.168.33.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: adminpass' in /var/www/JD/modules/models/Admin.php:118
+Stack trace:
+#0 /var/www/JD/modules/models/Admin.php(118): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/JD/mod...', 118, Array)
+#1 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 15:38:27 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'NGxLYTYyRWgDGAIAdUQsGnglfgpTZQ88BicpJkVYcwZyFg4GAGU0WA=='
+    'Admin' => [
+        'adminuser' => ''
+        'adminemail' => ''
+        'adminpass' => 'sdf'
+        'repass' => 'asd'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '158'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5327'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481038707.647
+    'REQUEST_TIME' => 1481038707
+]
+2016-12-06 15:39:23 [192.168.33.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: adminpass' in /var/www/JD/modules/models/Admin.php:118
+Stack trace:
+#0 /var/www/JD/modules/models/Admin.php(118): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/JD/mod...', 118, Array)
+#1 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 15:39:23 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'NGxLYTYyRWgDGAIAdUQsGnglfgpTZQ88BicpJkVYcwZyFg4GAGU0WA=='
+    'Admin' => [
+        'adminuser' => ''
+        'adminemail' => ''
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '152'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5426'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481038763.584
+    'REQUEST_TIME' => 1481038763
+]
+2016-12-06 15:39:27 [192.168.33.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: adminpass' in /var/www/JD/modules/models/Admin.php:118
+Stack trace:
+#0 /var/www/JD/modules/models/Admin.php(118): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/JD/mod...', 118, Array)
+#1 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 15:39:27 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'NGxLYTYyRWgDGAIAdUQsGnglfgpTZQ88BicpJkVYcwZyFg4GAGU0WA=='
+    'Admin' => [
+        'adminuser' => ''
+        'adminemail' => ''
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '152'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5427'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481038767.666
+    'REQUEST_TIME' => 1481038767
+]
+2016-12-06 15:45:06 [192.168.33.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: adminpass' in /var/www/JD/modules/models/Admin.php:118
+Stack trace:
+#0 /var/www/JD/modules/models/Admin.php(118): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/JD/mod...', 118, Array)
+#1 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 15:45:06 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'RVBrZjA1ZzByJCIHc0MOQgkZXg1VYi1kdxsJIUNfUV4DKi4BBmIWAA=='
+    'Admin' => [
+        'adminuser' => 'admin123'
+        'adminemail' => 'admin123@qq.com'
+        'adminpass' => '123'
+        'repass' => '123'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '183'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5576'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481039105.974
+    'REQUEST_TIME' => 1481039105
+]
+2016-12-06 15:47:31 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::admin' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('admin')
+#1 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(249): yii\db\BaseActiveRecord->__get('admin')
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\Admin), Array)
+#3 /var/www/JD/modules/models/Admin.php(118): yii\base\Model->validate()
+#4 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#5 [internal function]: app\modules\controllers\ManageController->actionReg()
+#6 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-06 15:47:32 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 15:47:31 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'RVBrZjA1ZzByJCIHc0MOQgkZXg1VYi1kdxsJIUNfUV4DKi4BBmIWAA=='
+    'Admin' => [
+        'adminuser' => 'admin123'
+        'adminemail' => 'admin123@qq.com'
+        'adminpass' => '123'
+        'repass' => '123'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '183'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5762'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481039251.626
+    'REQUEST_TIME' => 1481039251
+]
+2016-12-06 15:49:52 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::admin' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('admin')
+#1 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(249): yii\db\BaseActiveRecord->__get('admin')
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\Admin), Array)
+#3 /var/www/JD/modules/models/Admin.php(118): yii\base\Model->validate()
+#4 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#5 [internal function]: app\modules\controllers\ManageController->actionReg()
+#6 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-06 15:49:52 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 15:49:52 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'RVBrZjA1ZzByJCIHc0MOQgkZXg1VYi1kdxsJIUNfUV4DKi4BBmIWAA=='
+    'Admin' => [
+        'adminuser' => 'admin123'
+        'adminemail' => 'admin123@qq.com'
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '177'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '5916'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481039392.197
+    'REQUEST_TIME' => 1481039392
+]
+2016-12-06 15:55:43 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::admin' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('admin')
+#1 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(249): yii\db\BaseActiveRecord->__get('admin')
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\Admin), Array)
+#3 /var/www/JD/modules/models/Admin.php(118): yii\base\Model->validate()
+#4 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#5 [internal function]: app\modules\controllers\ManageController->actionReg()
+#6 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-06 15:55:44 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 15:55:43 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'RVBrZjA1ZzByJCIHc0MOQgkZXg1VYi1kdxsJIUNfUV4DKi4BBmIWAA=='
+    'Admin' => [
+        'adminuser' => 'admin123'
+        'adminemail' => 'admin123@qq.com'
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '177'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6282'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481039743.674
+    'REQUEST_TIME' => 1481039743
+]
+2016-12-06 15:58:12 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::admin' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('admin')
+#1 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(249): yii\db\BaseActiveRecord->__get('admin')
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\Admin), Array)
+#3 /var/www/JD/modules/models/Admin.php(118): yii\base\Model->validate()
+#4 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#5 [internal function]: app\modules\controllers\ManageController->actionReg()
+#6 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-06 15:58:13 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 15:58:12 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'RVBrZjA1ZzByJCIHc0MOQgkZXg1VYi1kdxsJIUNfUV4DKi4BBmIWAA=='
+    'Admin' => [
+        'adminuser' => 'admin123'
+        'adminemail' => 'admin123@qq.com'
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '177'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6414'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481039892.652
+    'REQUEST_TIME' => 1481039892
+]
+2016-12-06 16:00:36 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\modules\models\Admin::reapss' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('reapss', '')
+#1 /var/www/JD/modules/controllers/ManageController.php(68): yii\db\BaseActiveRecord->__set('reapss', '')
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 16:00:37 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:00:36 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6454'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040036.677
+    'REQUEST_TIME' => 1481040036
+]
+2016-12-06 16:00:45 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\modules\models\Admin::reapss' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('reapss', '')
+#1 /var/www/JD/modules/controllers/ManageController.php(68): yii\db\BaseActiveRecord->__set('reapss', '')
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 16:00:45 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:00:45 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6460'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040045.289
+    'REQUEST_TIME' => 1481040045
+]
+2016-12-06 16:01:01 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\modules\models\Admin::reapss' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('reapss', '')
+#1 /var/www/JD/modules/controllers/ManageController.php(68): yii\db\BaseActiveRecord->__set('reapss', '')
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 16:01:01 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:01:01 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers&page=2&per-page=10'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6461'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040061.127
+    'REQUEST_TIME' => 1481040061
+]
+2016-12-06 16:06:40 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\modules\models\Admin::reapss' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('reapss', '')
+#1 /var/www/JD/modules/controllers/ManageController.php(68): yii\db\BaseActiveRecord->__set('reapss', '')
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 16:06:40 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:06:40 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6650'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040400.414
+    'REQUEST_TIME' => 1481040400
+]
+2016-12-06 16:09:58 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\modules\models\Admin::reapss' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('reapss', '')
+#1 /var/www/JD/modules/controllers/ManageController.php(68): yii\db\BaseActiveRecord->__set('reapss', '')
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 16:09:58 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:09:57 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6856'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040597.85
+    'REQUEST_TIME' => 1481040597
+]
+2016-12-06 16:10:48 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::admin' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('admin')
+#1 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(249): yii\db\BaseActiveRecord->__get('admin')
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\Admin), Array)
+#3 /var/www/JD/modules/models/Admin.php(118): yii\base\Model->validate()
+#4 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#5 [internal function]: app\modules\controllers\ManageController->actionReg()
+#6 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-06 16:10:49 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:10:48 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'RkFZLlpmNHhxNRBPGRBdCgoIbEU/MX4sdAo7aSkMAhYAOxxJbDFFSA=='
+    'Admin' => [
+        'adminuser' => ''
+        'adminemail' => ''
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '154'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6902'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040648.614
+    'REQUEST_TIME' => 1481040648
+]
+2016-12-06 16:11:15 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::admin' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('admin')
+#1 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(249): yii\db\BaseActiveRecord->__get('admin')
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\Admin), Array)
+#3 /var/www/JD/modules/models/Admin.php(118): yii\base\Model->validate()
+#4 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#5 [internal function]: app\modules\controllers\ManageController->actionReg()
+#6 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-06 16:11:15 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:11:15 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'MWVBQVoxLWIGEQggGUdEEH0sdCo/Zmc2Ay4jBilbGwx3HwQmbGZcUg=='
+    'Admin' => [
+        'adminuser' => 'admin1234'
+        'adminemail' => '123@qq.com'
+        'adminpass' => '123'
+        'repass' => '123'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '181'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '6912'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040675.163
+    'REQUEST_TIME' => 1481040675
+]
+2016-12-06 16:13:04 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::admin' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('admin')
+#1 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(249): yii\db\BaseActiveRecord->__get('admin')
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\Admin), Array)
+#3 /var/www/JD/modules/models/Admin.php(118): yii\base\Model->validate()
+#4 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#5 [internal function]: app\modules\controllers\ManageController->actionReg()
+#6 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-06 16:13:04 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:13:03 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'MHVRSHdBdmkHARgpNDcfG3w8ZCMSFjw9Aj4zDwQrQAd2DxQvQRYHWQ=='
+    'Admin' => [
+        'adminuser' => 'asd'
+        'adminemail' => 'dddddddd'
+        'adminpass' => '123456asf'
+        'repass' => 'as'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '174'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '7082'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040783.943
+    'REQUEST_TIME' => 1481040783
+]
+2016-12-06 16:14:20 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::admin' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('admin')
+#1 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(249): yii\db\BaseActiveRecord->__get('admin')
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\Admin), Array)
+#3 /var/www/JD/modules/models/Admin.php(118): yii\base\Model->validate()
+#4 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#5 [internal function]: app\modules\controllers\ManageController->actionReg()
+#6 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-06 16:14:20 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:14:19 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'MHVRSHdBdmkHARgpNDcfG3w8ZCMSFjw9Aj4zDwQrQAd2DxQvQRYHWQ=='
+    'Admin' => [
+        'adminuser' => 'asd'
+        'adminemail' => 'dddddddd'
+        'adminpass' => '123456asf'
+        'repass' => 'as'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '174'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '7158'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040859.92
+    'REQUEST_TIME' => 1481040859
+]
+2016-12-06 16:14:25 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::admin' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('admin')
+#1 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(249): yii\db\BaseActiveRecord->__get('admin')
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\Admin), Array)
+#3 /var/www/JD/modules/models/Admin.php(118): yii\base\Model->validate()
+#4 /var/www/JD/modules/controllers/ManageController.php(61): app\modules\models\Admin->reg(Array)
+#5 [internal function]: app\modules\controllers\ManageController->actionReg()
+#6 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-06 16:14:25 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:14:24 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'WE5iT3doeDlvOisuNB4RSxQHVyQSPzJtagUACAQCTlceNCcoQT8JCQ=='
+    'Admin' => [
+        'adminuser' => 'asd'
+        'adminemail' => 'dddddddd'
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '163'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '7159'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040864.793
+    'REQUEST_TIME' => 1481040864
+]
+2016-12-06 16:16:26 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\modules\models\Admin::reapss' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('reapss', '')
+#1 /var/www/JD/modules/controllers/ManageController.php(68): yii\db\BaseActiveRecord->__set('reapss', '')
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 16:16:26 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:16:26 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'UmtrWGVPTmZlHyI5JjknFB4iXjMAGAQyYCAJHxYleAgUES4/Uxg/Vg=='
+    'Admin' => [
+        'adminuser' => 'asd'
+        'adminemail' => 'dddddddd'
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'info' => '添加失败'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '167'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '7351'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040986.169
+    'REQUEST_TIME' => 1481040986
+]
+2016-12-06 16:16:30 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\modules\models\Admin::reapss' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('reapss', '')
+#1 /var/www/JD/modules/controllers/ManageController.php(68): yii\db\BaseActiveRecord->__set('reapss', '')
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 16:16:30 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:16:30 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '7352'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040990.148
+    'REQUEST_TIME' => 1481040990
+]
+2016-12-06 16:16:36 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\modules\models\Admin::reapss' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('reapss', '')
+#1 /var/www/JD/modules/controllers/ManageController.php(68): yii\db\BaseActiveRecord->__set('reapss', '')
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 16:16:36 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:16:35 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '7353'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481040995.849
+    'REQUEST_TIME' => 1481040995
+]
+2016-12-06 16:17:39 [192.168.33.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\modules\models\Admin::reapss' in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('reapss', '')
+#1 /var/www/JD/modules/controllers/ManageController.php(68): yii\db\BaseActiveRecord->__set('reapss', '')
+#2 [internal function]: app\modules\controllers\ManageController->actionReg()
+#3 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-06 16:17:39 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2016-12-06 16:17:39 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '7446'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481041059.192
+    'REQUEST_TIME' => 1481041059
+]
+2016-12-06 16:21:46 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'if' (T_IF), expecting ',' or ';'' in /var/www/JD/modules/views/manage/reg.php:37
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-06 16:21:46 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'T2wuTzZxcmx4GGcudQcbHgMlGyRTJjg4fSdMCEUbRAIJFmsoACYDXA=='
+    'Admin' => [
+        'adminuser' => 'asd'
+        'adminemail' => 'asd'
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'info' => '添加失败'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '158'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '7721'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481041306.578
+    'REQUEST_TIME' => 1481041306
+]
+2016-12-06 16:27:45 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'reg' (T_STRING), expecting ']'' in /var/www/JD/modules/views/manage/reg.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-06 16:27:45 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'Mk1sRlZWWHMFOSUnFSAxAX4EWS0zARInAAYOASU8bh10NykhYAEpQw=='
+    'Admin' => [
+        'adminuser' => 'as'
+        'adminemail' => ''
+        'adminpass' => ''
+        'repass' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0\";}'
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'info' => '添加失败'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '154'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=e7804c3c9488bd1e82c4f191ab25c901a8103ed3d885c63cf8035f9a5861ddf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227tIaCvirLI5keWJT2KbGsj6nFzEg6Wq0%22%3B%7D; PHPSESSID=v7bvfhaj0msjamicqt4qfair25'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '8054'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481041665.441
+    'REQUEST_TIME' => 1481041665
+]
