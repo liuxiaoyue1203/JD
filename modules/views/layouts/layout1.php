@@ -23,10 +23,10 @@
     <link rel="stylesheet" href="assets/admin/css/compiled/index.css" type="text/css" media="screen" />
 
     <!-- open sans font -->
-    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' />
+    <!--link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' /-->
 
     <!-- lato font -->
-    <link href='http://fonts.useso.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+    <!--link href='http://fonts.useso.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' /-->
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -174,6 +174,17 @@
                 <i class="icon-signal"></i>
                 <span>统计</span>
             </a>
+        </li>
+        <li>
+            <a class="dropdown-toggle" href="#">
+                <i class="icon-user"></i>
+                <span>管理员管理</span>
+                <i class="icon-chevron-down"></i>
+            </a>
+            <ul class="submenu">
+                <li><a href="<?php echo yii\helpers\Url::to(['manage/managers']);?>">管理员列表</a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['manage/reg']);?>">加入新管理员</a></li>
+            </ul>
         </li>
         <li>
             <a class="dropdown-toggle" href="#">
