@@ -6887,3 +6887,2335 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1481041665.441
     'REQUEST_TIME' => 1481041665
 ]
+2016-12-07 12:31:00 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/manage/del' in /var/www/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('del', Array)
+#1 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/de...', Array)
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-12-07 12:31:00 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/JD/views/layouts/main.php:75
+2016-12-07 12:30:59 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/del'
+    'adminid' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin123'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '9593'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fdel&adminid=2'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fdel&adminid=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481113859.79
+    'REQUEST_TIME' => 1481113859
+]
+2016-12-07 12:31:05 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/manage/del' in /var/www/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('del', Array)
+#1 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/de...', Array)
+#2 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-12-07 12:31:05 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/JD/views/layouts/main.php:75
+2016-12-07 12:31:05 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/del'
+    'adminid' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin123'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '9594'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fdel&adminid=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fdel&adminid=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481113865.142
+    'REQUEST_TIME' => 1481113865
+]
+2016-12-07 12:47:50 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function formName() on null' in /var/www/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php:2113
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-07 12:47:49 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin123'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '10492'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481114869.732
+    'REQUEST_TIME' => 1481114869
+]
+2016-12-07 12:49:39 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function formName() on null' in /var/www/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php:2113
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-07 12:49:38 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin123'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '10532'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481114978.963
+    'REQUEST_TIME' => 1481114978
+]
+2016-12-07 12:50:40 [192.168.33.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in /var/www/JD/modules/controllers/ManageController.php:89
+Stack trace:
+#0 /var/www/JD/modules/controllers/ManageController.php(89): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/JD/mod...', 89, Array)
+#1 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#2 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-12-07 12:50:40 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '10542'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481115040.044
+    'REQUEST_TIME' => 1481115040
+]
+2016-12-07 12:50:52 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function formName() on null' in /var/www/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php:2113
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-07 12:50:52 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin123'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '10547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481115052.54
+    'REQUEST_TIME' => 1481115052
+]
+2016-12-07 12:52:45 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function formName() on null' in /var/www/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php:2113
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-07 12:52:45 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin123'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '10560'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481115165.002
+    'REQUEST_TIME' => 1481115165
+]
+2016-12-07 12:55:40 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function formName() on null' in /var/www/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php:2113
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-07 12:55:40 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin123'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '10664'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481115340.597
+    'REQUEST_TIME' => 1481115340
+]
+2016-12-07 13:11:53 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\ManageController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('changeemail', Array, Object(app\modules\controllers\ManageController))
+#21 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('changeemail', Array)
+#22 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#8 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/manage/changeemail.php:26
+    in /var/www/JD/modules/controllers/ManageController.php:96
+2016-12-07 13:11:53 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'yue'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11473'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116313.255
+    'REQUEST_TIME' => 1481116313
+]
+2016-12-07 13:12:23 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\ManageController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('changeemail', Array, Object(app\modules\controllers\ManageController))
+#21 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('changeemail', Array)
+#22 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#8 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/manage/changeemail.php:26
+    in /var/www/JD/modules/controllers/ManageController.php:96
+2016-12-07 13:12:22 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'yue'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11499'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116342.732
+    'REQUEST_TIME' => 1481116342
+]
+2016-12-07 13:14:42 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\ManageController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('changeemail', Array, Object(app\modules\controllers\ManageController))
+#21 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('changeemail', Array)
+#22 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#8 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/manage/changeemail.php:26
+    in /var/www/JD/modules/controllers/ManageController.php:96
+2016-12-07 13:14:42 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'yue'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11581'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116482.473
+    'REQUEST_TIME' => 1481116482
+]
+2016-12-07 13:14:49 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\PublicController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#21 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#22 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/public/login.php:48
+    in /var/www/JD/modules/controllers/PublicController.php:22
+2016-12-07 13:14:48 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11583'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116488.936
+    'REQUEST_TIME' => 1481116488
+]
+2016-12-07 13:14:52 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\PublicController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#21 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#22 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/public/login.php:48
+    in /var/www/JD/modules/controllers/PublicController.php:22
+2016-12-07 13:14:51 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11584'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116491.905
+    'REQUEST_TIME' => 1481116491
+]
+2016-12-07 13:14:54 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\PublicController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#21 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#22 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/public/login.php:48
+    in /var/www/JD/modules/controllers/PublicController.php:22
+2016-12-07 13:14:53 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11585'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116493.91
+    'REQUEST_TIME' => 1481116493
+]
+2016-12-07 13:15:11 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\PublicController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#21 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#22 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/public/login.php:48
+    in /var/www/JD/modules/controllers/PublicController.php:22
+2016-12-07 13:15:11 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11598'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116511.634
+    'REQUEST_TIME' => 1481116511
+]
+2016-12-07 13:15:27 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\ManageController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('changeemail', Array, Object(app\modules\controllers\ManageController))
+#21 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('changeemail', Array)
+#22 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#8 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/manage/changeemail.php:26
+    in /var/www/JD/modules/controllers/ManageController.php:96
+2016-12-07 13:15:26 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'yue'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11601'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116526.771
+    'REQUEST_TIME' => 1481116526
+]
+2016-12-07 13:16:28 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\PublicController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#21 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#22 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/public/login.php:48
+    in /var/www/JD/modules/controllers/PublicController.php:22
+2016-12-07 13:16:28 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11737'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116588.033
+    'REQUEST_TIME' => 1481116588
+]
+2016-12-07 13:17:34 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\ManageController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('changeemail', Array, Object(app\modules\controllers\ManageController))
+#21 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('changeemail', Array)
+#22 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#8 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/manage/changeemail.php:26
+    in /var/www/JD/modules/controllers/ManageController.php:96
+2016-12-07 13:17:33 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'yue'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11830'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116653.636
+    'REQUEST_TIME' => 1481116653
+]
+2016-12-07 13:17:58 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\ManageController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('changeemail', Array, Object(app\modules\controllers\ManageController))
+#21 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('changeemail', Array)
+#22 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#8 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/manage/changeemail.php:26
+    in /var/www/JD/modules/controllers/ManageController.php:96
+2016-12-07 13:17:58 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'yue'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '11878'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481116677.995
+    'REQUEST_TIME' => 1481116677
+]
+2016-12-07 13:26:07 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\ManageController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('changeemail', Array, Object(app\modules\controllers\ManageController))
+#21 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('changeemail', Array)
+#22 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#8 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/manage/changeemail.php:26
+    in /var/www/JD/modules/controllers/ManageController.php:96
+2016-12-07 13:26:07 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'yue'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '12242'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481117167.435
+    'REQUEST_TIME' => 1481117167
+]
+2016-12-07 13:27:46 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\PublicController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#21 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#22 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/public/login.php:48
+    in /var/www/JD/modules/controllers/PublicController.php:22
+2016-12-07 13:27:46 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '12340'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481117266.152
+    'REQUEST_TIME' => 1481117266
+]
+2016-12-07 13:30:41 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\ManageController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('changeemail', Array, Object(app\modules\controllers\ManageController))
+#21 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('changeemail', Array)
+#22 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#8 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/manage/changeemail.php:26
+    in /var/www/JD/modules/controllers/ManageController.php:96
+2016-12-07 13:30:41 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'yue'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '12405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481117441.499
+    'REQUEST_TIME' => 1481117441
+]
+2016-12-07 13:30:58 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\ManageController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('changeemail', Array, Object(app\modules\controllers\ManageController))
+#21 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('changeemail', Array)
+#22 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#8 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/manage/changeemail.php:26
+    in /var/www/JD/modules/controllers/ManageController.php:96
+2016-12-07 13:30:58 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'yue'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '12413'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481117458.252
+    'REQUEST_TIME' => 1481117458
+]
+2016-12-07 13:32:21 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\ManageController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('changeemail', Array, Object(app\modules\controllers\ManageController))
+#21 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('changeemail', Array)
+#22 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/manage/changeemail.php(26): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\ManageController))
+#8 /var/www/JD/modules/controllers/ManageController.php(96): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/manage/changeemail.php:26
+    in /var/www/JD/modules/controllers/ManageController.php:96
+2016-12-07 13:32:20 [192.168.33.1][-][v7bvfhaj0msjamicqt4qfair25][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'yue'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd.com/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '12430'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481117540.757
+    'REQUEST_TIME' => 1481117540
+]
+2016-12-07 13:37:36 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\PublicController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#21 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#22 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/public/login.php:48
+    in /var/www/JD/modules/controllers/PublicController.php:22
+2016-12-07 13:37:36 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '12519'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481117856.238
+    'REQUEST_TIME' => 1481117856
+]
+2016-12-07 13:38:18 [192.168.33.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\InlineValidator::0' 
+
+in /var/www/JD/vendor/yiisoft/yii2/base/Component.php:197
+
+Stack trace:
+#0 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', 'changeemail')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\validators\InlineValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /var/www/JD/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /var/www/JD/vendor/yiisoft/yii2/validators/Validator.php(209): yii\BaseYii::createObject(Array)
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(445): yii\validators\Validator::createValidator('validatePass', Object(app\modules\models\Admin), Array, Array)
+#8 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#9 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#11 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#12 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#13 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#14 /var/www/JD/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render(NULL)
+#15 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#16 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#17 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#18 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/JD/mod...', Array)
+#19 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/JD/mod...', Array, Object(app\modules\controllers\PublicController))
+#20 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#21 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('login', Array)
+#22 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#23 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#26 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/lo...', Array)
+#27 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#29 {main}' in /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/JD/modules/views/public/login.php(48): yii\widgets\ActiveField->__toString()
+#4 /var/www/JD/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/JD/mod...')
+#5 /var/www/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#7 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\PublicController))
+#8 /var/www/JD/modules/controllers/PublicController.php(22): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#10 /var/www/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/JD/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/JD/modules/views/public/login.php:48
+    in /var/www/JD/modules/controllers/PublicController.php:22
+2016-12-07 13:38:17 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7bvfhaj0msjamicqt4qfair25'
+    '_csrf' => '42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P8vz8auguwvych--cJJk_nRPpeCcHcH_\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'myjd.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7bvfhaj0msjamicqt4qfair25; _csrf=42281873b33ee6413f9fd29f0d619f93532fc2dd99b7e8cc087531f6137e5851a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P8vz8auguwvych--cJJk_nRPpeCcHcH_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Ubuntu) Server at myjd.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Ubuntu)'
+    'SERVER_NAME' => 'myjd.com'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/vagrant/web/myjd/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/vagrant/web/myjd/web/index.php'
+    'REMOTE_PORT' => '12525'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481117897.677
+    'REQUEST_TIME' => 1481117897
+]
