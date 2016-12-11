@@ -1,18 +1,16 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2016/11/23
- * Time: 11:22
+ * Manage 控制器
+ * 管理员mail修改密码、列表管理、添加删除管理员、修改密码和邮箱等
  */
 namespace app\modules\controllers;
 
-use yii\web\Controller;
+use app\modules\controllers\CommonController;
 use app\modules\models\Admin;
 use Yii;
 use yii\data\Pagination;
 
-class ManageController extends Controller
+class ManageController extends CommonController
 {
     public function actionMailchangepass()
     {
@@ -22,6 +20,7 @@ class ManageController extends Controller
         $token= Yii::$app->request->get('token');
         $model= new Admin;
         $myToken=$model->createToken($adminuser,$time);
+        /*一样的token算法，一样的传递数值，肯定是相等的*/
         if($token!=$myToken){
             $this->redirect(['public/login']);
             Yii::$app->end();

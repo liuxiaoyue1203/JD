@@ -1,9 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2016/11/22
- * Time: 19:26
+ * Admin 模型
+ * 对应MySQL里面的shop_admin管理员数据表
  */
 namespace app\modules\models;
 use yii\db\ActiveRecord;
@@ -12,6 +10,7 @@ class Admin extends ActiveRecord
 {
     public $rememberMe=true;
     public $repass;
+    /*声明tableName用于指定表名，%代表表前缀*/
     public static function tableName()
     {
         return "{{%admin}}";
@@ -58,13 +57,15 @@ class Admin extends ActiveRecord
     {
         $this->scenario='login';
         if($this->load($data) && $this->validate()){
-            $lifetime=$this->rememberMe ? 24*3600 : 0;
+            $lifetime=$this->rememberMe ? 24*3600 : 24*3600;
             $session = Yii::$app->session;
             session_set_cookie_params($lifetime);
             $session['admin']=[
                 'adminuser'=>$this->adminuser,
                 'isLogin'=> 1,
             ];
+
+            /*$this->adminuser的值由load($data)后产生*/
             $this->updateAll(['logintime'=>time(),'loginip'=> ip2long(Yii::$app->request->userIP)],'adminuser = :user',[':user'=>$this->adminuser]);
             return (bool)$session['admin']['isLogin'];
         }
