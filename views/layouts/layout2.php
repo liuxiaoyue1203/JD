@@ -10,7 +10,7 @@
 	    <meta name="keywords" content="">
 	    <meta name="robots" content="all">
 
-	    <title>订单列表 - 慕课商城</title>
+	    <title>订单列表 - 京东商城</title>
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -78,7 +78,7 @@
         <i class="fa fa-phone"></i> (+086) 123 456 7890
     </div>
     <div class="contact inline">
-        <i class="fa fa-envelope"></i> contact@<span class="le-color">jason.com</span>
+        <i class="fa fa-envelope"></i> liuxiaoyue@<span class="le-color">jd.com</span>
     </div>
 </div><!-- /.contact-row -->
 <!-- ============================================================= SEARCH AREA ============================================================= -->

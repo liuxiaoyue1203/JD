@@ -10698,3 +10698,143 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1481445041.881
     'REQUEST_TIME' => 1481445041
 ]
+2017-02-27 12:01:34 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\modules\models\Admin::repas in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('repas')
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php(2068): yii\db\BaseActiveRecord->__get('repas')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php(1243): yii\helpers\BaseHtml::getAttributeValue(Object(app\modules\models\Admin), 'repas')
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php(1333): yii\helpers\BaseHtml::activeInput('password', Object(app\modules\models\Admin), 'repas', Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(407): yii\helpers\BaseHtml::activePasswordInput(Object(app\modules\models\Admin), 'repas', Array)
+#5 /home/ubuntu/web/JD/modules/views/manage/reg.php(29): yii\widgets\ActiveField->passwordInput(Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\modules\controllers\ManageController))
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('reg', Array, Object(app\modules\controllers\ManageController))
+#10 /home/ubuntu/web/JD/modules/controllers/ManageController.php(68): yii\base\Controller->render('reg', Array)
+#11 [internal function]: app\modules\controllers\ManageController->actionReg()
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#14 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#15 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/re...', Array)
+#16 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#18 {main}
+2017-02-27 12:01:34 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fmanage%2Fmanagers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '53378'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488196894.159
+    'REQUEST_TIME' => 1488196894
+]
+2017-02-27 12:30:56 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/user/users". in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/user...', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 12:30:56 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '53918'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488198656.932
+    'REQUEST_TIME' => 1488198656
+]

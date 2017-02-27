@@ -16,6 +16,7 @@ class Admin extends ActiveRecord
         return "{{%admin}}";
     }
 
+    // 创建属性的标签 reg/label
     public function attributeLabels()
     {
         return [
@@ -91,7 +92,7 @@ class Admin extends ActiveRecord
             $mailer=Yii::$app->mailer->compose('seekpass',['adminuser'=>$data['Admin']['adminuser'],'time'=>$time,'token'=>$token]);
             $mailer->setFrom("liuxiaoyue1203@163.com");
             $mailer->setTo($data['Admin']['adminemail']);
-            $mailer->setSubject('MyJD商城-找回密码');
+            $mailer->setSubject('京东商城-找回密码');
             if($mailer->send()){
                 return true;
             }
@@ -117,8 +118,10 @@ class Admin extends ActiveRecord
     {
         $this->scenario='adminadd';
         if($this->load($data)&&$this->validate()){
+            // load数据后，$this->adminpass 等价于 ￥data['Admin']['adminpass]
             $this->adminpass = md5($this->adminpass);
-            //还要保存创建时间
+            //还要保存创建时间 save给了false就不会验证
+            $this->createtime = time();
             if($this->save(false)){
                 return true;
             }

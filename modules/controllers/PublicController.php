@@ -14,6 +14,8 @@ class PublicController extends Controller
 {
     public function actionLogin()
     {
+        //session_start();
+        //var_dump($_SESSION);
         $this->layout= false;
         $model = new Admin;
         if(Yii::$app->request->isPost){

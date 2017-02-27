@@ -20,7 +20,7 @@ class ManageController extends CommonController
         $token= Yii::$app->request->get('token');
         $model= new Admin;
         $myToken=$model->createToken($adminuser,$time);
-        /*一样的token算法，一样的传递数值，肯定是相等的*/
+        /*一样的token算法，一样的传递数值，肯定是相等的，username是否一个该为当前登录的用户*/
         if($token!=$myToken){
             $this->redirect(['public/login']);
             Yii::$app->end();

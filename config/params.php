@@ -3,7 +3,7 @@
 return [
     'adminEmail' => 'admin@example.com',
     'pageSize' => [
-        'manage' => 10,
+        'manage' => 6,
         'user'   => 10,
         'product' => 10,
         'frontproduct' => 9,

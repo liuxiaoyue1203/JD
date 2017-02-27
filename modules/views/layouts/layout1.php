@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>慕课商城 - 后台管理</title>
+    <title>京东商城 - 后台管理</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -43,7 +43,7 @@
             <span class="icon-bar"></span>
         </button>
 
-        <a class="brand" href="index.html" style="font-weight:700;font-family:Microsoft Yahei">慕课商城 - 后台管理</a>
+        <a class="brand" href="index.html" style="font-weight:700;font-family:Microsoft Yahei">京东商城 - 后台管理</a>
 
         <ul class="nav pull-right">
             <li class="hidden-phone">

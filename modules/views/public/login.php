@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html class="login-bg">
 <head>
-	<title>慕课商城 - 后台管理</title>
+	<title>京东商城 - 后台管理</title>
     
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
@@ -44,7 +44,7 @@
         ]); ?>
         <div class="span4 box">
             <div class="content-wrap">
-                <h6>慕课商城 - 后台管理</h6>
+                <h6>京东商城 - 后台管理</h6>
                 <?php echo $form->field($model,'adminuser')->textInput(["class"=>"span12","placeholder"=>"管理员账号"]);?>
                 <?php echo $form->field($model,'adminpass')->passwordInput(["class"=>"span12","placeholder"=>"管理员密码"]);?>
                 <!--input class="span12" type="text" placeholder="管理员账号" />
