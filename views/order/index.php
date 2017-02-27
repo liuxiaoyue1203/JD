@@ -1,304 +1,6 @@
 <!-- ============================================================= HEADER : END ============================================================= -->		<div id="single-product">
     <div class="container" style="padding-top:10px">
-       <div style="margin-bottom:30px;">
-  <div class="trade-order-mainClose">
-    <div>
-      <table style="width:100%;border-collapse:collapse;border-spacing:0px;">
-        <colgroup>
-          <col style="width:38%;">
-          <col style="width:10%;">
-          <col style="width:5%;">
-          <col style="width:12%;">
-          <col style="width:12%;">
-          <col style="width:11%;">
-          <col style="width:12%;">
-        </colgroup>
-        <tbody>
-          <tr style="background-color:#F5F5F5;width:100%">
-            <td style="padding:10px 20px;text-align:left;">
-              <label>
-                <input type="checkbox" disabled="" style="margin-right:8px;">
-                <strong title="2016-02-17 15:55:26" style="margin-right:8px;font-weight:bold;">
-                  2016-02-17
-                </strong>
-              </label>
-              <span>
-                订单号：
-              </span>
-              <span>
-              </span>
-              <span>
-                1470900568890281
-              </span>
-            </td>
-            
-          </tr>
-        </tbody>
-      </table>
-      <table style="width:100%;border-collapse:collapse;border-spacing:0px;">
-        <colgroup>
-          <col style="width:38%;">
-          <col style="width:10%;">
-          <col style="width:5%;">
-          <col style="width:12%;">
-          <col style="width:12%;">
-          <col style="width:11%;">
-          <col style="width:12%;">
-        </colgroup>
-        <tbody>
-          <tr>
-            <td style="text-align:left;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;padding-left:20px;" >
-              <div style="overflow:hidden;">
-                <a class="tp-tag-a" href="" style="float:left;width:27%;margin-right:2%;text-align:center;" target="_blank">
-                  <img src="assets/images/products/product-small-01.jpg" style="border:1px solid #E8E8E8;max-width:80px;">
-                </a>
-                <div style="float:left;width:71%;word-wrap:break-word;">
-                  <div style="margin:0px;">
-                    <a class="tp-tag-a" href="" target="_blank">
-                      <span>
-                        复仇者联盟钢铁侠空调出风口香膏香水发光汽车载创意饰品香水摆件
-                      </span>
-                    </a>
-                    <span>
-                    </span>
-                  </div>
-                  <div style="margin-top:8px;margin-bottom:0;color:#9C9C9C;">
-                    <span style="margin-right:6px;">
-                      <span>
-                        颜色分类
-                      </span>
-                      <span>
-                        ：
-                      </span>
-                      <span>
-                        红银战争机器-英国
-                      </span>
-                    </span>
-                  </div>
-                  
-                  <span>
-                  </span>
-                </div>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;">
-              <div style="font-family:verdana;font-style:normal;">
-                <p>
-                  <del style="color:#9C9C9C;">
-                    198.00
-                  </del>
-                </p>
-                <p>
-                  63.00
-                </p>
-                <span>
-                </span>
-                <span>
-                </span>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;">
-              <div>
-                <div>
-                  1
-                </div>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div style="margin-bottom:3px;">
-                  <span>
-                    <span class="trade-ajax">
-                      <span class="trade-tooltip-wrap">
-                        <span>
-                          <span class="trade-operate-text">
-                            Jason
-                          </span>
-                        </span>
-                      </span>
-                      <noscript>
-                      </noscript>
-                    </span>
-                  </span>
-                </div>
-                
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div style="font-family:verdana;font-style:normal;">
-                  <span>
-                  </span>
-                  <span>
-                  </span>
-                  <p>
-                    <strong>
-                      126.00
-                    </strong>
-                  </p>
-                  <span>
-                  </span>
-                </div>
-                <p>
-                  <span>
-                    (含运费：
-                  </span>
-                  <span>
-                    0.00
-                  </span>
-                  <span>
-                  </span>
-                  <span>
-                  </span>
-                  <span>
-                    )
-                  </span>
-                </p>
-                
-                <div>
-                </div>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div style="margin-bottom:3px;">
-                  <a class="tp-tag-a" href="" target="_blank">
-                    交易成功
-                  </a>
-                </div>
-                <div>
-                  <div style="margin-bottom:3px;">
-                    <span>
-                      <a class="tp-tag-a" href="" target="_blank">
-                        <span class="trade-operate-text">
-                          查看物流
-                        </span>
-                      </a>
-                    </span>
-                  </div>
-                  
-                </div>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div style="margin-bottom:3px;">
-                  <span>
-                    <a class="tp-tag-a" href="" target="_blank">
-                      <span class="trade-operate-text">
-                        评论
-                      </span>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td style="text-align:left;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:1px;border-top-style:solid;border-top-color:#E8E8E8;padding-left:20px;" >
-              <div style="overflow:hidden;">
-                <a class="tp-tag-a" href="" style="float:left;width:27%;margin-right:2%;text-align:center;" target="_blank" >
-                  <img src="assets/images/products/product-small-01.jpg" style="border:1px solid  #E8E8E8;max-width:80px;">
-                </a>
-                <div style="float:left;width:71%;word-wrap:break-word;">
-                  <div style="margin:0px;">
-                    <a class="tp-tag-a" href="" target="_blank">
-                      <span>
-                        复仇者联盟钢铁侠空调出风口香膏香水发光汽车载创意饰品香水摆件
-                      </span>
-                    </a>
-                    
-                    <span>
-                    </span>
-                  </div>
-                  <div style="margin-top:8px;margin-bottom:0;color:#9C9C9C;">
-                    <span style="margin-right:6px;">
-                      <span>
-                        颜色分类
-                      </span>
-                      <span>
-                        ：
-                      </span>
-                      <span>
-                        黑色战争机器-海盗
-                      </span>
-                    </span>
-                  </div>
-                  
-                  <span>
-                  </span>
-                </div>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:1px;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div style="font-family:verdana;font-style:normal;">
-                <p>
-                  <del style="color:#9C9C9C;">
-                    198.00
-                  </del>
-                </p>
-                <p>
-                  63.00
-                </p>
-                <span>
-                </span>
-                <span>
-                </span>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:1px;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div>
-                  1
-                </div>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:1px;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div style="margin-bottom:3px;">
-                  <span>
-                    <span class="trade-ajax">
-                      <span class="trade-tooltip-wrap">
-                        <span>
-                          <span class="trade-operate-text">
-                            Jason
-                          </span>
-                        </span>
-                      </span>
-                      <noscript>
-                      </noscript>
-                    </span>
-                  </span>
-                </div>
-                
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:1px;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div style="margin-bottom:3px;">
-                  <span>
-                    <a class="tp-tag-a" href="" target="_blank">
-                      <span class="trade-operate-text">
-                        评论
-                      </span>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <div>
-      </div>
-    </div>
-  </div>
-</div>
-
+<?php foreach($orders as $order): ?>
 <div style="margin-bottom:30px;">
   <div class="trade-order-mainClose">
     <div>
@@ -314,11 +16,10 @@
         </colgroup>
         <tbody>
           <tr style="background-color:#F5F5F5;width:100%">
-            <td style="padding:10px 20px;text-align:left;">
+            <td style="padding:10px 20px;text-align:left;width:100%">
               <label>
-                <input type="checkbox" disabled="" style="margin-right:8px;">
-                <strong title="2016-02-17 15:55:26" style="margin-right:8px;font-weight:bold;">
-                  2016-02-17
+                <strong title="" style="margin-right:8px;font-weight:bold;">
+                    <?php echo date('Y-m-d H:i:s', $order->createtime); ?>
                 </strong>
               </label>
               <span>
@@ -327,7 +28,7 @@
               <span>
               </span>
               <span>
-                1470900568890281
+                <?php echo $order->orderid ?>
               </span>
             </td>
             
@@ -342,20 +43,21 @@
           <col style="width:12%;">
           <col style="width:12%;">
           <col style="width:11%;">
-          <col style="width:12%;">
         </colgroup>
         <tbody>
+          <?php $i = 1; ?>
+          <?php foreach($order->products as $product): ?>
           <tr>
             <td style="text-align:left;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;padding-left:20px;" >
               <div style="overflow:hidden;">
-                <a class="tp-tag-a" href="" style="float:left;width:27%;margin-right:2%;text-align:center;" target="_blank">
-                  <img src="assets/images/products/product-small-01.jpg" style="border:1px solid #E8E8E8;max-width:80px;">
+              <a class="tp-tag-a" href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $product->productid]) ?>" style="float:left;width:27%;margin-right:2%;text-align:center;" target="_blank">
+                <img src="<?php echo $product->cover ?>-picsmall" style="border:1px solid #E8E8E8;max-width:80px;">
                 </a>
                 <div style="float:left;width:71%;word-wrap:break-word;">
                   <div style="margin:0px;">
-                    <a class="tp-tag-a" href="" target="_blank">
+                  <a class="tp-tag-a" href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $product->productid]) ?>" target="_blank">
                       <span>
-                        复仇者联盟钢铁侠空调出风口香膏香水发光汽车载创意饰品香水摆件
+                        <?php echo $product->title ?>
                       </span>
                     </a>
                     <span>
@@ -364,13 +66,13 @@
                   <div style="margin-top:8px;margin-bottom:0;color:#9C9C9C;">
                     <span style="margin-right:6px;">
                       <span>
-                        颜色分类
+                        分类
                       </span>
                       <span>
                         ：
                       </span>
                       <span>
-                        红银战争机器-英国
+                        <?php echo $product->cate ?>
                       </span>
                     </span>
                   </div>
@@ -383,12 +85,7 @@
             <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;">
               <div style="font-family:verdana;font-style:normal;">
                 <p>
-                  <del style="color:#9C9C9C;">
-                    198.00
-                  </del>
-                </p>
-                <p>
-                  63.00
+                    <?php echo $product->price ?>
                 </p>
                 <span>
                 </span>
@@ -399,7 +96,7 @@
             <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;">
               <div>
                 <div>
-                  1
+                数量 <?php echo $product->num ?>
                 </div>
               </div>
             </td>
@@ -411,7 +108,7 @@
                       <span class="trade-tooltip-wrap">
                         <span>
                           <span class="trade-operate-text">
-                            Jason
+                            单位：个
                           </span>
                         </span>
                       </span>
@@ -423,6 +120,7 @@
                 
               </div>
             </td>
+            <?php if ($i == 1): ?>
             <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
               <div>
                 <div style="font-family:verdana;font-style:normal;">
@@ -432,7 +130,7 @@
                   </span>
                   <p>
                     <strong>
-                      126.00
+                        <?php echo $order->amount ?> 元
                     </strong>
                   </p>
                   <span>
@@ -443,7 +141,7 @@
                     (含运费：
                   </span>
                   <span>
-                    0.00
+                    <?php echo empty(\Yii::$app->params['expressPrice'][$order->expressid]) ? '0' : \Yii::$app->params['expressPrice'][$order->expressid] ?> 元
                   </span>
                   <span>
                   </span>
@@ -461,140 +159,48 @@
             <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
               <div>
                 <div style="margin-bottom:3px;">
-                  <a class="tp-tag-a" href="" target="_blank">
-                    交易成功
-                  </a>
+                <a class="tp-tag-a" href="<?php echo yii\helpers\Url::to(['order/check', 'orderid' => $order->orderid]) ?>">
+                    <?php echo $order->zhstatus ?>
+                </a>
                 </div>
+                <?php if ($order->status == 220): ?>
                 <div>
-                  <div style="margin-bottom:3px;">
+                  <div style="margin-bottom:3px;position:relative">
                     <span>
-                      <a class="tp-tag-a" href="" target="_blank">
+                        <a class="tp-tag-a" href="<?php echo yii\helpers\Url::to(['order/received', 'orderid' => $order->orderid]) ?>" target="_blank">
+                        <span class="trade-operate-text">
+                          确认收货
+                        </span>
+                      <div class="expressshow" style="overflow:auto;text-align:left;font-size:12px;width:200px;height:300px;position:absolute;border:1px solid #ccc;padding:15px;background-color:#eee">快递状态</div>
+                      </a>
+                    </span>
+                    <span>
+                        <a data="<?php echo $order->expressno ?>" class="tp-tag-a express" href="#" target="_blank">
                         <span class="trade-operate-text">
                           查看物流
                         </span>
+                      <div class="expressshow" style="overflow:auto;text-align:left;font-size:12px;width:200px;height:300px;position:absolute;border:1px solid #ccc;padding:15px;background-color:#eee">查询中...</div>
                       </a>
                     </span>
                   </div>
-                  
+                <?php endif; ?>
+                <?php else: ?>
+                    <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" ></td>
+                    <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" ></td>
+                <?php endif; ?>
                 </div>
               </div>
             </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div style="margin-bottom:3px;">
-                  <span>
-                    <a class="tp-tag-a" href="" target="_blank">
-                      <span class="trade-operate-text">
-                        评论
-                      </span>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td style="text-align:left;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:1px;border-top-style:solid;border-top-color:#E8E8E8;padding-left:20px;" >
-              <div style="overflow:hidden;">
-                <a class="tp-tag-a" href="" style="float:left;width:27%;margin-right:2%;text-align:center;" target="_blank" >
-                  <img src="assets/images/products/product-small-01.jpg" style="border:1px solid  #E8E8E8;max-width:80px;">
-                </a>
-                <div style="float:left;width:71%;word-wrap:break-word;">
-                  <div style="margin:0px;">
-                    <a class="tp-tag-a" href="" target="_blank">
-                      <span>
-                        复仇者联盟钢铁侠空调出风口香膏香水发光汽车载创意饰品香水摆件
-                      </span>
-                    </a>
-                    
-                    <span>
-                    </span>
-                  </div>
-                  <div style="margin-top:8px;margin-bottom:0;color:#9C9C9C;">
-                    <span style="margin-right:6px;">
-                      <span>
-                        颜色分类
-                      </span>
-                      <span>
-                        ：
-                      </span>
-                      <span>
-                        黑色战争机器-海盗
-                      </span>
-                    </span>
-                  </div>
-                  
-                  <span>
-                  </span>
-                </div>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:1px;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div style="font-family:verdana;font-style:normal;">
-                <p>
-                  <del style="color:#9C9C9C;">
-                    198.00
-                  </del>
-                </p>
-                <p>
-                  63.00
-                </p>
-                <span>
-                </span>
-                <span>
-                </span>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:1px;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div>
-                  1
-                </div>
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:1px;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div style="margin-bottom:3px;">
-                  <span>
-                    <span class="trade-ajax">
-                      <span class="trade-tooltip-wrap">
-                        <span>
-                          <span class="trade-operate-text">
-                            Jason
-                          </span>
-                        </span>
-                      </span>
-                      <noscript>
-                      </noscript>
-                    </span>
-                  </span>
-                </div>
-                
-              </div>
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:1px;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;" >
-            </td>
-            <td style="text-align:center;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:1px;border-top-style:solid;border-top-color:#E8E8E8;" >
-              <div>
-                <div style="margin-bottom:3px;">
-                  <span>
-                    <a class="tp-tag-a" href="" target="_blank">
-                      <span class="trade-operate-text">
-                        评论
-                      </span>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </td>
-          </tr>
-        </tbody>
+         </tr>
+        <?php $i++; ?>
+        <?php endforeach; ?>
+       </tbody>
       </table>
       <div>
       </div>
     </div>
   </div>
 </div>
-    </div>
+<?php endforeach; ?>
+</div>
+

@@ -194,7 +194,7 @@
             </a>
             <ul class="submenu">
                 <li><a href="<?php echo yii\helpers\Url::to(['user/users']);?>">用户列表</a></li>
-                <li><a href="<?php echo yii\helpers\Url::to(['user/reg ']);?>">加入新用户</a></li>//S
+                <li><a href="<?php echo yii\helpers\Url::to(['user/reg']);?>">加入新用户</a></li>
             </ul>
         </li>
         <li>

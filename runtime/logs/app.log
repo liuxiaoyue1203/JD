@@ -10838,3 +10838,3352 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1488198656.932
     'REQUEST_TIME' => 1488198656
 ]
+2017-02-27 14:28:02 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in /home/ubuntu/web/JD/modules/controllers/ManageController.php:94
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ManageController.php(94): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', '/home/ubuntu/we...', 94, Array)
+#1 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-27 14:28:02 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fmanage%2Fchangepass'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '55636'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488205682.849
+    'REQUEST_TIME' => 1488205682
+]
+2017-02-27 14:28:05 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in /home/ubuntu/web/JD/modules/controllers/ManageController.php:94
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ManageController.php(94): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', '/home/ubuntu/we...', 94, Array)
+#1 [internal function]: app\modules\controllers\ManageController->actionChangeemail()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('changeemail', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ch...', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-27 14:28:05 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/manage/changeemail'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fmanage%2Fchangepass'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '55638'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fchangeemail'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fchangeemail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488205685.241
+    'REQUEST_TIME' => 1488205685
+]
+2017-02-27 14:34:10 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][Error] Error: Class 'app\models\Profile' not found in /home/ubuntu/web/JD/models/User.php:76
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1143): app\models\User->getProfile()
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(520): yii\db\BaseActiveRecord->getRelation('profile')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(435): yii\db\ActiveQuery->joinWithRelations(Object(app\models\User), Array, 'LEFT JOIN')
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/QueryBuilder.php(90): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Query.php(386): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#9 /home/ubuntu/web/JD/modules/controllers/UserController.php(16): yii\db\Query->count()
+#10 [internal function]: app\modules\controllers\UserController->actionUsers()
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('users', Array)
+#14 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/user...', Array)
+#15 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2017-02-27 14:34:10 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '55700'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488206050.089
+    'REQUEST_TIME' => 1488206050
+]
+2017-02-27 14:34:10 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2017-02-27 14:34:10 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '55700'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488206050.089
+    'REQUEST_TIME' => 1488206050
+]
+2017-02-27 14:34:14 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][Error] Error: Class 'app\models\Profile' not found in /home/ubuntu/web/JD/models/User.php:76
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1143): app\models\User->getProfile()
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(520): yii\db\BaseActiveRecord->getRelation('profile')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(435): yii\db\ActiveQuery->joinWithRelations(Object(app\models\User), Array, 'LEFT JOIN')
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/QueryBuilder.php(90): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Query.php(386): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#9 /home/ubuntu/web/JD/modules/controllers/UserController.php(16): yii\db\Query->count()
+#10 [internal function]: app\modules\controllers\UserController->actionUsers()
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('users', Array)
+#14 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/user...', Array)
+#15 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2017-02-27 14:34:14 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '55704'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488206054.737
+    'REQUEST_TIME' => 1488206054
+]
+2017-02-27 14:34:14 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2017-02-27 14:34:14 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '55704'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488206054.737
+    'REQUEST_TIME' => 1488206054
+]
+2017-02-27 14:34:57 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/user/reg  in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg ', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/reg ', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 14:34:57 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/user/reg '
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fuser%2Fusers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '55716'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Freg+'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Freg+'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488206097.524
+    'REQUEST_TIME' => 1488206097
+]
+2017-02-27 14:35:54 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/user/reg  in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg ', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/reg ', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 14:35:54 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/user/reg '
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fuser%2Fusers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '55740'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Freg+'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Freg+'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488206154.908
+    'REQUEST_TIME' => 1488206154
+]
+2017-02-27 14:36:42 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/user/reg  in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg ', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/reg ', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 14:36:42 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'admin/user/reg '
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fuser%2Fusers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '55760'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Freg+'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Freg+'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488206202.896
+    'REQUEST_TIME' => 1488206202
+]
+2017-02-27 14:52:56 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: member/reg in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('member/reg', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 14:52:56 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56062'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207176.139
+    'REQUEST_TIME' => 1488207176
+]
+2017-02-27 14:53:17 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: member/reg in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('member/reg', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 14:53:17 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56078'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207197.705
+    'REQUEST_TIME' => 1488207197
+]
+2017-02-27 14:54:26 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: member/reg in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('member/reg', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 14:54:26 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56114'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member/reg'
+    'REQUEST_URI' => '/index.php?r=member/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207266.925
+    'REQUEST_TIME' => 1488207266
+]
+2017-02-27 14:59:01 [127.0.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Class 'app\controllers\CommonController' not found in /home/ubuntu/web/JD/controllers/MemberController.php:7
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-27 14:59:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'member/auth'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56238'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member%2Fauth'
+    'REQUEST_URI' => '/index.php?r=member%2Fauth'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207541.299
+    'REQUEST_TIME' => 1488207541
+]
+2017-02-27 14:59:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Class 'app\controllers\CommonController' not found in /home/ubuntu/web/JD/controllers/MemberController.php:7
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-27 14:59:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56240'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207547.268
+    'REQUEST_TIME' => 1488207547
+]
+2017-02-27 14:59:45 [127.0.0.1][-][-][error][Error] Error: Class 'app\models\Category' not found in /home/ubuntu/web/JD/controllers/CommonController.php:15
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Object.php(107): app\controllers\CommonController->init()
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(84): yii\base\Object->__construct(Array)
+#2 [internal function]: yii\base\Controller->__construct('member', Object(yii\web\Application), Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('app\\controllers...', Array, Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/BaseYii.php(340): yii\di\Container->get('app\\controllers...', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(567): yii\BaseYii::createObject('app\\controllers...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(520): yii\base\Module->createControllerByID('member')
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(448): yii\base\Module->createController('reg')
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('member/reg', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2017-02-27 14:59:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56258'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207585.594
+    'REQUEST_TIME' => 1488207585
+]
+2017-02-27 14:59:45 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2017-02-27 14:59:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56258'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207585.594
+    'REQUEST_TIME' => 1488207585
+]
+2017-02-27 15:00:23 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][Error] Error: Class 'app\models\Product' not found in /home/ubuntu/web/JD/controllers/CommonController.php:39
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Object.php(107): app\controllers\CommonController->init()
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(84): yii\base\Object->__construct(Array)
+#2 [internal function]: yii\base\Controller->__construct('member', Object(yii\web\Application), Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('app\\controllers...', Array, Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/BaseYii.php(340): yii\di\Container->get('app\\controllers...', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(567): yii\BaseYii::createObject('app\\controllers...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(520): yii\base\Module->createControllerByID('member')
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(448): yii\base\Module->createController('reg')
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('member/reg', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2017-02-27 15:00:23 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56280'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207623.407
+    'REQUEST_TIME' => 1488207623
+]
+2017-02-27 15:00:23 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2017-02-27 15:00:23 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56280'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207623.407
+    'REQUEST_TIME' => 1488207623
+]
+2017-02-27 15:02:31 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: cart in /home/ubuntu/web/JD/views/layouts/layout1.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(127): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/home/ubuntu/we...', 127, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(14): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:02:31 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56350'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207751.795
+    'REQUEST_TIME' => 1488207751
+]
+2017-02-27 15:02:48 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: cart in /home/ubuntu/web/JD/views/layouts/layout1.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(127): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/home/ubuntu/we...', 127, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(14): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:02:48 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56362'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207768.684
+    'REQUEST_TIME' => 1488207768
+]
+2017-02-27 15:02:52 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: cart in /home/ubuntu/web/JD/views/layouts/layout1.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(127): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/home/ubuntu/we...', 127, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(14): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:02:52 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56364'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207772.72
+    'REQUEST_TIME' => 1488207772
+]
+2017-02-27 15:02:53 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: cart in /home/ubuntu/web/JD/views/layouts/layout1.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(127): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/home/ubuntu/we...', 127, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(14): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:02:53 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56366'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488207773.273
+    'REQUEST_TIME' => 1488207773
+]
+2017-02-27 15:06:44 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: -1 in /home/ubuntu/web/JD/views/index/index.php:329
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(329): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/ubuntu/we...', 329, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:06:44 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56416'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208004.316
+    'REQUEST_TIME' => 1488208004
+]
+2017-02-27 15:06:45 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: -1 in /home/ubuntu/web/JD/views/index/index.php:329
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(329): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/ubuntu/we...', 329, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:06:45 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56418'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208005.233
+    'REQUEST_TIME' => 1488208005
+]
+2017-02-27 15:06:45 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: -1 in /home/ubuntu/web/JD/views/index/index.php:329
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(329): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/ubuntu/we...', 329, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:06:45 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56420'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208005.441
+    'REQUEST_TIME' => 1488208005
+]
+2017-02-27 15:06:45 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: -1 in /home/ubuntu/web/JD/views/index/index.php:329
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(329): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/ubuntu/we...', 329, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:06:45 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56422'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208005.62
+    'REQUEST_TIME' => 1488208005
+]
+2017-02-27 15:06:45 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: -1 in /home/ubuntu/web/JD/views/index/index.php:329
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(329): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/ubuntu/we...', 329, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:06:45 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208005.816
+    'REQUEST_TIME' => 1488208005
+]
+2017-02-27 15:06:46 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: -1 in /home/ubuntu/web/JD/views/index/index.php:329
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(329): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/ubuntu/we...', 329, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:06:46 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56426'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208006.005
+    'REQUEST_TIME' => 1488208006
+]
+2017-02-27 15:06:46 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: -1 in /home/ubuntu/web/JD/views/index/index.php:329
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(329): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/ubuntu/we...', 329, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:06:46 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56428'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208006.179
+    'REQUEST_TIME' => 1488208006
+]
+2017-02-27 15:06:46 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: -1 in /home/ubuntu/web/JD/views/index/index.php:329
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(329): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/ubuntu/we...', 329, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:06:46 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56430'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208006.36
+    'REQUEST_TIME' => 1488208006
+]
+2017-02-27 15:08:27 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:332
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(332): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 332, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:08:27 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56454'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208107.149
+    'REQUEST_TIME' => 1488208107
+]
+2017-02-27 15:08:54 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:332
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(332): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 332, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:08:54 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56458'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208134.859
+    'REQUEST_TIME' => 1488208134
+]
+2017-02-27 15:09:32 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:333
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(333): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 333, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:09:32 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56470'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208172.09
+    'REQUEST_TIME' => 1488208172
+]
+2017-02-27 15:09:52 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:333
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(333): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 333, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:09:52 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56476'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208192.383
+    'REQUEST_TIME' => 1488208192
+]
+2017-02-27 15:10:02 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:333
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(333): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 333, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:10:02 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56484'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208202.757
+    'REQUEST_TIME' => 1488208202
+]
+2017-02-27 15:12:10 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:336
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(336): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 336, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:12:10 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56504'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208330.321
+    'REQUEST_TIME' => 1488208330
+]
+2017-02-27 15:12:22 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][ParseError] ParseError: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file in /home/ubuntu/web/JD/views/index/index.php:342
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#3 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#4 [internal function]: app\controllers\IndexController->actionIndex()
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2017-02-27 15:12:22 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56508'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208342.211
+    'REQUEST_TIME' => 1488208342
+]
+2017-02-27 15:12:22 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(ParseError))
+#6 {main}
+2017-02-27 15:12:22 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56508'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208342.211
+    'REQUEST_TIME' => 1488208342
+]
+2017-02-27 15:12:30 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: key in /home/ubuntu/web/JD/views/index/index.php:337
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(337): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 337, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:12:30 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56510'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208350.757
+    'REQUEST_TIME' => 1488208350
+]
+2017-02-27 15:12:40 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:338
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(338): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 338, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:12:40 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56518'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208360.48
+    'REQUEST_TIME' => 1488208360
+]
+2017-02-27 15:12:52 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:338
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(338): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 338, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:12:52 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56524'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208372.565
+    'REQUEST_TIME' => 1488208372
+]
+2017-02-27 15:13:08 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:347
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(347): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 347, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:13:08 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56534'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208388.631
+    'REQUEST_TIME' => 1488208388
+]
+2017-02-27 15:13:28 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:347
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(347): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 347, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:13:28 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56544'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208408.073
+    'REQUEST_TIME' => 1488208408
+]
+2017-02-27 15:13:44 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: last in /home/ubuntu/web/JD/views/index/index.php:347
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(347): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/ubuntu/we...', 347, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(325): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 15:13:44 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=member%2Fauth'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56550'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208424.326
+    'REQUEST_TIME' => 1488208424
+]
+2017-02-27 15:18:41 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\InvalidParamException] yii\base\InvalidParamException: The view file does not exist: /home/ubuntu/web/JD/mail/createuser.php in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(yii\swiftmailer\Mailer))
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/mail/BaseMailer.php(299): yii\base\View->render('createuser', Array, Object(yii\swiftmailer\Mailer))
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/mail/BaseMailer.php(192): yii\mail\BaseMailer->render('createuser', Array, 'layouts/html')
+#3 /home/ubuntu/web/JD/models/User.php(100): yii\mail\BaseMailer->compose('createuser', Array)
+#4 /home/ubuntu/web/JD/controllers/MemberController.php(44): app\models\User->regByMail(Array)
+#5 [internal function]: app\controllers\MemberController->actionReg()
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('member/reg', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2017-02-27 15:18:41 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_POST = [
+    '_csrf' => 'SndQSDRhNnEhGmYqeC9YIhtHYwB3AloEOhkPEWc7UBIOMAIcX1NwOg=='
+    'User' => [
+        'useremail' => '1360604970@qq.com'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=index%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56620'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208721.976
+    'REQUEST_TIME' => 1488208721
+]
+2017-02-27 15:19:06 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][yii\base\InvalidParamException] yii\base\InvalidParamException: The view file does not exist: /home/ubuntu/web/JD/mail/createuser.php in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(yii\swiftmailer\Mailer))
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/mail/BaseMailer.php(299): yii\base\View->render('createuser', Array, Object(yii\swiftmailer\Mailer))
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/mail/BaseMailer.php(192): yii\mail\BaseMailer->render('createuser', Array, 'layouts/html')
+#3 /home/ubuntu/web/JD/models/User.php(100): yii\mail\BaseMailer->compose('createuser', Array)
+#4 /home/ubuntu/web/JD/controllers/MemberController.php(44): app\models\User->regByMail(Array)
+#5 [internal function]: app\controllers\MemberController->actionReg()
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('member/reg', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2017-02-27 15:19:06 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_POST = [
+    '_csrf' => 'MWpqakdmYlRaB1wICygMB2BaWSIEBQ4hQQQ1MxQ8BDd1LTg.LFQkHw=='
+    'User' => [
+        'useremail' => '1360604970@qq.com'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=index%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56640'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208746.776
+    'REQUEST_TIME' => 1488208746
+]
+2017-02-27 15:19:38 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][Swift_TransportException] Swift_TransportException: Expected response code 250 but got code "553", with message "553 Mail from must equal authorized user
+" in /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('553 Mail from m...', Array)
+#1 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<imoo...', Array, Array)
+#2 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(348): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<imoo...', Array)
+#3 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('imooc_shop@163....')
+#4 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(443): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'imooc_shop@163....', Array, '<span class="st...')
+#5 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'imooc_shop@163....', Array, '<span class="st...')
+#6 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(85): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), '<span class="st...')
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2-swiftmailer/Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/mail/BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/mail/BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /home/ubuntu/web/JD/models/User.php(104): yii\mail\BaseMessage->send()
+#11 /home/ubuntu/web/JD/controllers/MemberController.php(44): app\models\User->regByMail(Array)
+#12 [internal function]: app\controllers\MemberController->actionReg()
+#13 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#16 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('member/reg', Array)
+#17 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#19 {main}
+2017-02-27 15:19:37 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_POST = [
+    '_csrf' => 'MWpqakdmYlRaB1wICygMB2BaWSIEBQ4hQQQ1MxQ8BDd1LTg.LFQkHw=='
+    'User' => [
+        'useremail' => '1360604970@qq.com'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=index%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56652'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208777.264
+    'REQUEST_TIME' => 1488208777
+]
+2017-02-27 15:20:04 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][Swift_TransportException] Swift_TransportException: Expected response code 250 but got code "553", with message "553 Mail from must equal authorized user
+" in /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('553 Mail from m...', Array)
+#1 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<imoo...', Array, Array)
+#2 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(348): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<imoo...', Array)
+#3 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('imooc_shop@163....')
+#4 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(443): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'imooc_shop@163....', Array, '<span class="st...')
+#5 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'imooc_shop@163....', Array, '<span class="st...')
+#6 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(85): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), '<span class="st...')
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2-swiftmailer/Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/mail/BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/mail/BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /home/ubuntu/web/JD/models/User.php(104): yii\mail\BaseMessage->send()
+#11 /home/ubuntu/web/JD/controllers/MemberController.php(44): app\models\User->regByMail(Array)
+#12 [internal function]: app\controllers\MemberController->actionReg()
+#13 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#16 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('member/reg', Array)
+#17 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#19 {main}
+2017-02-27 15:20:03 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_POST = [
+    '_csrf' => 'SDhrQzFRYW4jVV0hfR8PPRkIWAtyMg0bOFY0GmILBw0MfzkXWmMnJQ=='
+    'User' => [
+        'useremail' => '1360604970@qq.com'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=index%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56684'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488208803.768
+    'REQUEST_TIME' => 1488208803
+]
+2017-02-27 15:27:28 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][error][Swift_TransportException] Swift_TransportException: Expected response code 250 but got code "553", with message "553 Mail from must equal authorized user
+" in /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('553 Mail from m...', Array)
+#1 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<imoo...', Array, Array)
+#2 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(348): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<imoo...', Array)
+#3 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('imooc_shop@163....')
+#4 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(443): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'imooc_shop@163....', Array, '<span class="st...')
+#5 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'imooc_shop@163....', Array, '<span class="st...')
+#6 /home/ubuntu/web/JD/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(85): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), '<span class="st...')
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2-swiftmailer/Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/mail/BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/mail/BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /home/ubuntu/web/JD/models/User.php(104): yii\mail\BaseMessage->send()
+#11 /home/ubuntu/web/JD/controllers/MemberController.php(44): app\models\User->regByMail(Array)
+#12 [internal function]: app\controllers\MemberController->actionReg()
+#13 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#16 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('member/reg', Array)
+#17 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#19 {main}
+2017-02-27 15:27:28 [127.0.0.1][-][0jq3l47bmnf65kjjdlr8b2iiu5][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_POST = [
+    '_csrf' => 'bEZncVBjZUEHK1ETHC0LEj12VDkTAAk0HCg4KAM5AyIoATUlO1EjCg=='
+    'User' => [
+        'useremail' => '1360604970@qq.com'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0jq3l47bmnf65kjjdlr8b2iiu5'
+    '_csrf' => 'b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"km6bLNnSQ03HCclupn_YSZfcDGRTk2FK\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+    'referrer' => 'http://localhost/index.php?r=index%2Findex'
+    'QC_userData' => [
+        'state' => '2120140be30856d945e0bc5926fb8f24'
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=0jq3l47bmnf65kjjdlr8b2iiu5; _csrf=b75f93cd2f95b3934ffd212bb27404f82058f12d5d2b50219b0363f606f398e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22km6bLNnSQ03HCclupn_YSZfcDGRTk2FK%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '56784'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488209248.476
+    'REQUEST_TIME' => 1488209248
+]
