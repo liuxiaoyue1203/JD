@@ -64,9 +64,11 @@ class MemberController extends CommonController
         $openid = $auth->get_openid();
         $qc = new \QC($accessToken, $openid);
         $userinfo = $qc->get_user_info();
+        //var_dump($userinfo);exit;
         $session = Yii::$app->session;
         $session['userinfo'] = $userinfo;
         $session['openid'] = $openid;
+        // 判断openid是否存在与User表中
         if ($model = User::find()->where('openid = :openid', [':openid' => $openid])->one()) {
             $session['loginname'] = $model->username;
             $session['isLogin'] = 1;
@@ -77,7 +79,7 @@ class MemberController extends CommonController
 
     public function actionQqreg()
     {
-        $this->layout = "layout2";
+        $this->layout = "bing";
         $model = new User;
         if (Yii::$app->request->isPost) {
             $post = Yii::$app->request->post();
@@ -85,6 +87,7 @@ class MemberController extends CommonController
             $post['User']['openid'] = $session['openid'];
             if ($model->reg($post, 'qqreg')) {
                 $session['loginname'] = $post['User']['username'];
+                //$session['loginname'] = $session['userinfo']['nickname'];
                 $session['isLogin'] = 1;
                 return $this->redirect(['index/index']);
             }

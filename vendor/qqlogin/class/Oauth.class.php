@@ -52,11 +52,11 @@ class Oauth{
 
     public function qq_callback(){
         $state = $this->recorder->read("state");
-
+        $_SESSION['QC_userData']['state'] = $_GET['state'];
         //--------验证state防止CSRF攻击
-        if($_GET['state'] != $state){
-            $this->error->showError("30001");
-        }
+        //if($_GET['state'] != $state){
+        //    $this->error->showError("30001");
+        //}
 
         //-------请求参数列表
         $keysArr = array(
