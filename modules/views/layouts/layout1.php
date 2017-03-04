@@ -164,7 +164,7 @@
                 <div class="arrow"></div>
                 <div class="arrow_border"></div>
             </div>
-            <a href="index.html">
+            <a href="<?php echo yii\helpers\Url::to(['default/index']) ?>">
                 <i class="icon-home"></i>
                 <span>后台首页</span>
             </a>
@@ -206,6 +206,27 @@
             <ul class="submenu">
                 <li><a href="<?php echo yii\helpers\Url::to(['category/list']); ?>">分类列表</a></li>
                 <li><a href="<?php echo yii\helpers\Url::to(['category/add']); ?>">加入分类</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="dropdown-toggle" href="#">
+                <i class="icon-glass"></i>
+                <span>商品管理</span>
+                <i class="icon-chevron-down"></i>
+            </a>
+            <ul class="submenu">
+                <li><a href="<?php echo yii\helpers\Url::to(['product/list']); ?>">商品列表</a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['product/add']); ?>">添加商品</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="dropdown-toggle" href="#">
+                <i class="icon-edit"></i>
+                <span>订单管理</span>
+                <i class="icon-chevron-down"></i>
+            </a>
+            <ul class="submenu">
+                <li><a href="<?php echo yii\helpers\Url::to(['order/list']); ?>">订单列表</a></li>
             </ul>
         </li>
         <li>
@@ -262,7 +283,8 @@
 <script src="assets/admin/js/jquery.flot.stack.js"></script>
 <script src="assets/admin/js/jquery.flot.resize.js"></script>
 <script src="assets/admin/js/theme.js"></script>
-
+<script src="assets/admin/js/wysihtml5-0.3.0.js"></script>
+<script src="assets/admin/js/bootstrap-wysihtml5-0.0.2.js"></script>
 <script type="text/javascript">
     $(function () {
 
@@ -374,6 +396,14 @@
                 previousPoint = null;
             }
         });
+    });
+    //$(".wysihtml5").wysihtml5({
+    //    "font-styles": false
+    //});
+    $("#addpic").click(function(){
+        var pic = $("#product-pics").clone();
+        pic.attr("style", "margin-left:120px");
+        $("#product-pics").parent().append(pic);
     });
 </script>
 

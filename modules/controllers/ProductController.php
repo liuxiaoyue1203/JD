@@ -32,6 +32,7 @@ class ProductController extends CommonController
         
         if (Yii::$app->request->isPost) {
             $post = Yii::$app->request->post();
+            //var_dump($_FILES);exit;
             $pics = $this->upload();
             if (!$pics) {
                 $model->addError('cover', '封面不能为空');

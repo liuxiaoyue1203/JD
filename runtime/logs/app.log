@@ -1004,3 +1004,3897 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1488597159.256
     'REQUEST_TIME' => 1488597159
 ]
+2017-03-04 08:41:41 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 08:41:41 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/manage/reg'
+]
+
+$_POST = [
+    '_csrf' => 'cF9tTzlMaEchOAl8Vx8rHx4uGyZrPxsmOm4GG30ZMBhEOUA4ah5cBQ=='
+    'Admin' => [
+        'adminuser' => '123'
+        'adminemail' => '123@qq.com'
+        'adminpass' => '123'
+        'repass' => '123'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '173'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '54384'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Freg'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488616901.307
+    'REQUEST_TIME' => 1488616901
+]
+2017-03-04 08:57:08 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\InvalidParamException] yii\base\InvalidParamException: The view file does not exist: /home/ubuntu/web/JD/modules/views/product/products.php in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\modules\controllers\ProductController))
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('products', Array, Object(app\modules\controllers\ProductController))
+#2 /home/ubuntu/web/JD/modules/controllers/ProductController.php(22): yii\base\Controller->render('products', Array)
+#3 [internal function]: app\modules\controllers\ProductController->actionList()
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/product/l...', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-04 08:57:08 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fmanage%2Freg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '54852'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488617828.612
+    'REQUEST_TIME' => 1488617828
+]
+2017-03-04 08:58:33 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\InvalidParamException] yii\base\InvalidParamException: The view file does not exist: /home/ubuntu/web/JD/modules/views/product/products.php in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\modules\controllers\ProductController))
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('products', Array, Object(app\modules\controllers\ProductController))
+#2 /home/ubuntu/web/JD/modules/controllers/ProductController.php(22): yii\base\Controller->render('products', Array)
+#3 [internal function]: app\modules\controllers\ProductController->actionList()
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/product/l...', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-04 08:58:33 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '54882'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488617913.88
+    'REQUEST_TIME' => 1488617913
+]
+2017-03-04 08:58:37 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\InvalidParamException] yii\base\InvalidParamException: The view file does not exist: /home/ubuntu/web/JD/modules/views/product/add.php in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\modules\controllers\ProductController))
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('add', Array, Object(app\modules\controllers\ProductController))
+#2 /home/ubuntu/web/JD/modules/controllers/ProductController.php(50): yii\base\Controller->render('add', Array)
+#3 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('add', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/product/a...', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-04 08:58:37 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '54884'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488617917.03
+    'REQUEST_TIME' => 1488617917
+]
+2017-03-04 14:07:00 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][Error] Error: Class 'crazyfd\qiniu\Qiniu' not found in /home/ubuntu/web/JD/modules/controllers/ProductController.php:58
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#1 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('add', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/product/a...', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-04 14:07:00 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'Qlh5dXdvUjR3KgEBTycrTDQREUA6AxxgKBoJBRMBBmQwOyg7QxYrUg=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => ''
+        'descr' => ''
+        'price' => ''
+        'ishot' => ''
+        'issale' => ''
+        'saleprice' => ''
+        'num' => ''
+        'ison' => ''
+        'istui' => ''
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpNelNTb'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '90326'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryzug6lkS2IRkLtLP6'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '36106'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488636420.555
+    'REQUEST_TIME' => 1488636420
+]
+2017-03-04 14:07:00 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2017-03-04 14:07:00 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'Qlh5dXdvUjR3KgEBTycrTDQREUA6AxxgKBoJBRMBBmQwOyg7QxYrUg=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => ''
+        'descr' => ''
+        'price' => ''
+        'ishot' => ''
+        'issale' => ''
+        'saleprice' => ''
+        'num' => ''
+        'ison' => ''
+        'istui' => ''
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpNelNTb'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '90326'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryzug6lkS2IRkLtLP6'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '36106'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488636420.555
+    'REQUEST_TIME' => 1488636420
+]
+2017-03-04 14:09:00 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][Error] Error: Class 'crazyfd\qiniu\Qiniu' not found in /home/ubuntu/web/JD/modules/controllers/ProductController.php:58
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#1 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('add', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/product/a...', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-04 14:09:00 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'cWVzSXRPQU9EFws9TAc4NwcsG3w5Iw8bGycDORAhFR8DBiIHQDY4KQ=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => ''
+        'descr' => ''
+        'price' => ''
+        'ishot' => ''
+        'issale' => ''
+        'saleprice' => ''
+        'num' => ''
+        'ison' => ''
+        'istui' => ''
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpJqIN9e'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '90326'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryJAfnECtjyP0sAoTh'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '36180'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488636540.409
+    'REQUEST_TIME' => 1488636540
+]
+2017-03-04 14:09:00 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2017-03-04 14:09:00 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'cWVzSXRPQU9EFws9TAc4NwcsG3w5Iw8bGycDORAhFR8DBiIHQDY4KQ=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => ''
+        'descr' => ''
+        'price' => ''
+        'ishot' => ''
+        'issale' => ''
+        'saleprice' => ''
+        'num' => ''
+        'ison' => ''
+        'istui' => ''
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpJqIN9e'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '90326'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryJAfnECtjyP0sAoTh'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '36180'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488636540.409
+    'REQUEST_TIME' => 1488636540
+]
+2017-03-04 14:33:38 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\web\HttpException:400] yii\web\HttpException: incorrect region, please use up-z1.qiniu.com in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:77
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(60): crazyfd\qiniu\Qiniu->uploadFile('/tmp/phpeodl3u', '58bad0415b135')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#2 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 14:33:37 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'NmR0QWdVUkkDFgw1Xx0rMUAtHHQqORwdXCYEMQM7BhlEByUPUywrLw=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => ''
+        'descr' => ''
+        'price' => ''
+        'ishot' => ''
+        'issale' => ''
+        'saleprice' => ''
+        'num' => ''
+        'ison' => ''
+        'istui' => ''
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpeodl3u'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '90326'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarySK05azk2JPuU1JqV'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '39548'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488638017.315
+    'REQUEST_TIME' => 1488638017
+]
+2017-03-04 14:33:50 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\web\HttpException:400] yii\web\HttpException: incorrect region, please use up-z1.qiniu.com in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:77
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(60): crazyfd\qiniu\Qiniu->uploadFile('/tmp/phpjivZV0', '58bad04d7f20d')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#2 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 14:33:49 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'LVQ4djhraE8YJkACACMRN1sdUEN1ByYbRxZIBlwFPB9fN2k4DBIRKQ=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => ''
+        'descr' => ''
+        'price' => ''
+        'ishot' => ''
+        'issale' => ''
+        'saleprice' => ''
+        'num' => ''
+        'ison' => ''
+        'istui' => ''
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpjivZV0'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '90326'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryiETMB4Zka0CcMK37'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '39578'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488638029.515
+    'REQUEST_TIME' => 1488638029
+]
+2017-03-04 14:34:01 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\web\HttpException:400] yii\web\HttpException: incorrect region, please use up-z1.qiniu.com in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:77
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(60): crazyfd\qiniu\Qiniu->uploadFile('/tmp/php0lkDPX', '58bad0592d665')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#2 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 14:34:01 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'azIxcThwRjZeQEkFADg/Th17WUR1HAhiAXBBAVweEmYZUWA/DAk/UA=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => ''
+        'descr' => ''
+        'price' => ''
+        'ishot' => ''
+        'issale' => ''
+        'saleprice' => ''
+        'num' => ''
+        'ison' => ''
+        'istui' => ''
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/php0lkDPX'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '90326'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryayQF5tU5XwoCk7ri'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '39602'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488638041.18
+    'REQUEST_TIME' => 1488638041
+]
+2017-03-04 15:05:04 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\web\HttpException:400] yii\web\HttpException: incorrect region, please use up-z2.qiniu.com in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:77
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(60): crazyfd\qiniu\Qiniu->uploadFile('/tmp/phpEW1MaD', '58bad7a012a5c')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#2 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:05:04 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'ZVQzeXJqc2JQJksNSiIKGhMdW0w/Bj02DxZDCRYEJzIXN2I3RhMKBA=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => ''
+        'descr' => ''
+        'price' => ''
+        'ishot' => ''
+        'issale' => ''
+        'saleprice' => ''
+        'num' => ''
+        'ison' => ''
+        'istui' => ''
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => 'favicon.ico'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/vnd.microsoft.icon'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpEW1MaD'
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 25214
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '26943'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryxNDfkf0L2ikycdCs'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42326'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488639904.067
+    'REQUEST_TIME' => 1488639904
+]
+2017-03-04 15:05:13 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: /home/ubuntu/web/JD/modules/views/order/list.php in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\modules\controllers\OrderController))
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('list', Array, Object(app\modules\controllers\OrderController))
+#2 /home/ubuntu/web/JD/modules/controllers/OrderController.php(25): yii\base\Controller->render('list', Array)
+#3 [internal function]: app\modules\controllers\OrderController->actionList()
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('list', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/order/lis...', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-04 15:05:13 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/order/list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42340'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Forder%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Forder%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488639913.816
+    'REQUEST_TIME' => 1488639913
+]
+2017-03-04 15:09:09 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\web\HttpException:400] yii\web\HttpException: incorrect region, please use up-z2.qiniu.com in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:77
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(60): crazyfd\qiniu\Qiniu->uploadFile('/tmp/phpkX9gnl', '58bad894917b2')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#2 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:09:08 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'VGx5enN1MFlhHgEOSz1JISIlEU8.GX4NPi4JChcbZAkmDyg0RwxJPw=='
+    'Product' => [
+        'cateid' => '4'
+        'title' => '牛仔裤'
+        'descr' => '牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤'
+        'price' => '100'
+        'ishot' => '0'
+        'issale' => '1'
+        'saleprice' => '99.9'
+        'num' => '567'
+        'ison' => '1'
+        'istui' => '1'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => '213_201277_678688.jpg'
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpkX9gnl'
+            'pics' => [
+                0 => '/tmp/phpSxlG6D'
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 125315
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '216228'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryF86Fc6lG9H9eAhX7'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42494'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488640148.588
+    'REQUEST_TIME' => 1488640148
+]
+2017-03-04 15:11:24 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\web\HttpException:400] yii\web\HttpException: incorrect region, please use up-z1.qiniu.com in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:77
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(60): crazyfd\qiniu\Qiniu->uploadFile('/tmp/phpEjjNCY', '58bad91c0f8fb')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#2 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:11:24 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'Zlo0X2tBaGFTKEwrUwkRGRATXGomLSY1DBhELw8vPDEUOWURXzgRBw=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => '牛仔裤'
+        'descr' => '牛仔裤牛仔裤牛仔裤'
+        'price' => '123'
+        'ishot' => '1'
+        'issale' => '1'
+        'saleprice' => '120'
+        'num' => ''
+        'ison' => '1'
+        'istui' => '1'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => '213_201277_678688.jpg'
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpEjjNCY'
+            'pics' => [
+                0 => '/tmp/phpAuVZpZ'
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 125315
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '216098'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary7XTHjIUu7uBeb6A3'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42580'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488640284.057
+    'REQUEST_TIME' => 1488640284
+]
+2017-03-04 15:11:34 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num' cannot be null in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%product}}', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/ubuntu/web/JD/models/Product.php(60): yii\db\BaseActiveRecord->save()
+#6 /home/ubuntu/web/JD/modules/controllers/ProductController.php(42): app\models\Product->add(Array)
+#7 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num' cannot be null
+The SQL being executed was: INSERT INTO `shop_product` (`cateid`, `title`, `descr`, `price`, `ishot`, `issale`, `saleprice`, `num`, `istui`, `cover`, `pics`) VALUES ('1', '牛仔裤', '牛仔裤牛仔裤牛仔裤', '123', '1', '1', '120', NULL, '1', 'o7zgluxwg.bkt.clouddn.com/58bad9260bda8', '{\"58bad92664bb2\":\"o7zgluxwg.bkt.clouddn.com\\/58bad92664bb2\"}') in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `sh...')
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%product}}', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/ubuntu/web/JD/models/Product.php(60): yii\db\BaseActiveRecord->save()
+#6 /home/ubuntu/web/JD/modules/controllers/ProductController.php(42): app\models\Product->add(Array)
+#7 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'num' cannot be null
+)
+
+2017-03-04 15:11:34 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'Zlo0X2tBaGFTKEwrUwkRGRATXGomLSY1DBhELw8vPDEUOWURXzgRBw=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => '牛仔裤'
+        'descr' => '牛仔裤牛仔裤牛仔裤'
+        'price' => '123'
+        'ishot' => '1'
+        'issale' => '1'
+        'saleprice' => '120'
+        'num' => ''
+        'ison' => '1'
+        'istui' => '1'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => '213_201277_678688.jpg'
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpQN6Fwt'
+            'pics' => [
+                0 => '/tmp/phpMFUqpU'
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 125315
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '216098'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary7XTHjIUu7uBeb6A3'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42594'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488640294.039
+    'REQUEST_TIME' => 1488640294
+]
+2017-03-04 15:11:50 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num' cannot be null in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%product}}', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/ubuntu/web/JD/models/Product.php(60): yii\db\BaseActiveRecord->save()
+#6 /home/ubuntu/web/JD/modules/controllers/ProductController.php(42): app\models\Product->add(Array)
+#7 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num' cannot be null
+The SQL being executed was: INSERT INTO `shop_product` (`cateid`, `title`, `descr`, `price`, `ishot`, `issale`, `saleprice`, `num`, `istui`, `cover`, `pics`) VALUES ('1', '牛仔裤', '牛仔裤牛仔裤牛仔裤', '123', '1', '1', '120', NULL, '1', 'o7zgluxwg.bkt.clouddn.com/58bad9361a9b1', '{\"58bad93682ef8\":\"o7zgluxwg.bkt.clouddn.com\\/58bad93682ef8\"}') in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `sh...')
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%product}}', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/ubuntu/web/JD/models/Product.php(60): yii\db\BaseActiveRecord->save()
+#6 /home/ubuntu/web/JD/modules/controllers/ProductController.php(42): app\models\Product->add(Array)
+#7 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'num' cannot be null
+)
+
+2017-03-04 15:11:50 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'Zlo0X2tBaGFTKEwrUwkRGRATXGomLSY1DBhELw8vPDEUOWURXzgRBw=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => '牛仔裤'
+        'descr' => '牛仔裤牛仔裤牛仔裤'
+        'price' => '123'
+        'ishot' => '1'
+        'issale' => '1'
+        'saleprice' => '120'
+        'num' => ''
+        'ison' => '1'
+        'istui' => '1'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => '213_201277_678688.jpg'
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/php4f5p2J'
+            'pics' => [
+                0 => '/tmp/phpqlo6TQ'
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 125315
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '216098'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary7XTHjIUu7uBeb6A3'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42602'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488640310.102
+    'REQUEST_TIME' => 1488640310
+]
+2017-03-04 15:12:24 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bad8bd90421')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:12:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D; PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42630'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=2'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488640343.816
+    'REQUEST_TIME' => 1488640343
+]
+2017-03-04 15:12:28 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bad8bd90421')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:12:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D; PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42644'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=2'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488640348.327
+    'REQUEST_TIME' => 1488640348
+]
+2017-03-04 15:12:37 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bad8ab908e8')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:12:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D; PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42654'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488640357.079
+    'REQUEST_TIME' => 1488640357
+]
+2017-03-04 15:27:18 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\web\HttpException:400] yii\web\HttpException: incorrect region, please use up-z2.qiniu.com in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:77
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(60): crazyfd\qiniu\Qiniu->uploadFile('/tmp/phpnjFuri', '58badcd62415e')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#2 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:27:18 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'cGZQMXR4U2pFFChFTDAqEgYvOAQ5FB0.GiQgQRAWBzoCBQF/QAEqDA=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => ''
+        'descr' => ''
+        'price' => ''
+        'ishot' => ''
+        'issale' => ''
+        'saleprice' => ''
+        'num' => ''
+        'ison' => ''
+        'istui' => ''
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => '882fc26c78d3110_size40_w640_h445.jpg'
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpnjFuri'
+            'pics' => [
+                0 => '/tmp/phpIObBQw'
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 40901
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '131249'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryV9hK75NZlK31IHFV'
+    'HTTP_COOKIE' => '_csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D; PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42942'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488641238.14
+    'REQUEST_TIME' => 1488641238
+]
+2017-03-04 15:27:29 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\web\HttpException:400] yii\web\HttpException: incorrect region, please use up-z2.qiniu.com in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:77
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(60): crazyfd\qiniu\Qiniu->uploadFile('/tmp/php6HrKJj', '58badce08a45e')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#2 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:27:28 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'cGZQMXR4U2pFFChFTDAqEgYvOAQ5FB0.GiQgQRAWBzoCBQF/QAEqDA=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => ''
+        'descr' => ''
+        'price' => ''
+        'ishot' => ''
+        'issale' => ''
+        'saleprice' => ''
+        'num' => ''
+        'ison' => ''
+        'istui' => ''
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => '882fc26c78d3110_size40_w640_h445.jpg'
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/php6HrKJj'
+            'pics' => [
+                0 => '/tmp/php2wzZmZ'
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 40901
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '131249'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryV9hK75NZlK31IHFV'
+    'HTTP_COOKIE' => '_csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D; PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42962'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488641248.558
+    'REQUEST_TIME' => 1488641248
+]
+2017-03-04 15:28:26 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\web\HttpException:400] yii\web\HttpException: incorrect region, please use up-z2.qiniu.com in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:77
+Stack trace:
+#0 /home/ubuntu/web/JD/modules/controllers/ProductController.php(60): crazyfd\qiniu\Qiniu->uploadFile('/tmp/phpwXxA8e', '58badd19e5f0c')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(35): app\modules\controllers\ProductController->upload()
+#2 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:28:25 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'TmFmNU10T0R7Ex5BdTw2PDgoDgAAGAEQJCMWRSkaGxQ8Ajd7eQ02Ig=='
+    'Product' => [
+        'cateid' => '4'
+        'title' => '休闲裤'
+        'descr' => '休闲裤休闲裤'
+        'price' => '133'
+        'ishot' => '0'
+        'issale' => '0'
+        'saleprice' => '133'
+        'num' => '345'
+        'ison' => '1'
+        'istui' => '0'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '2d84a91c13a993e_size87_w690_h388.jpg'
+            'pics' => [
+                0 => '213_201277_678688.jpg'
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpwXxA8e'
+            'pics' => [
+                0 => '/tmp/phpL8fbIk'
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'cover' => 88586
+            'pics' => [
+                0 => 125315
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_LENGTH' => '216092'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryB1swn7E1WQY7nwAU'
+    'HTTP_COOKIE' => '_csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D; PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '42984'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488641305.925
+    'REQUEST_TIME' => 1488641305
+]
+2017-03-04 15:39:47 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58badd2fd2919')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:39:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '4'
+]
+
+$_COOKIE = [
+    '_csrf' => 'c66ec54077e694ba07465f93dfd5a14d1113bdff536c8d3bcb1f7cc2c7fd6c9aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1guTaRGkp36_DI_ElGyH5swfg603ezTJ\";}'
+    'PHPSESSID' => '8kt89p57d05f0q3ocsfbo5vh13'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'blueit.ngrok.cc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=c66ec54077e694ba07465f93dfd5a14d1113bdff536c8d3bcb1f7cc2c7fd6c9aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221guTaRGkp36_DI_ElGyH5swfg603ezTJ%22%3B%7D; PHPSESSID=8kt89p57d05f0q3ocsfbo5vh13'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://blueit.ngrok.cc/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at blueit.ngrok.cc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'blueit.ngrok.cc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '43970'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=4'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=4'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488641976.734
+    'REQUEST_TIME' => 1488641976
+]
+2017-03-04 15:54:25 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae2b3af7ae')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:54:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '45916'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=8'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642859.725
+    'REQUEST_TIME' => 1488642859
+]
+2017-03-04 15:54:25 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae2b3af7ae')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:54:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '45908'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=8'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642860.844
+    'REQUEST_TIME' => 1488642860
+]
+2017-03-04 15:54:25 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae2b3af7ae')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:54:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '45914'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=8'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642861.694
+    'REQUEST_TIME' => 1488642861
+]
+2017-03-04 15:54:26 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae2b3af7ae')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:54:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '45920'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=8'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642863.589
+    'REQUEST_TIME' => 1488642863
+]
+2017-03-04 15:54:26 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae2b3af7ae')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:54:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '45922'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=8'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642864.487
+    'REQUEST_TIME' => 1488642864
+]
+2017-03-04 15:54:26 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae2b3af7ae')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:54:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '45918'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=8'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642862.98
+    'REQUEST_TIME' => 1488642862
+]
+2017-03-04 15:54:37 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae2b3af7ae')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:54:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '46034'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=8'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642871.6
+    'REQUEST_TIME' => 1488642871
+]
+2017-03-04 15:54:51 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae324053d4')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:54:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '10'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '46120'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=10'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=10'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642891.319
+    'REQUEST_TIME' => 1488642891
+]
+2017-03-04 15:55:00 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae2ee4a2df')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:55:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '9'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '46130'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=9'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=9'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642900.166
+    'REQUEST_TIME' => 1488642900
+]
+2017-03-04 15:55:06 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae2b3af7ae')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:55:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '46132'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=8'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642904.534
+    'REQUEST_TIME' => 1488642904
+]
+2017-03-04 15:56:00 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num' cannot be null in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%product}}', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/ubuntu/web/JD/models/Product.php(60): yii\db\BaseActiveRecord->save()
+#6 /home/ubuntu/web/JD/modules/controllers/ProductController.php(42): app\models\Product->add(Array)
+#7 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num' cannot be null
+The SQL being executed was: INSERT INTO `shop_product` (`cateid`, `title`, `descr`, `price`, `ishot`, `issale`, `saleprice`, `num`, `istui`, `cover`, `pics`) VALUES ('1', '123', '123', '123', '0', '0', '234', NULL, '1', 'omararqey.bkt.clouddn.com/58bae39068d0a', '{\"58bae3908276c\":\"omararqey.bkt.clouddn.com\\/58bae3908276c\"}') in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `sh...')
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%product}}', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/ubuntu/web/JD/models/Product.php(60): yii\db\BaseActiveRecord->save()
+#6 /home/ubuntu/web/JD/modules/controllers/ProductController.php(42): app\models\Product->add(Array)
+#7 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'num' cannot be null
+)
+
+2017-03-04 15:56:00 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'Q09aaXlBSmoSKD5aFxIJMi0.LAArMjkLCX4xPT0UEjV3KXceKhN.KA=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => '123'
+        'descr' => '123'
+        'price' => '123'
+        'ishot' => '0'
+        'issale' => '0'
+        'saleprice' => '234'
+        'num' => ''
+        'ison' => '1'
+        'istui' => '1'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '牛仔裤-大.jpg'
+            'pics' => [
+                0 => '牛仔裤-大.jpg'
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpzrsqJS'
+            'pics' => [
+                0 => '/tmp/phpGqoUOI'
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'cover' => 54507
+            'pics' => [
+                0 => 54507
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '111158'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryvkWMuHBNrJKQNYaB'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '46282'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642960.423
+    'REQUEST_TIME' => 1488642960
+]
+2017-03-04 15:56:15 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num' cannot be null in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%product}}', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/ubuntu/web/JD/models/Product.php(60): yii\db\BaseActiveRecord->save()
+#6 /home/ubuntu/web/JD/modules/controllers/ProductController.php(42): app\models\Product->add(Array)
+#7 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num' cannot be null
+The SQL being executed was: INSERT INTO `shop_product` (`cateid`, `title`, `descr`, `price`, `ishot`, `issale`, `saleprice`, `num`, `istui`, `cover`, `pics`) VALUES ('1', '123', '123', '123', '0', '0', '234', NULL, '1', 'omararqey.bkt.clouddn.com/58bae39e22b24', '{\"58bae39edba9e\":\"omararqey.bkt.clouddn.com\\/58bae39edba9e\"}') in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `sh...')
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%product}}', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/ubuntu/web/JD/models/Product.php(60): yii\db\BaseActiveRecord->save()
+#6 /home/ubuntu/web/JD/modules/controllers/ProductController.php(42): app\models\Product->add(Array)
+#7 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'num' cannot be null
+)
+
+2017-03-04 15:56:14 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'Q09aaXlBSmoSKD5aFxIJMi0.LAArMjkLCX4xPT0UEjV3KXceKhN.KA=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => '123'
+        'descr' => '123'
+        'price' => '123'
+        'ishot' => '0'
+        'issale' => '0'
+        'saleprice' => '234'
+        'num' => ''
+        'ison' => '1'
+        'istui' => '1'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '牛仔裤-大.jpg'
+            'pics' => [
+                0 => '牛仔裤-大.jpg'
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phpqjvRCN'
+            'pics' => [
+                0 => '/tmp/phpa83lyd'
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'cover' => 54507
+            'pics' => [
+                0 => 54507
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '111158'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryvkWMuHBNrJKQNYaB'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '46292'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642974.136
+    'REQUEST_TIME' => 1488642974
+]
+2017-03-04 15:56:19 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num' cannot be null in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%product}}', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/ubuntu/web/JD/models/Product.php(60): yii\db\BaseActiveRecord->save()
+#6 /home/ubuntu/web/JD/modules/controllers/ProductController.php(42): app\models\Product->add(Array)
+#7 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num' cannot be null
+The SQL being executed was: INSERT INTO `shop_product` (`cateid`, `title`, `descr`, `price`, `ishot`, `issale`, `saleprice`, `num`, `istui`, `cover`, `pics`) VALUES ('1', '123', '123', '123', '0', '0', '234', NULL, '1', 'omararqey.bkt.clouddn.com/58bae3a306420', '{\"58bae3a31f1a1\":\"omararqey.bkt.clouddn.com\\/58bae3a31f1a1\"}') in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `sh...')
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%product}}', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/ubuntu/web/JD/models/Product.php(60): yii\db\BaseActiveRecord->save()
+#6 /home/ubuntu/web/JD/modules/controllers/ProductController.php(42): app\models\Product->add(Array)
+#7 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'num' cannot be null
+)
+
+2017-03-04 15:56:19 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_POST = [
+    '_csrf' => 'Q09aaXlBSmoSKD5aFxIJMi0.LAArMjkLCX4xPT0UEjV3KXceKhN.KA=='
+    'Product' => [
+        'cateid' => '1'
+        'title' => '123'
+        'descr' => '123'
+        'price' => '123'
+        'ishot' => '0'
+        'issale' => '0'
+        'saleprice' => '234'
+        'num' => ''
+        'ison' => '1'
+        'istui' => '1'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => '牛仔裤-大.jpg'
+            'pics' => [
+                0 => '牛仔裤-大.jpg'
+            ]
+        ]
+        'type' => [
+            'cover' => 'image/jpeg'
+            'pics' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => '/tmp/phphMd58u'
+            'pics' => [
+                0 => '/tmp/php11VhP7'
+            ]
+        ]
+        'error' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'cover' => 54507
+            'pics' => [
+                0 => 54507
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '111158'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryvkWMuHBNrJKQNYaB'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Fadd'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '46294'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488642979.014
+    'REQUEST_TIME' => 1488642979
+]
+2017-03-04 15:59:01 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae2b3af7ae')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:59:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '46490'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=8'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488643140.938
+    'REQUEST_TIME' => 1488643140
+]
+2017-03-04 15:59:09 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae324053d4')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 15:59:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '10'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '46498'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=10'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=10'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488643148.922
+    'REQUEST_TIME' => 1488643148
+]
+2017-03-04 16:28:40 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(135): crazyfd\qiniu\Qiniu->delete('58bae324053d4')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 16:28:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '10'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47486'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=10'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=10'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488644919.788
+    'REQUEST_TIME' => 1488644919
+]
+2017-03-04 17:08:32 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Product::picss in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('picss')
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php(2081): yii\db\BaseActiveRecord->__get('picss')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php(1264): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Product), 'picss')
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/helpers/BaseHtml.php(1378): yii\helpers\BaseHtml::activeInput('file', Object(app\models\Product), 'picss[]', Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/widgets/ActiveField.php(469): yii\helpers\BaseHtml::activeFileInput(Object(app\models\Product), 'picss[]', Array)
+#5 /home/ubuntu/web/JD/modules/views/product/add.php(56): yii\widgets\ActiveField->fileInput(Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\modules\controllers\ProductController))
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('add', Array, Object(app\modules\controllers\ProductController))
+#10 /home/ubuntu/web/JD/modules/controllers/ProductController.php(50): yii\base\Controller->render('add', Array)
+#11 [internal function]: app\modules\controllers\ProductController->actionAdd()
+#12 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#15 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/a...', Array)
+#16 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#18 {main}
+2017-03-04 17:08:32 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6;'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '48906'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fadd'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488647312.664
+    'REQUEST_TIME' => 1488647312
+]

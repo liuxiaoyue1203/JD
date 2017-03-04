@@ -47,7 +47,7 @@ class ServeController extends Controller
      *
      * @param string $address address to serve on. Either "host" or "host:port".
      *
-     * @return integer
+     * @return int
      */
     public function actionIndex($address = 'localhost')
     {
@@ -103,13 +103,13 @@ class ServeController extends Controller
         return array_merge(parent::optionAliases(), [
             't' => 'docroot',
             'p' => 'port',
-            'r' => 'router'
+            'r' => 'router',
         ]);
     }
 
     /**
      * @param string $address server address
-     * @return boolean if address is already in use
+     * @return bool if address is already in use
      */
     protected function isAddressTaken($address)
     {
