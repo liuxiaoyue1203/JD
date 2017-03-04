@@ -1,0 +1,1006 @@
+2017-03-04 02:41:55 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 02:41:54 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47446'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595314.919
+    'REQUEST_TIME' => 1488595314
+]
+2017-03-04 02:42:05 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 02:42:05 [127.0.0.1][-][v2hu9kk1ps662rcoiojel9ajk1][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47464'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_URI' => '/index.php?r=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595325.077
+    'REQUEST_TIME' => 1488595325
+]
+2017-03-04 02:42:05 [127.0.0.1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 02:42:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47466'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Flogin'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595325.088
+    'REQUEST_TIME' => 1488595325
+]
+2017-03-04 02:42:17 [127.0.0.1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 02:42:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47476'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Flogin'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595337.606
+    'REQUEST_TIME' => 1488595337
+]
+2017-03-04 02:42:36 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 02:42:36 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47494'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595356.499
+    'REQUEST_TIME' => 1488595356
+]
+2017-03-04 02:42:42 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 02:42:42 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47506'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_URI' => '/index.php?r=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595362.878
+    'REQUEST_TIME' => 1488595362
+]
+2017-03-04 02:42:42 [127.0.0.1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 02:42:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47508'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Flogin'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595362.888
+    'REQUEST_TIME' => 1488595362
+]
+2017-03-04 02:44:01 [127.0.0.1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 02:44:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47536'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Flogin'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595441.947
+    'REQUEST_TIME' => 1488595441
+]
+2017-03-04 02:44:06 [127.0.0.1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 02:44:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v2hu9kk1ps662rcoiojel9ajk1'
+    '_csrf' => '6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=v2hu9kk1ps662rcoiojel9ajk1; _csrf=6e7cf258788f5c945f9bcea35440d1af9f0f8b7ffcb1b9de939a6a3fde5c6d78a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225rxt8HyxvIh5MlNTjBppdnTPrcQN4yyf%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47548'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Flogin'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595446.739
+    'REQUEST_TIME' => 1488595446
+]
+2017-03-04 02:44:26 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\ErrorException:32] yii\base\ErrorException: PHP Startup: Unable to load dynamic library '/usr/lib/php/20151012/php_curl.dll' - /usr/lib/php/20151012/php_curl.dll: cannot open shared object file: No such file or directory in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-04 02:44:26 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47562'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_URI' => '/index.php?r=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595466.754
+    'REQUEST_TIME' => 1488595466
+]
+2017-03-04 02:44:56 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\InvalidParamException] yii\base\InvalidParamException: The view file does not exist: /home/ubuntu/web/JD/modules/views/category/cates.php in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\modules\controllers\CategoryController))
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('cates', Array, Object(app\modules\controllers\CategoryController))
+#2 /home/ubuntu/web/JD/modules/controllers/CategoryController.php(16): yii\base\Controller->render('cates', Array)
+#3 [internal function]: app\modules\controllers\CategoryController->actionList()
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/category/...', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-04 02:44:56 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/category/list'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47608'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fcategory%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fcategory%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595496.821
+    'REQUEST_TIME' => 1488595496
+]
+2017-03-04 02:45:08 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\InvalidParamException] yii\base\InvalidParamException: The view file does not exist: /home/ubuntu/web/JD/modules/views/category/cates.php in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\modules\controllers\CategoryController))
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('cates', Array, Object(app\modules\controllers\CategoryController))
+#2 /home/ubuntu/web/JD/modules/controllers/CategoryController.php(16): yii\base\Controller->render('cates', Array)
+#3 [internal function]: app\modules\controllers\CategoryController->actionList()
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/category/...', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-04 02:45:08 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/category/list'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47616'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fcategory%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fcategory%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488595508.582
+    'REQUEST_TIME' => 1488595508
+]
+2017-03-04 03:12:30 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][ParseError] ParseError: syntax error, unexpected '$tree' (T_VARIABLE) in /home/ubuntu/web/JD/models/Category.php:88
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cate...')
+#1 /home/ubuntu/web/JD/modules/controllers/CategoryController.php(14): spl_autoload_call('app\\models\\Cate...')
+#2 [internal function]: app\modules\controllers\CategoryController->actionList()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/category/...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 03:12:30 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/category/list'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fcategory%2Fadd'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47892'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fcategory%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fcategory%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488597150.238
+    'REQUEST_TIME' => 1488597150
+]
+2017-03-04 03:12:30 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(ParseError))
+#6 {main}
+2017-03-04 03:12:30 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/category/list'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fcategory%2Fadd'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47892'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fcategory%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fcategory%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488597150.238
+    'REQUEST_TIME' => 1488597150
+]
+2017-03-04 03:12:38 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][ParseError] ParseError: syntax error, unexpected '$tree' (T_VARIABLE) in /home/ubuntu/web/JD/models/Category.php:88
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cate...')
+#1 /home/ubuntu/web/JD/modules/controllers/CategoryController.php(14): spl_autoload_call('app\\models\\Cate...')
+#2 [internal function]: app\modules\controllers\CategoryController->actionList()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/category/...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 03:12:38 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/category/list'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fcategory%2Fadd'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47894'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fcategory%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fcategory%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488597158.41
+    'REQUEST_TIME' => 1488597158
+]
+2017-03-04 03:12:38 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(ParseError))
+#6 {main}
+2017-03-04 03:12:38 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/category/list'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fcategory%2Fadd'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47894'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fcategory%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fcategory%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488597158.41
+    'REQUEST_TIME' => 1488597158
+]
+2017-03-04 03:12:39 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][ParseError] ParseError: syntax error, unexpected '$tree' (T_VARIABLE) in /home/ubuntu/web/JD/models/Category.php:88
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cate...')
+#1 /home/ubuntu/web/JD/modules/controllers/CategoryController.php(14): spl_autoload_call('app\\models\\Cate...')
+#2 [internal function]: app\modules\controllers\CategoryController->actionList()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/category/...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-04 03:12:39 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/category/list'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fcategory%2Fadd'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47910'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fcategory%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fcategory%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488597159.256
+    'REQUEST_TIME' => 1488597159
+]
+2017-03-04 03:12:39 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(ParseError))
+#6 {main}
+2017-03-04 03:12:39 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/category/list'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fcategory%2Fadd'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1519733063.1487680840; PHPSESSID=gid03hg66macletq6vqm6ke5o6; _csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '47910'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fcategory%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fcategory%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488597159.256
+    'REQUEST_TIME' => 1488597159
+]
