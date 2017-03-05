@@ -8,15 +8,16 @@
             'action' => yii\helpers\Url::to(['order/add']),
         ]) ?>
         <div class="col-xs-12 col-md-9 items-holder no-margin">
-<?php $total = 0; ?>
-<?php foreach((array)$data as $k=>$product): ?>
+        <?php $total = 0; ?>
+        <?php foreach((array)$data as $k=>$product): ?>
             <input type="hidden" name="OrderDetail[<?php echo $k?>][productid]" value="<?php echo $product['productid'] ?>">
             <input type="hidden" name="OrderDetail[<?php echo $k?>][price]" value="<?php echo $product['price'] ?>">
             <input type="hidden" name="OrderDetail[<?php echo $k?>][productnum]" value="<?php echo $product['productnum'] ?>">
+
             <div class="row no-margin cart-item">
                 <div class="col-xs-12 col-sm-2 no-margin">
                 <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $product['productid']]) ?>" class="thumb-holder">
-                    <img class="lazy" alt="" src="<?php echo $product['cover'] ?>-picsmall" />
+                    <img class="lazy" alt="" src="http://<?php echo $product['cover'] ?>" />
                     </a>
                 </div>
 
@@ -28,10 +29,10 @@
 
                 <div class="col-xs-12 col-sm-3 no-margin">
                     <div class="quantity">
-                        <div class="le-quantity">
-                                <a class="minus" href="#reduce"></a>
-                                <input name="productnum" id="<?php echo $product['cartid'] ?>" readonly="readonly" type="text" value="<?php echo $product['productnum'] ?>" />
-                                <a class="plus" href="#add"></a>
+                        <div class="le-quantity " >
+                                <a class="minus" attr-id="<?php echo $product['cartid']?>" href="#reduce"></a>
+                                <input name="productnum-<?php echo $product['cartid'] ?>" id="<?php echo $product['cartid'] ?>" readonly="readonly" type="text" value="<?php echo $product['productnum'] ?>" />
+                                <a class="plus" attr-id="<?php echo $product['cartid']?>" href="#add"></a>
                         </div>
                     </div>
                 </div> 
@@ -43,8 +44,8 @@
                     <a class="close-btn" href="<?php echo yii\helpers\Url::to(['cart/del', 'cartid' => $product['cartid']]) ?>"></a>
                 </div>
             </div><!-- /.cart-item -->
-<?php $total += $product['price']*$product['productnum']; ?>
-<?php endforeach; ?>
+        <?php $total += $product['price']*$product['productnum']; ?>
+        <?php endforeach; ?>
        </div>
         <!-- ========================================= CONTENT : END ========================================= -->
 

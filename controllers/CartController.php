@@ -35,12 +35,14 @@ class CartController extends CommonController
             return $this->redirect(['member/auth']);
         }
         $userid = User::find()->where('username = :name', [':name' => Yii::$app->session['loginname']])->one()->userid;
+        // 从商品详情页提交
         if (Yii::$app->request->isPost) {
             $post = Yii::$app->request->post();
             $num = Yii::$app->request->post()['productnum'];
             $data['Cart'] = $post;
             $data['Cart']['userid'] = $userid;
         }
+        //
         if (Yii::$app->request->isGet) {
             $productid = Yii::$app->request->get("productid");
             $model = Product::find()->where('productid = :pid', [':pid' => $productid])->one();

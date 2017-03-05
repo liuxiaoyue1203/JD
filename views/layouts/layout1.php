@@ -98,11 +98,13 @@
                     <a class="dropdown-toggle"  data-toggle="dropdown" href="category-grid.html">所有分类</a>
 
                     <ul class="dropdown-menu" role="menu" >
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">电子产品</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">电子产品</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">电子产品</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">电子产品</a></li>
-
+                        <?php
+                        foreach($this->params['menu'] as $top) :
+                        ?>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html"><?php echo $top['title'] ?></a></li>
+                        <?php
+                            endforeach;
+                        ?>
                     </ul>
                 </li>
             </ul>
@@ -298,7 +300,7 @@
     
     <p>
         西城区二环到三环德胜门外大街10号TCL大厦3层(马甸桥南), 北京市西城区, 中国
-        <br>慕课网 (QQ群:416465236)
+        <br>京东商城
     </p>
     
     <!--<div class="social-icons">
@@ -399,9 +401,10 @@
             $(".billing-address").slideDown();
         });
         $(".minus").click(function(){
-            var cartid = $("input[name=productnum]").attr('id');
-            var num = parseInt($("input[name=productnum]").val()) - 1;
-            if (parseInt($("input[name=productnum]").val()) <= 1) {
+            //var cartid = $("input[name=productnum]").attr('id');
+            var cartid = $(this).attr('attr-id');
+            var num = parseInt($("input[name=productnum-"+cartid+"]").val()) - 1;
+            if (parseInt($("input[name=productnum-"+cartid+"]").val()) <= 1) {
                 var num = 1;
             }
             var total = parseFloat($(".value.pull-right span").html());
@@ -415,8 +418,9 @@
             $(".value.pull-right.ordertotal span").html(p + "");
         });
         $(".plus").click(function(){
-            var cartid = $("input[name=productnum]").attr('id');
-            var num = parseInt($("input[name=productnum]").val()) + 1;
+            //var cartid = $("input[name=productnum]").attr('id');
+            var cartid = $(this).attr('attr-id');
+            var num = parseInt($("input[name=productnum-"+cartid+"]").val()) + 1;
             var total = parseFloat($(".value.pull-right span").html());
             var price = parseFloat($(".price span").html());
             changeNum(cartid, num);

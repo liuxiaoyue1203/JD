@@ -5639,3 +5639,2026 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1488684487.67
     'REQUEST_TIME' => 1488684487
 ]
+2017-03-05 08:26:24 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Controller.php:166
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('add', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('cart/add', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#5 {main}
+2017-03-05 08:26:24 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'cart/add'
+]
+
+$_POST = [
+    '_csrf' => 'NaN'
+    'productnum' => 'NaN'
+    'price' => 'NaN'
+    'productid' => 'NaN'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => 'd9b5e7360d1c005adf4fc21e1973b598'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '48'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://www.sxlzrc.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=product%2Fdetail&productid=15'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49954'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=cart%2Fadd'
+    'REQUEST_URI' => '/index.php?r=cart%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488702384.532
+    'REQUEST_TIME' => 1488702384
+]
+2017-03-05 08:58:39 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][ParseError] ParseError: syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#3 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#4 [internal function]: app\controllers\IndexController->actionIndex()
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2017-03-05 08:58:39 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50624'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704319.315
+    'REQUEST_TIME' => 1488704319
+]
+2017-03-05 09:00:02 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:02 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50644'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704402.196
+    'REQUEST_TIME' => 1488704402
+]
+2017-03-05 09:00:14 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:14 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50652'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704414
+    'REQUEST_TIME' => 1488704414
+]
+2017-03-05 09:00:14 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:14 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50654'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704414.832
+    'REQUEST_TIME' => 1488704414
+]
+2017-03-05 09:00:15 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:15 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50656'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704415.142
+    'REQUEST_TIME' => 1488704415
+]
+2017-03-05 09:00:15 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:15 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50658'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704415.338
+    'REQUEST_TIME' => 1488704415
+]
+2017-03-05 09:00:15 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:15 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50660'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704415.531
+    'REQUEST_TIME' => 1488704415
+]
+2017-03-05 09:00:15 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:15 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50662'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704415.715
+    'REQUEST_TIME' => 1488704415
+]
+2017-03-05 09:00:15 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:15 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50664'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704415.898
+    'REQUEST_TIME' => 1488704415
+]
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50668'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704416.094
+    'REQUEST_TIME' => 1488704416
+]
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50666'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704416.231
+    'REQUEST_TIME' => 1488704416
+]
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50670'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704416.361
+    'REQUEST_TIME' => 1488704416
+]
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50672'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704416.536
+    'REQUEST_TIME' => 1488704416
+]
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50674'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704416.72
+    'REQUEST_TIME' => 1488704416
+]
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:16 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50676'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704416.844
+    'REQUEST_TIME' => 1488704416
+]
+2017-03-05 09:00:17 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:17 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50678'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704417.074
+    'REQUEST_TIME' => 1488704417
+]
+2017-03-05 09:00:17 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:17 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50680'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704417.233
+    'REQUEST_TIME' => 1488704417
+]
+2017-03-05 09:00:17 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:17 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50682'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704417.428
+    'REQUEST_TIME' => 1488704417
+]
+2017-03-05 09:00:17 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:17 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50684'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704417.615
+    'REQUEST_TIME' => 1488704417
+]
+2017-03-05 09:00:17 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in /home/ubuntu/web/JD/views/layouts/layout1.php:104
+Stack trace:
+#0 /home/ubuntu/web/JD/views/layouts/layout1.php(104): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/ubuntu/we...', 104, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('\n<!-- =========...')
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index/index', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 09:00:17 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50686'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488704417.724
+    'REQUEST_TIME' => 1488704417
+]
+2017-03-05 09:59:58 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][error][yii\db\Exception] PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'productnum' at row 1 in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(227): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/controllers/CartController.php(68): yii\db\ActiveRecord::updateAll(Array, 'cartid = :cid', Array)
+#3 [internal function]: app\controllers\CartController->actionMod()
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('mod', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('cart/mod', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next yii\db\Exception: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'productnum' at row 1
+The SQL being executed was: UPDATE `shop_cart` SET `productnum`=-1 WHERE cartid = '8' in /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `shop_ca...')
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/db/ActiveRecord.php(227): yii\db\Command->execute()
+#2 /home/ubuntu/web/JD/controllers/CartController.php(68): yii\db\ActiveRecord::updateAll(Array, 'cartid = :cid', Array)
+#3 [internal function]: app\controllers\CartController->actionMod()
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('mod', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('cart/mod', Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 22003
+    [1] => 1264
+    [2] => Out of range value for column 'productnum' at row 1
+)
+
+2017-03-05 09:59:58 [127.0.0.1][-][8ng7v2efs5c76qn0ljucioqgn6][info][application] $_GET = [
+    'r' => 'cart/mod'
+    'productnum' => '-1'
+    'cartid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lyteaef7XrwuJySFyrBXP3gSk5KYtikW\";}'
+    'PHPSESSID' => '8ng7v2efs5c76qn0ljucioqgn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '2fa0a59f7bea53552c278c0d65c89c63'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=292cbb1ae82d9ec65b335d7c78692def388b8dd16f26f4d203724389444fe07ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lyteaef7XrwuJySFyrBXP3gSk5KYtikW%22%3B%7D; PHPSESSID=8ng7v2efs5c76qn0ljucioqgn6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '52040'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cart%2Fmod&productnum=-1&cartid=8'
+    'REQUEST_URI' => '/index.php?r=cart%2Fmod&productnum=-1&cartid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488707998.26
+    'REQUEST_TIME' => 1488707998
+]
