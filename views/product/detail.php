@@ -9,15 +9,15 @@
 
         <div id="owl-single-product">
             <div class="single-product-gallery-item" id="slide1">
-            <a data-rel="prettyphoto" href="<?php echo $product['cover'] ?>-coverbig">
-                <img class="img-responsive" alt="" src="<?php echo $product['cover'] ?>-coverbig"  />
+            <a data-rel="prettyphoto" href="http://<?php echo $product['cover'] ?>">
+                <img class="img-responsive" alt="" src="http://<?php echo $product['cover'] ?>"  />
                 </a>
             </div><!-- /.single-product-gallery-item -->
             <?php $i = 2 ?>
             <?php foreach((array)json_decode($product['pics'], true) as $k=>$pic): ?>
             <div class="single-product-gallery-item" id="slide<?php echo $i ?>">
-                <a data-rel="prettyphoto" href="<?php echo $pic ?>-coverbig">
-                    <img class="img-responsive" alt="" src="<?php echo $pic ?>-coverbig" />
+                <a data-rel="prettyphoto" href="http://<?php echo $pic ?>">
+                    <img class="img-responsive" alt="" src="http://<?php echo $pic ?>" />
                 </a>
             </div><!-- /.single-product-gallery-item -->
             <?php $i++ ?>
@@ -31,7 +31,7 @@
             <?php $i = 2 ?>
             <?php foreach((array)json_decode($product['pics'], true) as $k=>$pic): ?>
                 <a class="horizontal-thumb" data-target="#owl-single-product" data-slide="<?php echo $i-1 ?>" href="#slide<?php echo $i ?>">
-                    <img width="67" alt="" src="<?php echo $pic ?>-piclistsmall"/>
+                    <img width="67" alt="" src="http://<?php echo $pic ?>"/>
                 </a>
             <?php $i++; ?>
             <?php endforeach; ?>
@@ -55,9 +55,9 @@
         <div style="margin-top:30px"></div>
         <div class="title"><a href="#"><?php echo $product['title'] ?></a></div>
         <div class="availability" style="font-size:15px;margin:0;line-height:30px"><label>库存:</label><span class="available">  <?php echo $product['num'] ?></span></div>
-        <!--<div class="excerpt">
+        <div class="excerpt">
         <p><?php echo $product['descr'] ?></p>
-        </div>-->
+        </div>
         
         <div class="prices">
         <?php if ($product['issale']): ?>
@@ -133,7 +133,7 @@
                         <?php endif; ?>
 
 						<div class="image">
-                            <img alt="<?php echo $pro->title ?>" src="<?php echo $pro->cover ?>-covermiddle" data-echo="<?php echo $pro->cover ?>-covermiddle" />
+                            <img alt="<?php echo $pro->title ?>" src="http://<?php echo $pro->cover;?>" data-echo="<?php echo $pro->cover ?>" />
 						</div>
 						<div class="body">
 							<div class="title">
@@ -141,7 +141,7 @@
 							</div>
 						</div>
 						<div class="prices">
-                        <div class="price-current text-right">￥<?php echo $pro->saleprice ?></div>
+                        <div class="price-current text-right">￥<?php echo $pro->saleprice;?></div>
 						</div>
 						<div class="hover-area">
 							<div class="add-cart-button">

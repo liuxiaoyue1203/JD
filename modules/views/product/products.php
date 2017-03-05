@@ -55,7 +55,7 @@
                         <tr class="first">
                             <td>
                                 <img src="http://<?php echo $product->cover; ?>" class="img-circle avatar hidden-phone" />
-                                <a href="#" class="name"><?php echo $product->title; ?></a>
+                                <a href="<?php echo yii\helpers\Url::to(['product/detail','productid'=> $product->productid])?>" class="name"><?php echo $product->title; ?></a>
                             </td>
                             <td>
                                 <?php echo $product->num; ?>

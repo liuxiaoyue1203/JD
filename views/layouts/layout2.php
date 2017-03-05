@@ -143,7 +143,7 @@
                         <div class="row">
                             <div class="col-xs-4 col-sm-4 no-margin text-center">
                                 <div class="thumb">
-                                <img alt="" src="<?php echo $product['cover'] ?>-picsmall" />
+                                <img alt="" src="http://<?php echo $product['cover'] ?>" />
                                 </div>
                             </div>
                             <div class="col-xs-8 col-sm-8 no-margin">
@@ -190,6 +190,7 @@
             </div><!-- /.navbar-header -->
             <div class="collapse navbar-collapse" id="mc-horizontal-menu-collapse">
                 <ul class="nav navbar-nav">
+
 <?php
     foreach((array)$this->params['menu'] as $menu):
 ?>
@@ -245,7 +246,7 @@
 
                     <div class="col-xs-12 col-sm-3 no-margin">
                     <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $pro->productid]) ?>" class="thumb-holder">
-                            <img alt="<?php echo $pro->title ?>" src="<?php echo $pro->cover ?>-picsmall" data-echo="<?php echo $pro->cover ?>-picsmall" />
+                            <img alt="<?php echo $pro->title ?>" src="http://<?php echo $pro->cover ?>" data-echo="http://<?php echo $pro->cover ?>" />
                         </a>
                     </div>
                 </div>
@@ -275,7 +276,7 @@
 
                     <div class="col-xs-12 col-sm-3 no-margin">
                     <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $pro->productid]) ?>" class="thumb-holder">
-                            <img alt="<?php echo $pro->title ?>" src="<?php echo $pro->cover ?>-picsmall" data-echo="<?php echo $pro->cover ?>-picsmall" />
+                            <img alt="<?php echo $pro->title ?>" src="http://<?php echo $pro->cover ?>" data-echo="http://<?php echo $pro->cover ?>" />
                         </a>
                     </div>
                 </div>
@@ -305,7 +306,7 @@
 
                     <div class="col-xs-12 col-sm-3 no-margin">
                     <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $pro->productid]) ?>" class="thumb-holder">
-                            <img alt="<?php echo $pro->title ?>" src="<?php echo $pro->cover ?>-picsmall" data-echo="<?php echo $pro->cover ?>-picsmall" />
+                            <img alt="<?php echo $pro->title ?>" src="http://<?php echo $pro->cover ?>" data-echo="http://<?php echo $pro->cover ?>" />
                         </a>
                     </div>
                 </div>
@@ -343,7 +344,7 @@
     
     <p>
         西城区二环到三环德胜门外大街10号TCL大厦3层(马甸桥南), 北京市西城区, 中国
-        <br>慕课网 (QQ群:416465236)
+        <br>京东商城
     </p>
     
     <!--<div class="social-icons">

@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $pro['productid']]) ?>" class="thumb-holder">
-                    <img alt="" src="<?php echo $pro['cover'] ?>-picsmall"  />
+                    <img alt="" src="http://<?php echo $pro['cover'] ?>"  />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $pro['productid']]) ?>" class="thumb-holder">
-                    <img alt="" src="<?php echo $pro['cover'] ?>-picsmall"/>
+                    <img alt="" src="http://<?php echo $pro['cover'] ?>"/>
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -109,7 +109,7 @@
             <div class="product-item">
                 <div class="ribbon red"><span>hot</span></div> 
                 <div class="image">
-                <img alt="" src="<?php echo $pro['cover'] ?>-covermiddle" />
+                <img alt="" src="http://<?php echo $pro['cover'] ?>" />
                 </div>
                 <div class="body">
                     <div class="title">
@@ -162,7 +162,7 @@
                                 <?php endif; ?>
 
                                 <div class="image">
-                                    <img alt="" src="<?php echo $pro['cover'] ?>-covermiddle"  />
+                                    <img alt="" src="http://<?php echo $pro['cover'] ?>"  />
                                 </div>
                                 <div class="body">
                                 <?php if($pro['issale']): ?>
@@ -228,7 +228,7 @@
                         <div class="row">
                             <div class="no-margin col-xs-12 col-sm-4 image-holder">
                                 <div class="image">
-                                    <img alt="" src="<?php echo $pro['cover'] ?>-covermiddle"  />
+                                    <img alt="" src="http://<?php echo $pro['cover'] ?>"  />
                                 </div>
                             </div><!-- /.image-holder -->
                             <div class="no-margin col-xs-12 col-sm-5 body-holder">

@@ -4898,3 +4898,744 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1488647312.664
     'REQUEST_TIME' => 1488647312
 ]
+2017-03-05 03:06:39 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/product/detail in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('detail', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-05 03:06:39 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/detail'
+    'productid' => '14'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49688'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdetail&productid=14'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdetail&productid=14'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488683199.355
+    'REQUEST_TIME' => 1488683199
+]
+2017-03-05 03:07:00 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/product/detail in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('detail', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-05 03:07:00 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/detail'
+    'productid' => '14'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49706'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdetail&productid=14'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdetail&productid=14'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488683220.401
+    'REQUEST_TIME' => 1488683220
+]
+2017-03-05 03:07:01 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/product/detail in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('detail', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-05 03:07:01 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/detail'
+    'productid' => '14'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49706'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdetail&productid=14'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdetail&productid=14'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488683221.443
+    'REQUEST_TIME' => 1488683221
+]
+2017-03-05 03:07:01 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/product/detail in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('detail', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-05 03:07:01 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/detail'
+    'productid' => '14'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49706'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdetail&productid=14'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdetail&productid=14'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488683221.693
+    'REQUEST_TIME' => 1488683221
+]
+2017-03-05 03:07:01 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/product/detail in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('detail', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-05 03:07:01 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/detail'
+    'productid' => '14'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49706'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdetail&productid=14'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdetail&productid=14'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488683221.873
+    'REQUEST_TIME' => 1488683221
+]
+2017-03-05 03:07:02 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/product/detail in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('detail', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-05 03:07:02 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/detail'
+    'productid' => '14'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49706'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdetail&productid=14'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdetail&productid=14'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488683222
+    'REQUEST_TIME' => 1488683222
+]
+2017-03-05 03:07:02 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/product/detail in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('detail', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-05 03:07:02 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/detail'
+    'productid' => '14'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49706'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdetail&productid=14'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdetail&productid=14'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488683222.159
+    'REQUEST_TIME' => 1488683222
+]
+2017-03-05 03:07:02 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/product/detail in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('detail', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-05 03:07:02 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/detail'
+    'productid' => '14'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49706'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdetail&productid=14'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdetail&productid=14'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488683222.369
+    'REQUEST_TIME' => 1488683222
+]
+2017-03-05 03:08:25 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: admin/product/detail in /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('detail', Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-05 03:08:25 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_GET = [
+    'r' => 'admin/product/detail'
+    'productid' => '14'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49740'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdetail&productid=14'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdetail&productid=14'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488683305.861
+    'REQUEST_TIME' => 1488683305
+]
+2017-03-05 03:17:09 [127.0.0.1][-][-][error][yii\web\HttpException:612] yii\web\HttpException: no such file or directory in /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php:237
+Stack trace:
+#0 /home/ubuntu/web/JD/vendor/crazyfd/yii2-qiniu/Qiniu.php(165): crazyfd\qiniu\Qiniu->fileHandle('http://rs.qbox....')
+#1 /home/ubuntu/web/JD/modules/controllers/ProductController.php(136): crazyfd\qiniu\Qiniu->delete('58bae2b3af7ae')
+#2 [internal function]: app\modules\controllers\ProductController->actionDel()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/product/d...', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-05 03:17:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/product/del'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=admin%2Fproduct%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '49934'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fdel&productid=8'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fdel&productid=8'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488683829.628
+    'REQUEST_TIME' => 1488683829
+]
+2017-03-05 03:28:07 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: -1 in /home/ubuntu/web/JD/views/index/index.php:329
+Stack trace:
+#0 /home/ubuntu/web/JD/views/index/index.php(329): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/ubuntu/we...', 329, Array)
+#1 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/we...')
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/we...', Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/we...', Array, Object(app\controllers\IndexController))
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\IndexController))
+#5 /home/ubuntu/web/JD/controllers/IndexController.php(16): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex()
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#10 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#11 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-03-05 03:28:07 [127.0.0.1][-][gid03hg66macletq6vqm6ke5o6][info][application] $_COOKIE = [
+    '_csrf' => '27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B\";}'
+    '_ga' => 'GA1.1.1519733063.1487680840'
+    'PHPSESSID' => 'gid03hg66macletq6vqm6ke5o6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'root'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=27f787b535a6909be44e664b0dca5fc0fcc4a1568ac8a2f274725f274c297e10a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qgd3nSCXnqviRssaJ1kTDUX_4f-wSR4B%22%3B%7D; _ga=GA1.1.1519733063.1487680840; ; PHPSESSID=gid03hg66macletq6vqm6ke5o6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50154'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1488684487.67
+    'REQUEST_TIME' => 1488684487
+]
