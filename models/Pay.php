@@ -31,9 +31,9 @@ class Pay{
         $alipay = new \AlipayPay();
         $verify_result = $alipay->verifyNotify();
         if ($verify_result) {
-            $out_trade_no = $data['extra_common_param'];
+            $out_trade_no = $data['extra_common_param']; // 接收订单ID
             $trade_no = $data['trade_no'];
-            $trade_status = $data['trade_status'];
+            $trade_status = $data['trade_status']; // 支付状态
             $status = Order::PAYFAILED;
             if ($trade_status == 'TRADE_FINISHED' || $trade_status == 'TRADE_SUCCESS') {
                 $status = Order::PAYSUCCESS;

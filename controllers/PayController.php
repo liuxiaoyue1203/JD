@@ -21,6 +21,7 @@ class PayController extends CommonController
         }
     }
 
+    // 支付成功后，支付宝跳转回商户的位置
     public function actionReturn()
     {
         $this->layout = 'layout1';
