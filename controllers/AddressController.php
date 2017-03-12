@@ -25,7 +25,7 @@ class AddressController extends CommonController
             $model->load($data);
             $model->save();
         }
-        return $this->redirect($_SERVER['HTTP_REFERER']);
+        return $this->redirect($_SERVER['HTTP_REFERER']); // 上一页地址
     }
 
     public function actionDel()

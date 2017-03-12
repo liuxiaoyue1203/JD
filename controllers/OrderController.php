@@ -134,7 +134,7 @@ class OrderController extends CommonController
             $post['amount'] = $amount;
             $data['Order'] = $post;
 			if (empty($post['addressid'])) {
-				return $this->redirect(['order/pay', 'orderid' => $post['orderid'], 'paymethod' => $post['paymethod']]);
+				return $this->redirect(['order/check', 'orderid' => $post['orderid']]);
 			}
             if ($model->load($data) && $model->save()) {
                 return $this->redirect(['order/pay', 'orderid' => $post['orderid'], 'paymethod' => $post['paymethod']]);

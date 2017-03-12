@@ -10,11 +10,11 @@ use app\models\Category;
 class Order extends ActiveRecord
 {
     const CREATEORDER = 0;
-    const CHECKORDER = 100;
-    const PAYFAILED = 201;
-    const PAYSUCCESS = 202;
-    const SENDED = 220;
-    const RECEIVED = 260;
+    const CHECKORDER = 100; // 确认订单
+    const PAYFAILED = 201;  // 支付失败
+    const PAYSUCCESS = 202; // 支付成功
+    const SENDED = 220;     // 发货
+    const RECEIVED = 260;   // 确认收货
  
     public static $status = [
         self::CREATEORDER => '订单初始化',

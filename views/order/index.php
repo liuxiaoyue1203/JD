@@ -51,7 +51,7 @@
             <td style="text-align:left;vertical-align:top;padding-top:10px;padding-bottom:10px;border-right-width:0;border-right-style:solid;border-right-color:#E8E8E8;border-top-width:0;border-top-style:solid;border-top-color:#E8E8E8;padding-left:20px;" >
               <div style="overflow:hidden;">
               <a class="tp-tag-a" href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $product->productid]) ?>" style="float:left;width:27%;margin-right:2%;text-align:center;" target="_blank">
-                <img src="<?php echo $product->cover ?>-picsmall" style="border:1px solid #E8E8E8;max-width:80px;">
+                <img src="http://<?php echo $product->cover ?>" style="border:1px solid #E8E8E8;max-width:80px;">
                 </a>
                 <div style="float:left;width:71%;word-wrap:break-word;">
                   <div style="margin:0px;">

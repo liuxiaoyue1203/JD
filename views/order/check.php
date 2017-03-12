@@ -100,7 +100,7 @@
                         <div class="title">
 
                             <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $product['productid']]) ?>" class="thumb-holder">
-                                <img class="lazy" alt="" src="<?php echo $product['cover'] ?>-picsmall" />
+                                <img class="lazy" alt="" src="http://<?php echo $product['cover'] ?>-picsmall" />
                             </a>
                             <a style="margin-left:50px" href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $product['productid']]) ?>"><?php echo $product['title'] ?></a></div>
                         </div>
