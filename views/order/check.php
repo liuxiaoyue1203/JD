@@ -9,21 +9,12 @@
             <section id="shipping-address" style="margin-bottom:100px;margin-top:-10px">
                 <h2 class="border h1">收货地址</h2>
                     <a href="#" id="createlink">新建联系人</a>
-                    <?php foreach($addresses as $key => $address): ?>
-                    <div class="row field-row" style="margin-top:10px">
-                        <div class="col-xs-12">
-                            <input class="le-radio big address" type="radio" name="address" value="<?php echo $address['addressid'] ?>" <?php if ($key == 0) {echo 'checked = "checked"';} ?> />
-                            <a class="simple-link bold" href="#"><?php echo $address['firstname'].$address['lastname']." ".$address['company']." ".$address['address']. " " . $address['postcode']. " ". $address['email']." ".$address['telephone'] ?></a>
-                        </div>
-                        <a style="margin-left:45px" href="<?php echo yii\helpers\Url::to(['address/del', 'addressid' => $address['addressid']]) ?>">删除</a>
-                    </div><!-- /.field-row -->
-                    <?php endforeach; ?>
-            </section><!-- /#shipping-address -->
+
             
             <div class="billing-address" style="display:none;">
                 <h2 class="border h1">新建联系人</h2>
                 <?php ActiveForm::begin([
-                    'action' => ['address/add'],    
+                    'action' => ['address/add'],
                 ]); ?>
                     <div class="row field-row">
                         <div class="col-xs-12 col-sm-6">
@@ -82,10 +73,23 @@
                     </div><!-- /.place-order-button -->
                 <?php ActiveForm::end(); ?>
             </div><!-- /.billing-address -->
+
+
             <?php ActiveForm::begin([
                 'action' => ['order/confirm'],
 				'options'=> ['id' => 'orderconfirm'],
             ]); ?>
+
+            <?php foreach($addresses as $key => $address): ?>
+                <div class="row field-row" style="margin-top:10px">
+                    <div class="col-xs-12" >
+                        <input class="le-radio big address" type="radio" name="addressid"  value="<?php echo $address['addressid'] ?>" <?php if ($key == 0) {echo 'checked = "checked"';} ?> />
+                        <a class="simple-link bold" href="#"><?php echo $address['firstname'].$address['lastname']." ".$address['company']." ".$address['address']. " " . $address['postcode']. " ". $address['email']." ".$address['telephone'] ?></a>
+                    </div>
+                    <a style="margin-left:45px" href="<?php echo yii\helpers\Url::to(['address/del', 'addressid' => $address['addressid']]) ?>">删除</a>
+                </div><!-- /.field-row -->
+            <?php endforeach; ?>
+            </section><!-- /#shipping-address -->
             <section id="your-order">
                 <h2 class="border h1">您的订单详情</h2>
             <?php $total = 0; ?>
@@ -112,7 +116,9 @@
                     <?php $total += $product['productnum']*$product['price'] ?>
                 <?php endforeach; ?>
             </section><!-- /#your-order -->
-            <input type="hidden" name="addressid" value>
+            <!--input type="hidden" name="addressid" value="" /-->
+
+
             <div id="total-area" class="row no-margin">
                 <div class="col-xs-12 col-lg-4 col-lg-offset-8 no-margin-right">
                     <div id="subtotal-holder">
