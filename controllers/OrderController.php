@@ -97,6 +97,7 @@ class OrderController extends CommonController
 
     public function actionConfirm()
     {
+        //var_dump(Yii::$app->request->post());exit;
         //addressid, expressid, status, amount(orderid,userid)
         try {
             if (Yii::$app->session['isLogin'] != 1) {
@@ -133,9 +134,9 @@ class OrderController extends CommonController
             $amount += $express;
             $post['amount'] = $amount;
             $data['Order'] = $post;
-			/*if (empty($post['addressid'])) {
-                return $this->redirect(['order/pay', 'orderid' => $post['orderid'], 'paymethod' => $post['paymethod']]);
-			}*/
+			if (empty($post['addressid'])) {
+				return $this->redirect(['order/pay', 'orderid' => $post['orderid'], 'paymethod' => $post['paymethod']]);
+			}
             if ($model->load($data) && $model->save()) {
                 return $this->redirect(['order/pay', 'orderid' => $post['orderid'], 'paymethod' => $post['paymethod']]);
             }

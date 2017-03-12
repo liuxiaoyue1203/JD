@@ -8174,3 +8174,3433 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1489305803.356
     'REQUEST_TIME' => 1489305803
 ]
+2017-03-12 08:30:42 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:13
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(159): app\models\Pay::alipay('13')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 08:30:42 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '13'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=13'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50044'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=13&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=13&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489307442.527
+    'REQUEST_TIME' => 1489307442
+]
+2017-03-12 08:30:50 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:13
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(159): app\models\Pay::alipay('13')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 08:30:50 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '13'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=13'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50046'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=13&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=13&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489307450.548
+    'REQUEST_TIME' => 1489307450
+]
+2017-03-12 08:32:45 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:13
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(159): app\models\Pay::alipay('13')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 08:32:45 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '13'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=13'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50068'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=13&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=13&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489307565.744
+    'REQUEST_TIME' => 1489307565
+]
+2017-03-12 08:40:11 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: HTTP_REFERER in /home/ubuntu/web/JD/controllers/AddressController.php:43
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/AddressController.php(43): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/home/ubuntu/we...', 43, Array)
+#1 [internal function]: app\controllers\AddressController->actionDel()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('del', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('address/del', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 08:40:11 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'address/del'
+    'addressid' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50212'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=address%2Fdel&addressid=3'
+    'REQUEST_URI' => '/index.php?r=address%2Fdel&addressid=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489308011.576
+    'REQUEST_TIME' => 1489308011
+]
+2017-03-12 08:46:03 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:13
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(159): app\models\Pay::alipay('15')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 08:46:03 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '15'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=15'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50284'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=15&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=15&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489308363.344
+    'REQUEST_TIME' => 1489308363
+]
+2017-03-12 09:06:44 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:13
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('17')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:06:44 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '17'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=17'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '50548'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=17&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=17&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489309604.953
+    'REQUEST_TIME' => 1489309604
+]
+2017-03-12 09:18:25 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:13
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('17')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:18:25 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '17'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=17'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51096'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=17&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=17&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489310305.091
+    'REQUEST_TIME' => 1489310305
+]
+2017-03-12 09:24:40 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:13
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('21')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:24:40 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '21'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=21'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51216'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=21&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=21&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489310680.143
+    'REQUEST_TIME' => 1489310680
+]
+2017-03-12 09:32:30 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:13
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:32:30 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51332'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311150.25
+    'REQUEST_TIME' => 1489311150
+]
+2017-03-12 09:35:08 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:08 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51374'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311308.805
+    'REQUEST_TIME' => 1489311308
+]
+2017-03-12 09:35:14 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:14 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51378'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311314.676
+    'REQUEST_TIME' => 1489311314
+]
+2017-03-12 09:35:18 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:18 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51380'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311318.598
+    'REQUEST_TIME' => 1489311318
+]
+2017-03-12 09:35:19 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:19 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51382'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311319.305
+    'REQUEST_TIME' => 1489311319
+]
+2017-03-12 09:35:19 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:19 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51384'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311319.565
+    'REQUEST_TIME' => 1489311319
+]
+2017-03-12 09:35:19 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:19 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51386'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311319.889
+    'REQUEST_TIME' => 1489311319
+]
+2017-03-12 09:35:20 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:20 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51388'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311320.017
+    'REQUEST_TIME' => 1489311320
+]
+2017-03-12 09:35:20 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:20 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51390'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311320.149
+    'REQUEST_TIME' => 1489311320
+]
+2017-03-12 09:35:20 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:20 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51392'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311320.283
+    'REQUEST_TIME' => 1489311320
+]
+2017-03-12 09:35:20 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:20 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311320.489
+    'REQUEST_TIME' => 1489311320
+]
+2017-03-12 09:35:57 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:35:56 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51404'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311356.993
+    'REQUEST_TIME' => 1489311356
+]
+2017-03-12 09:36:37 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][ParseError] ParseError: syntax error, unexpected '/' in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Pay')
+#1 /home/ubuntu/web/JD/controllers/OrderController.php(160): spl_autoload_call('app\\models\\Pay')
+#2 [internal function]: app\controllers\OrderController->actionPay()
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#7 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-12 09:36:37 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51416'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311397.702
+    'REQUEST_TIME' => 1489311397
+]
+2017-03-12 09:36:56 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'app\models\vendor' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:36:56 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311416.288
+    'REQUEST_TIME' => 1489311416
+]
+2017-03-12 09:38:42 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:38:42 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51440'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311522.057
+    'REQUEST_TIME' => 1489311522
+]
+2017-03-12 09:39:27 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:39:27 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51450'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311567.042
+    'REQUEST_TIME' => 1489311567
+]
+2017-03-12 09:39:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:39:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51452'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311568.081
+    'REQUEST_TIME' => 1489311568
+]
+2017-03-12 09:39:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:39:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51454'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311568.341
+    'REQUEST_TIME' => 1489311568
+]
+2017-03-12 09:39:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:39:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51456'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311568.582
+    'REQUEST_TIME' => 1489311568
+]
+2017-03-12 09:39:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:39:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51458'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311568.753
+    'REQUEST_TIME' => 1489311568
+]
+2017-03-12 09:39:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:39:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51460'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311568.911
+    'REQUEST_TIME' => 1489311568
+]
+2017-03-12 09:39:29 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:39:29 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51464'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311569.078
+    'REQUEST_TIME' => 1489311569
+]
+2017-03-12 09:39:29 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:39:29 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51462'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311569.342
+    'REQUEST_TIME' => 1489311569
+]
+2017-03-12 09:39:29 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AliPay\AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:39:29 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51468'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311569.475
+    'REQUEST_TIME' => 1489311569
+]
+2017-03-12 09:39:42 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'alipay\alipaypay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:39:42 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51470'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311582.008
+    'REQUEST_TIME' => 1489311582
+]
+2017-03-12 09:41:01 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:41:01 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51632'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311661.677
+    'REQUEST_TIME' => 1489311661
+]
+2017-03-12 09:41:03 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:41:03 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51634'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311663.498
+    'REQUEST_TIME' => 1489311663
+]
+2017-03-12 09:41:40 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:41:40 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51640'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311700.244
+    'REQUEST_TIME' => 1489311700
+]
+2017-03-12 09:44:26 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:13
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:44:26 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51768'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311866.584
+    'REQUEST_TIME' => 1489311866
+]
+2017-03-12 09:44:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:13
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:44:28 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51770'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489311868.737
+    'REQUEST_TIME' => 1489311868
+]
+2017-03-12 09:47:52 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][error][Error] Error: Class 'AlipayPay' not found in /home/ubuntu/web/JD/models/Pay.php:14
+Stack trace:
+#0 /home/ubuntu/web/JD/controllers/OrderController.php(160): app\models\Pay::alipay('27')
+#1 [internal function]: app\controllers\OrderController->actionPay()
+#2 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pay', Array)
+#5 /home/ubuntu/web/JD/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('order/pay', Array)
+#6 /home/ubuntu/web/JD/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/ubuntu/web/JD/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-12 09:47:52 [127.0.0.1][-][ib7vntgeu1i93v2pcmafq0m4p7][info][application] $_GET = [
+    'r' => 'order/pay'
+    'orderid' => '27'
+    'paymethod' => 'alipay'
+]
+
+$_COOKIE = [
+    '_csrf' => 'db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK\";}'
+    'PHPSESSID' => 'ib7vntgeu1i93v2pcmafq0m4p7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'QC_userData' => [
+        'state' => '49f81e1d095c6085c3e6e3ba8675a02e'
+    ]
+    'userinfo' => [
+        'ret' => 0
+        'msg' => ''
+        'is_lost' => 0
+        'nickname' => '跃仔'
+        'gender' => '男'
+        'province' => '广东'
+        'city' => '广州'
+        'year' => '1992'
+        'figureurl' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/30'
+        'figureurl_1' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/50'
+        'figureurl_2' => 'http://qzapp.qlogo.cn/qzapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'figureurl_qq_1' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/40'
+        'figureurl_qq_2' => 'http://q.qlogo.cn/qqapp/217911/0462BAF6A4CD163048ED57EAD7FAA23B/100'
+        'is_yellow_vip' => '0'
+        'vip' => '0'
+        'yellow_vip_level' => '0'
+        'level' => '0'
+        'is_yellow_year_vip' => '0'
+    ]
+    'openid' => '0462BAF6A4CD163048ED57EAD7FAA23B'
+    'loginname' => 'liuxiaoyue1203'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.sxlzrc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.sxlzrc.com/index.php?r=order%2Fcheck&orderid=27'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-HK;q=0.6'
+    'HTTP_COOKIE' => '_csrf=db87e33221d844e1d46fef14e87d9ef9c231719e69e35c95f7eef26e3c3f323aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-e-Q9RuDyI4xG8qgekoNmGcrfxkgNMlK%22%3B%7D; PHPSESSID=ib7vntgeu1i93v2pcmafq0m4p7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.sxlzrc.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.sxlzrc.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/index.php'
+    'REMOTE_PORT' => '51840'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order%2Fpay&orderid=27&paymethod=alipay'
+    'REQUEST_URI' => '/index.php?r=order%2Fpay&orderid=27&paymethod=alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489312072.424
+    'REQUEST_TIME' => 1489312072
+]

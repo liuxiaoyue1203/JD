@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AlipayPay' => $vendorDir . '/AliPay/AlipayPay.php'
 );
